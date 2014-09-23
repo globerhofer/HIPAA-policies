@@ -114,12 +114,12 @@ section > .container {
 
 aside {
     float: left;
-    width: 130px;
-    margin-right: 20px;
+    width: 150px;
+    margin-right: 10px;
 }
 .column {
     float: left;
-    width: 390px;
+    width: 380px;
 }
 
 .content h1 {
@@ -165,16 +165,10 @@ aside {
     margin-bottom: 0;
 }
 
-.logo {
-    margin-bottom: 20px;
-}
 .logo img {
     display: block;
-    float: left;
-    width: 26px;
-    height: 26px;
-    line-height: 26px;
-    margin-right: 6px;
+    width: 118px;
+    height: 25px;
 }
 .logo strong {
     display: block;
@@ -332,15 +326,12 @@ aside {
         float: none;
         width: auto;
     }
-    .logo {
-        margin: 0;
-    }
     .company li {
         float: left;
         margin: 0 20px 0 0;
     }
     .company a {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .cards {
