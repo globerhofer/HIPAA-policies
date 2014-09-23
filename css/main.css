@@ -133,6 +133,9 @@ aside {
     font-weight: 400;
     color: #2098CA;
 }
+.content > h2 {
+    margin-top: 0;
+}
 .content h3 {
     font-size: 16px;
     margin-top: 30px;
@@ -269,14 +272,17 @@ aside {
     padding-bottom: 40px;
 }
 .card {
+    box-sizing: border-box;
     float: left;
-    width: 130px;
+    width: 150px;
     margin: 10px;
     padding: 10px;
     background: #FFF;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
+    -moz-box-shadow: 0 1px 3px rgba(45,69,85,.1), 0 0 0 1px rgba(45,69,85,.05), 0 1px 1px rgba(45,69,85,.08);
+    -webkit-box-shadow: 0 1px 3px rgba(45,69,85,.1), 0 0 0 1px rgba(45,69,85,.05), 0 1px 1px rgba(45,69,85,.08);
     box-shadow: 0 1px 3px rgba(45,69,85,.1), 0 0 0 1px rgba(45,69,85,.05), 0 1px 1px rgba(45,69,85,.08);
 }
 .card h4 {
@@ -304,28 +310,53 @@ aside {
 
 @media only screen and (max-width: 640px) {
 
-    .wrapper {
+    .container {
         width: auto;
-        margin: 25px;
+        margin: 0 25px;
     }
 
-    .company {
-        float: none;
-        margin: 0 auto 50px;
-    }
-
-    .content {
-        float: none;
-        width: auto;
-    }
-
-    .cta {
-        text-align: center;
-    }
     .cta a {
-        margin: 10px;
+        display: block;
+        margin: 15px 0;
+    }
+    .cta a span {
+        display: block;
     }
 
+    aside {
+        float: none;
+        margin: 0 0 30px;
+        width: auto;
+    }
+    .column {
+        float: none;
+        width: auto;
+    }
+    .logo {
+        margin: 0;
+    }
+    .company li {
+        float: left;
+        margin: 0 20px 0 0;
+    }
+    .company a {
+        font-size: 14px;
+    }
+
+    .cards {
+        margin: 0 25px;
+    }
+    .card {
+        float: none;
+        width: auto;
+        margin: 15px 0;
+    }
+    .cards .card:first-child {
+        margin-top: 0;
+    }
+    .cards .card:last-child {
+        margin-bottom: 0;
+    }
 }
 
 /* ==========================================================================
