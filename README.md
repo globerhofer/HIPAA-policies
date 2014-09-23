@@ -1,18 +1,21 @@
 # Catalyze HIPAA Compliance Policies
 
-HIPAA compliance is complicated, but it shouldn't have to be. Catalyze helps relieve the technical burden with our cloud computing tools for healthcare.
+HIPAA compliance is complicated, but it doesn't have to be. Catalyze helps relieve the technical burden with our HIPAA compliant cloud computing platform and solutions for healthcare.
 
-In an effort to make compliance as easy as possible for companies working with protected health information (PHI), we decided to open source our company policies.
+In an effort to make compliance as easy as possible for companies working with protected health information (PHI), we decided to open source our company policies. 
+	Our policies have been written with modern, cloud-based technology vendors in mind. We looked far and wide for policy examples that fit our company, and couldn't find any. So we wrote our own. Importantly, these policies have been through 3 external audits - 2 for HIPAA audits and one for a HITRUST audit.
 
-Do you handle PHI and not yet have your own company policies in place? Then you'll find our content useful.
+Do you handle PHI and not yet have your own cmpany policies in place? Then you'll find our content useful.
 
 ## Why did we open source these policies?
 
-Compliance really has two halves. The first half includes all technical guidelines, both physical and digital. Compliant companies take measures to secure their hardware and manage their software in a certain way. Encryption, logging, monitoring—these are just a few examples of correct approaches. Catalyze builds its platform with these guidelines in mind.
+HIPAA compliance really has two halves. The first half includes all technical guidelines, both physical and digital. Compliant companies take measures to secure their hardware and manage their software in a certain way. Encryption, logging, monitoring—these are just a few examples of HIPAA technical requirements. Catalyze builds its platform with these guidelines in mind.
 
-The second half is focused on administrative and business activities. This includes signing Business Associate Agreements (BAA), and managing company policies, among other things. Crafting company policies that align with HIPAA administrative guidelines are straightforward, but an immense burden.
+The second half of HIPAA is focused on administrative and organizational activities. This includes signing Business Associate Agreements (BAAs), and managing company policies like training, among other things. Crafting company policies that align with HIPAA administrative guidelines are straightforward, but an immense burden.
 
-By open sourcing our own company policies, we hope other companies who handle PHI will benefit. It aligns with our company mission: to help you get back to building innovative healthcare applications.
+When we were creating our policies, we found lots of policies templates for healthcare providers, but nothing for modern health technology companies. We spent a lot of time and effort writing our policies, then adapting them to meet the demands of external audits. We don't want people to reinvent the wheel; trust us, it's not fun. We also feel a broader community can improve these polices over time, making them better for everybody.
+
+By open sourcing our own company policies, we hope other companies who handle PHI will benefit. It aligns with our company mission: to help you focus on building innovative healthcare applications.
 
 ## What do I do with these policies?
 
@@ -26,7 +29,7 @@ As a company who handles PHI, it's critical you maintain and publish your own po
 
 [Catalyze.io](htts://catalyze.io), healthcare's trusted HIPAA compliant platform.
 
-We help companies who handle PHI maintain compliance with our Platform as a Service and Backend as a Service offerings. Think Heroku and Parse for healthcare. In addition, we also provide HL7 Integration for those who need to communicate with EHR vendors like Epic or Cerner.
+We help companies who handle PHI, both business associates and covered entities, maintain compliance with our Platform as a Service, Mobile Backend as a Servicea, and managed data integration services. Think Heroku and Parse for healthcare. In addition, we also provide HL7 Integration for those who need to communicate with EHR vendors like Epic or Cerner.
 
 To get in touch, shoot us an email at [hello@catalyze.io](mailto:hello@catalyze.io). We'd love to hear from you!
 
