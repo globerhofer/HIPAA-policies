@@ -1,11 +1,12 @@
 # Catalyze HIPAA Compliance Policies
 
-HIPAA compliance is complicated, but it doesn't have to be. Catalyze helps relieve the technical burden with our HIPAA compliant cloud computing platform and solutions for healthcare.
+HIPAA compliance is complicated, but it doesn't have to be. Catalyze helps relieve the technical burden with our HIPAA-compliant cloud computing platform and solutions for healthcare.
 
 In an effort to make compliance as easy as possible for companies working with protected health information (PHI), we decided to open source our company policies. 
-	Our policies have been written with modern, cloud-based technology vendors in mind. We looked far and wide for policy examples that fit our company, and couldn't find any. So we wrote our own. Importantly, these policies have been through 3 external audits - 2 for HIPAA audits and one for a HITRUST audit.
+	
+Our policies have been written with modern, cloud-based technology vendors in mind. We looked far and wide for policy examples that fit our company, and couldn't find any. So we wrote our own. Importantly, these policies have been through three external audits—two HIPAA audits and one HITRUST audit.
 
-Do you handle PHI and not yet have your own cmpany policies in place? Then you'll find our content useful.
+Do you handle PHI and not yet have your own company policies in place? Then you'll find our content useful.
 
 ## Why did we open source these policies?
 
@@ -27,9 +28,9 @@ As a company who handles PHI, it's critical you maintain and publish your own po
 
 ## Who is behind this?
 
-[Catalyze.io](htts://catalyze.io), healthcare's trusted HIPAA compliant platform.
+[Catalyze.io](htts://catalyze.io), healthcare's trusted HIPAA-compliant platform.
 
-We help companies who handle PHI, both business associates and covered entities, maintain compliance with our Platform as a Service, Mobile Backend as a Servicea, and managed data integration services. Think Heroku and Parse for healthcare. In addition, we also provide HL7 Integration for those who need to communicate with EHR vendors like Epic or Cerner.
+We help companies who handle PHI, both business associates and covered entities, maintain compliance with our Platform as a Service, Mobile Backend as a Service, and managed data integration services. Think Heroku and Parse for healthcare. In addition, we also provide HL7 Integration for those who need to communicate with EHR vendors like Epic or Cerner.
 
 To get in touch, shoot us an email at [hello@catalyze.io](mailto:hello@catalyze.io). We'd love to hear from you!
 
