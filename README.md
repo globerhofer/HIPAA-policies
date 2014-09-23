@@ -14,7 +14,7 @@ HIPAA compliance really has two halves. The first half includes all technical gu
 
 The second half of HIPAA is focused on administrative and organizational activities. This includes signing Business Associate Agreements (BAAs), and managing company policies like training, among other things. Crafting company policies that align with HIPAA administrative guidelines are straightforward, but an immense burden.
 
-When we were creating our policies, we found lots of policies templates for healthcare providers, but nothing for modern health technology companies. We spent a lot of time and effort writing our policies, then adapting them to meet the demands of external audits. We don't want people to reinvent the wheel; trust us, it's not fun. We also feel a broader community can improve these polices over time, making them better for everybody.
+When we were creating our policies, we found lots of policy templates for healthcare providers, but nothing for modern health technology companies. We spent a lot of time and effort writing our policies, then adapting them to meet the demands of external audits. We don't want people to reinvent the wheel; trust us, it's not fun. We also feel a broader community can improve these polices over time, making them better for everybody.
 
 By open sourcing our own company policies, we hope other companies who handle PHI will benefit. It aligns with our company mission: to help you focus on building innovative healthcare applications.
 
@@ -33,6 +33,10 @@ As a company who handles PHI, it's critical you maintain and publish your own po
 We help companies who handle PHI, both business associates and covered entities, maintain compliance with our Platform as a Service, Mobile Backend as a Service, and managed data integration services. Think Heroku and Parse for healthcare. In addition, we also provide HL7 Integration for those who need to communicate with EHR vendors like Epic or Cerner.
 
 To get in touch, shoot us an email at [hello@catalyze.io](mailto:hello@catalyze.io). We'd love to hear from you!
+
+### License
+
+All policies are licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 ### Policy Index
 
