@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'Dagny';
-  src: url('img/dagny/dagny-regular.eot'); /* IE9 Compat Modes */
-  src: url('img/dagny/dagny-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('img/dagny/dagny-regular.woff') format('woff'), /* Modern Browsers */
-       url('img/dagny/dagny-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('img/dagny/dagny-regular.svg#dagnyRegular') format('svg'); /* Legacy iOS */
+  src: url('../img/dagny/dagny-regular.eot'); /* IE9 Compat Modes */
+  src: url('../img/dagny/dagny-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../img/dagny/dagny-regular.woff') format('woff'), /* Modern Browsers */
+       url('../img/dagny/dagny-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../img/dagny/dagny-regular.svg#dagnyRegular') format('svg'); /* Legacy iOS */
 }
 
 html,
@@ -67,6 +67,10 @@ a {
     color: #2098CA;
 }
 
+h1, h2, h3, h4, h5, strong {
+    font-family: "Montserrat", Helvetica, sans-serif;
+}
+
 .browsehappy {
     margin: 0.2em 0;
     background: #ccc;
@@ -75,17 +79,91 @@ a {
 }
 
 .wrapper {
-    width: 640px;
-    margin: 50px auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #FAFAFB;
 }
 
-.company {
-    float: left;
-    width: 150px;
-    margin-right: 40px;
+header {
+    width: 100%;
+    padding: 30px 0;
+    background: #FFF;
+    border-bottom: 1px solid #DCE1E7;
 }
+
+section {
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #DCE1E7;
+}
+
+footer {
+    width: 100%;
+    padding: 30px 0;
+    background: #FFF;
+}
+
+.container {
+    width: 540px;
+    margin: 0 auto;
+}
+
+section > .container {
+    padding: 30px 0;
+}
+
+aside {
+    float: left;
+    width: 130px;
+    margin-right: 20px;
+}
+.column {
+    float: left;
+    width: 390px;
+}
+
+.content h1 {
+    font-size: 26px;
+    margin-top: 0;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #EEE;
+}
+.content h2 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #2098CA;
+}
+.content h3 {
+    font-size: 16px;
+    margin-top: 30px;
+}
+.content p {
+    font-size: 13px;
+    line-height: 25px;
+    color: #555;
+}
+.content ol, .content ul {
+    font-size: 13px;
+    line-height: 25px;
+    color: #555;
+}
+.content ol li {
+    margin: 10px 0;
+}
+
+.intro p {
+    color: #000;
+    font-size: 14px;
+}
+.intro > p {
+    margin-top: 0;
+}
+.intro p + p {
+    margin-bottom: 0;
+}
+
 .logo {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .logo img {
     display: block;
@@ -103,6 +181,7 @@ a {
     color: #2098CA;
     font-size: 18px;
     line-height: 26px;
+    font-weight: 400;
 }
 .company ul {
     list-style-type: none;
@@ -110,38 +189,21 @@ a {
     padding: 0;
 }
 .company li {
-    margin: 5px 0;
+    margin: 10px 0;
 }
 .company a {
     font-size: 12px;
     color: #777;
     text-decoration: none;
     display: inline-block;
-    border-bottom: 1px solid #E9E9E9;
+    border-bottom: 1px solid #EEE;
 }
 .company a:hover {
     color: #000;
     border-bottom: 1px solid #000;
 }
-
-
-.content {
-    float: left;
-    width: 450px;
-}
-.content h1 {
-    font-size: 24px;
-    margin: 0 0 20px;
-    padding-bottom: 20px;
-    border-bottom: 3px solid #EEE;
-}
-.content h2 {
-    font-size: 20px;
-    font-weight: normal;
-    color: #2098CA;
-}
 .cta {
-    margin: 50px 0;
+    margin: 40px 0;
 }
 .cta a {
     display: inline-block;
@@ -200,32 +262,40 @@ a {
     margin-right: 5px;
 }
 
-.content h3 {
-    font-size: 16px;
-    margin: 40px 0 20px;
+.cards {
+    width: auto;
+    max-width: 850px;
+    margin: 0 auto;
+    padding-bottom: 40px;
 }
-.content p {
+.card {
+    float: left;
+    width: 130px;
+    margin: 10px;
+    padding: 10px;
+    background: #FFF;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(45,69,85,.1), 0 0 0 1px rgba(45,69,85,.05), 0 1px 1px rgba(45,69,85,.08);
+}
+.card h4 {
     font-size: 13px;
-    line-height: 25px;
-    color: #555;
+    margin: 0 0 10px;
+    padding: 0 0 10px;
+    border-bottom: 2px solid #F9F9F9;
 }
-.content p.intro {
-    color: #000;
-    font-size: 14px;
+.card ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+    color: #444;
 }
-.content ol, .content ul {
-    font-size: 13px;
-    line-height: 25px;
-    color: #555;
+.card ol li {
+    padding-left: 15px; 
+    text-indent: -10px;
 }
-.content ol li {
-    margin: 10px 0;
-}
-
-
-
-
-
 
 
 /* ==========================================================================
