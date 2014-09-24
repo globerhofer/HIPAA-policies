@@ -21,4 +21,4 @@ In order to preserve the integrity of data that Catalyze stores, processes, or t
 * Catalyze firewalls monitor all incoming traffic to detect potential denial of service attacks. Suspected attack sources are blocked automatically. Additionally, our hosting provider actively monitors its network to detect denial of services attacks.
 * All new firewall rules and configuration changes are tested before being pushed into production. All firewall and router rules are reviewed every quarter.
 * Catalyze utilizes redundant firewall on network perimeters.
-* Status IP addresses are used for Catalyze servers.
+* Static IP addresses are used for Catalyze servers.
