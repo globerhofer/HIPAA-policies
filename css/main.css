@@ -422,6 +422,11 @@ footer {
 
 @media only screen and (max-width: 640px) {
 
+    header .catalyze-bg {
+        width: 100%;
+        padding: 20px 0;
+    }
+
     .container {
         width: auto;
         margin: 0 25px;
@@ -435,15 +440,6 @@ footer {
         display: block;
     }
 
-    aside {
-        float: none;
-        margin: 0 0 30px;
-        width: auto;
-    }
-    .column {
-        float: none;
-        width: auto;
-    }
     .logo {
         margin-bottom: 15px;
     }
@@ -452,10 +448,7 @@ footer {
     }
     .company li {
         float: left;
-        margin: 0 10px 0 0;
-    }
-    .company a {
-        font-size: 14px;
+        margin: 0 10px;
     }
 
     .cards {
