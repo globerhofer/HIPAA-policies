@@ -259,6 +259,149 @@ aside {
     margin-right: 5px;
 }
 
+.points {
+    width: 800px;
+
+}
+.point {
+    box-sizing: border-box;
+    float: left;
+    width: 360px;
+    padding: 10px;
+    margin: 10px;
+}
+.point-icon {
+    float: left;
+    width: 20px;
+    margin-right: 20px;
+}
+.point-icon-container {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+.point-icon img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.point-icon img.icon1 {
+    animation-name: pi1;
+    animation-duration: 100s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    -moz-animation-name: pi1;
+    -moz-animation-duration: 120s;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-play-state: running;
+    -webkit-animation-name: pi1;
+    -webkit-animation-duration: 130s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+}
+.point-icon img.icon2 {
+    animation-name: pi2;
+    animation-duration: 70s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    -moz-animation-name: pi2;
+    -moz-animation-duration: 95s;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-play-state: running;
+    -webkit-animation-name: pi2;
+    -webkit-animation-duration: 40s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+}
+.point-icon img.icon3 {
+    animation-name: pi2;
+    animation-duration: 170s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    -moz-animation-name: pi2;
+    -moz-animation-duration: 200s;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-play-state: running;
+    -webkit-animation-name: pi2;
+    -webkit-animation-duration: 60s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+}
+.point-icon img.icon4 {
+    animation-name: pi1;
+    animation-duration: 55s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    -moz-animation-name: pi2;
+    -moz-animation-duration: 84s;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-play-state: running;
+    -webkit-animation-name: pi2;
+    -webkit-animation-duration: 29s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+}
+@-moz-keyframes pi1 {
+    0% {-moz-transform:rotate(0deg);}
+    50% {-moz-transform:rotate(720deg);}
+    100% {-moz-transform:rotate(0deg);}
+}
+@-webkit-keyframes pi1 {
+    0% {-webkit-transform:rotate(0deg);}
+    50% {-webkit-transform:rotate(720deg);}
+    100% {-webkit-transform:rotate(0deg);}
+}
+@keyframes pi1 {
+    0% {transform:rotate(0deg);}
+    50% {transform:rotate(720deg);}
+    100% {transform:rotate(0deg);}
+}
+@-moz-keyframes pi2 {
+    0% {-moz-transform:rotate(0deg);}
+    50% {-moz-transform:rotate(-720deg);}
+    100% {-moz-transform:rotate(0deg);}
+}
+@-webkit-keyframes pi2 {
+    0% {-webkit-transform:rotate(0deg);}
+    50% {-webkit-transform:rotate(-720deg);}
+    100% {-webkit-transform:rotate(0deg);}
+}
+@keyframes pi2 {
+    0% {transform:rotate(0deg);}
+    50% {transform:rotate(-720deg);}
+    100% {transform:rotate(0deg);}
+}
+
+.point-content {
+    float: left;
+    width: 300px;
+}
+.point-content h4 {
+    margin: 0 0 10px;
+}
+.point-content h5 {
+    font-weight: normal;
+    font-family: "Dagny", Helvetica, sans-serif;
+    color: #777;
+    font-size: 13px;
+    line-height: 21px;
+    margin: 0;
+}
+
 .cards {
     width: auto;
     max-width: 850px;
