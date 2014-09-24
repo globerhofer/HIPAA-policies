@@ -87,20 +87,46 @@ h1, h2, h3, h4, h5, strong {
 
 header {
     width: 100%;
-    padding: 30px 0;
+    padding: 0 0 50px 0;
     background: #FFF;
     border-bottom: 1px solid #DCE1E7;
+}
+header .catalyze {
+    text-align: center;
+    margin-bottom: 50px;
+}
+header .catalyze-bg {
+    display: inline-block;
+    padding: 40px 10px 10px 10px;
+    background: #2098ca;
+    -webkit-border-bottom-right-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    -moz-box-shadow: 0 1px 3px rgba(45,69,85,.1), 0 0 0 1px rgba(45,69,85,.05), 0 1px 1px rgba(45,69,85,.08);
+    -webkit-box-shadow: 0 1px 3px rgba(45,69,85,.1), 0 0 0 1px rgba(45,69,85,.05), 0 1px 1px rgba(45,69,85,.08);
+    box-shadow: 0 1px 3px rgba(45,69,85,.1), 0 0 0 1px rgba(45,69,85,.05), 0 1px 1px rgba(45,69,85,.08);
+}
+header .catalyze-bg img {
+    height: 25px;
+}
+header .intro p {
+    color: #777;
+    font-size: 16px;
+    line-height: 25px;
+}
+header .intro > p {
+    margin-top: 0;
+}
+header .intro p + p {
+    margin-bottom: 0;
 }
 
 section {
     border-top: 1px solid #FFF;
     border-bottom: 1px solid #DCE1E7;
-}
-
-footer {
-    width: 100%;
-    padding: 30px 0;
-    background: #FFF;
 }
 
 .container {
@@ -109,17 +135,7 @@ footer {
 }
 
 section > .container {
-    padding: 30px 0;
-}
-
-aside {
-    float: left;
-    width: 150px;
-    margin-right: 10px;
-}
-.column {
-    float: left;
-    width: 380px;
+    padding: 0 0 50px 0;
 }
 
 .content h1 {
@@ -154,51 +170,6 @@ aside {
     margin: 10px 0;
 }
 
-.intro p {
-    color: #000;
-    font-size: 14px;
-}
-.intro > p {
-    margin-top: 0;
-}
-.intro p + p {
-    margin-bottom: 0;
-}
-
-.logo img {
-    display: block;
-    width: 118px;
-    height: 25px;
-}
-.logo strong {
-    display: block;
-    float: left;
-    height: 26px;
-    font-family: "Montserrat";
-    color: #2098CA;
-    font-size: 18px;
-    line-height: 26px;
-    font-weight: 400;
-}
-.company ul {
-    list-style-type: none;
-    margin: 0 0 0 32px;
-    padding: 0;
-}
-.company li {
-    margin: 10px 0;
-}
-.company a {
-    font-size: 12px;
-    color: #777;
-    text-decoration: none;
-    display: inline-block;
-    border-bottom: 1px solid #EEE;
-}
-.company a:hover {
-    color: #000;
-    border-bottom: 1px solid #000;
-}
 .cta {
     margin: 40px 0;
 }
@@ -260,146 +231,111 @@ aside {
 }
 
 .points {
-    width: 800px;
-
+    width: 540px;
 }
 .point {
-    box-sizing: border-box;
-    float: left;
-    width: 360px;
-    padding: 10px;
-    margin: 10px;
+    margin: 30px 0;
 }
-.point-icon {
-    float: left;
-    width: 20px;
-    margin-right: 20px;
+.points .point:first-child {
+    margin-top: 0;
 }
-.point-icon-container {
+.points .point:last-child {
+    margin-bottom: 0;
+}
+.point h4 {
+    font-size: 22px;
+    margin: 0;
+}
+.point h5 {
+    font-weight: normal;
+    font-family: "Dagny", Helvetica, sans-serif;
+    color: #777;
+    font-size: 14px;
+    line-height: 23px;
+    margin: 0;
+}
+
+.comb {
+    text-align: center;
+    height: 40px;
+}
+.comb-container {
+    display: inline-block;
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
 }
-.point-icon img {
-    width: 20px;
-    height: 20px;
+.comb img {
+    width: 40px;
+    height: 40px;
     position: absolute;
     top: 0;
     left: 0;
 }
-.point-icon img.icon1 {
-    animation-name: pi1;
-    animation-duration: 100s;
+.comb img.comb1 {
+    animation-name: comb1;
+    animation-duration: 30s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-play-state: running;
-    -moz-animation-name: pi1;
-    -moz-animation-duration: 120s;
+    -moz-animation-name: comb1;
+    -moz-animation-duration: 30s;
     -moz-animation-timing-function: ease-in-out;
     -moz-animation-iteration-count: infinite;
     -moz-animation-play-state: running;
-    -webkit-animation-name: pi1;
-    -webkit-animation-duration: 130s;
+    -webkit-animation-name: comb1;
+    -webkit-animation-duration: 30s;
     -webkit-animation-timing-function: ease-in-out;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-play-state: running;
 }
-.point-icon img.icon2 {
-    animation-name: pi2;
-    animation-duration: 70s;
+.comb img.comb2 {
+    animation-name: comb2;
+    animation-duration: 10s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-play-state: running;
-    -moz-animation-name: pi2;
-    -moz-animation-duration: 95s;
+    -moz-animation-name: comb2;
+    -moz-animation-duration: 10s;
     -moz-animation-timing-function: ease-in-out;
     -moz-animation-iteration-count: infinite;
     -moz-animation-play-state: running;
-    -webkit-animation-name: pi2;
-    -webkit-animation-duration: 40s;
+    -webkit-animation-name: comb2;
+    -webkit-animation-duration: 10s;
     -webkit-animation-timing-function: ease-in-out;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-play-state: running;
 }
-.point-icon img.icon3 {
-    animation-name: pi2;
-    animation-duration: 170s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-play-state: running;
-    -moz-animation-name: pi2;
-    -moz-animation-duration: 200s;
-    -moz-animation-timing-function: ease-in-out;
-    -moz-animation-iteration-count: infinite;
-    -moz-animation-play-state: running;
-    -webkit-animation-name: pi2;
-    -webkit-animation-duration: 60s;
-    -webkit-animation-timing-function: ease-in-out;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-play-state: running;
-}
-.point-icon img.icon4 {
-    animation-name: pi1;
-    animation-duration: 55s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-play-state: running;
-    -moz-animation-name: pi2;
-    -moz-animation-duration: 84s;
-    -moz-animation-timing-function: ease-in-out;
-    -moz-animation-iteration-count: infinite;
-    -moz-animation-play-state: running;
-    -webkit-animation-name: pi2;
-    -webkit-animation-duration: 29s;
-    -webkit-animation-timing-function: ease-in-out;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-play-state: running;
-}
-@-moz-keyframes pi1 {
+@-moz-keyframes comb1 {
     0% {-moz-transform:rotate(0deg);}
-    50% {-moz-transform:rotate(720deg);}
+    50% {-moz-transform:rotate(25deg);}
     100% {-moz-transform:rotate(0deg);}
 }
-@-webkit-keyframes pi1 {
+@-webkit-keyframes comb1 {
     0% {-webkit-transform:rotate(0deg);}
-    50% {-webkit-transform:rotate(720deg);}
+    50% {-webkit-transform:rotate(25deg);}
     100% {-webkit-transform:rotate(0deg);}
 }
-@keyframes pi1 {
+@keyframes comb1 {
     0% {transform:rotate(0deg);}
-    50% {transform:rotate(720deg);}
+    50% {transform:rotate(25deg);}
     100% {transform:rotate(0deg);}
 }
-@-moz-keyframes pi2 {
+@-moz-keyframes comb2 {
     0% {-moz-transform:rotate(0deg);}
-    50% {-moz-transform:rotate(-720deg);}
+    50% {-moz-transform:rotate(-35deg);}
     100% {-moz-transform:rotate(0deg);}
 }
-@-webkit-keyframes pi2 {
+@-webkit-keyframes comb2 {
     0% {-webkit-transform:rotate(0deg);}
-    50% {-webkit-transform:rotate(-720deg);}
+    50% {-webkit-transform:rotate(-35deg);}
     100% {-webkit-transform:rotate(0deg);}
 }
-@keyframes pi2 {
+@keyframes comb2 {
     0% {transform:rotate(0deg);}
-    50% {transform:rotate(-720deg);}
+    50% {transform:rotate(-35deg);}
     100% {transform:rotate(0deg);}
-}
-
-.point-content {
-    float: left;
-    width: 300px;
-}
-.point-content h4 {
-    margin: 0 0 10px;
-}
-.point-content h5 {
-    font-weight: normal;
-    font-family: "Dagny", Helvetica, sans-serif;
-    color: #777;
-    font-size: 13px;
-    line-height: 21px;
-    margin: 0;
 }
 
 .cards {
@@ -439,6 +375,45 @@ aside {
     padding-left: 15px; 
     text-indent: -10px;
 }
+
+
+footer {
+    width: 100%;
+    padding: 30px 0;
+    background: #FFF;
+}
+.company {
+    text-align: center;
+}
+.logo {
+    display: inline-block;
+    margin-right: 30px;
+}
+.logo img {
+    height: 25px;
+}
+.company ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.company li {
+    float: left;
+    margin: 3px 0 0 15px;
+}
+.company a {
+    font-size: 14px;
+    color: #777;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 1px solid #EEE;
+}
+.company a:hover {
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+
 
 
 /* ==========================================================================
