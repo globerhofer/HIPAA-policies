@@ -1,6 +1,10 @@
 
 # Auditing Policy
 
+Pact outsources its auditing to Catalyze, a service provider that stores all ePHI and audit logs.  Catalyze's auditing policy is as follows.
+
+# Catalyze Auditing Policy
+
 Catalyze shall audit access and activity of electronic protected health information (ePHI) applications and systems in order to ensure compliance. The Security Rule requires healthcare organizations to implement reasonable hardware, software, and/or procedural mechanisms that record and examine activity in information systems that contain or use ePHI. Audit activities may be limited by application, system, and/or network auditing capabilities and resources. Catalyze shall make reasonable and good-faith efforts to safeguard information privacy and security through a well-thought-out approach to auditing that is consistent with available resources.
 
 It is the policy of Catalyze to safeguard the confidentiality, integrity, and availability of applications, systems, and networks. To ensure that appropriate safeguards are in place and effective, Catalyze shall audit access and activity to detect, report, and guard against:
