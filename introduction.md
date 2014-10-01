@@ -51,4 +51,4 @@ All Platform Add-ons and operating systems are tested end-to-endfor usability, s
 
 ## Version Control
 
-Policies were last updated April 11th, 2014.
+Policies were last updated September 30th, 2014.
