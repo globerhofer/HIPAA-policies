@@ -1,5 +1,9 @@
 # Data Integrity Policy
 
+All Pact data exchanges occur on a platform maintained by Catalyze, a service provider that stores all of Pact's ePHI.  Catalyze has signed a BAA with Pact committing to the policy below.
+
+# Catalyze Data Integrity Policy
+
 Catalyze takes data integrity very seriously. As stewards and partners of Catalyze Customers, we strive to assure data is protected from unauthorized access and that it is available when needed. The following policies drive many of our procedures and technical settings in support of the Catalyze mission of data protection.
 
 ## Applicable Standards from the HITRUST Common Security Framework

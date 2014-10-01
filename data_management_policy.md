@@ -1,5 +1,9 @@
 # Data Management Policy
 
+All Pact data backups are made a platform maintained by Catalyze, a service provider that stores all of Pact's ePHI.  Catalyze has signed a BAA with Pact committing to the policy below.
+
+# Catalyze Data Management Policy
+
 Catalyze has procedures to create and maintain retrievable exact copies of electronic protected health information (ePHI) stored in conjunction with Catalyze Add-ons and for PaaS Customers utilizing our Backup Service. This policy, and associated procedures for testing and restoring from backup data, do not apply to PaaS Customers that do not choose Catalyze Backup Service. The policy and procedures will assure that complete, accurate, retrievable, and tested backups are available for all systems used by Catalyze.
   
 Data backup is an important part of the day-to-day operations of Catalyze. To protect the confidentiality, integrity, and availability of ePHI, both for Catalyze and Catalyze Customers, completes backups are done daily to assure that data remains available when it needed and in case of disaster.
