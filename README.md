@@ -1,3 +1,5 @@
+#TODO - adjust for Pact
+
 # Catalyze HIPAA Compliance Policies
 
 HIPAA compliance is complicated, but it doesn't have to be. Catalyze helps relieve the technical burden with our HIPAA-compliant cloud computing platform and solutions for healthcare.

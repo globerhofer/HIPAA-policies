@@ -1,3 +1,5 @@
+#TODO - determine what we must include for Pact, and what we should keep from catalyze
+
 # Key Definitions
 
 * *Application*: An application hosted by Catalyze, either maintained and created by Catalyze, or maintained and created by a Customer or Partner.
