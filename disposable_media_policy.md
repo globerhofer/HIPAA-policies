@@ -1,5 +1,9 @@
 # Disposable Media Policy
 
+All Pact PHI is stored on Media maintained by Catalyze, a service provider.  Catalyze has signed a BAA with Pact committing to the policy below.
+
+# Catalyze Disposable Media Policy
+
 Catalyze recognizes that media containing ePHI may be reused when appropriate steps are taken to ensure that all stored ePHI has been effectively rendered inaccessible. Destruction/disposal of ePHI shall be carried out in accordance with federal and state law. The schedule for destruction/disposal shall be suspended for ePHI involved in any open investigation, audit, or litigation.
 
 Catalyze utilizes dedicated hardware from Subcontractors. ePHI is only stored on SSD volumes in our hosted environment. All SSD volumes utilized by Catalyze and Catalyze Customers are encrypted. Catalyze does not use, own, or manage any mobile devices, SD cards, or tapes that have access to ePHI.

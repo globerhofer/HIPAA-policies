@@ -1,5 +1,9 @@
 # IDS Policy
 
+All Pact data storage and exchanges occur on a platform maintained by Catalyze, a service provider that stores all of Pact's ePHI.  Catalyze has signed a BAA with Pact committing to the policy below.
+
+# Catalyze IDS Policy
+
 In order to preserve the integrity of data that Catalyze stores, processes, or transmits for Customers, Catalyze implements strong intrusion detection tools and policies to proactively track and retroactively investigate unauthorized access. Catalyze currently utilizes [OSSEC](http://www.ossec.net/) to track file system integrity, monitor log data, and detect rootkit access.
 
 ## Applicable Standards from the HITRUST Common Security Framework

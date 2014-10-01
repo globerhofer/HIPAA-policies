@@ -1,3 +1,5 @@
+#TODO - determine if Pact is responsible for this.
+
 # Incident Response Policy
 
 Catalyze implements an information security incident response process to consistently detect, respond, and report incidents, minimize loss and destruction, mitigate the weaknesses that were exploited, and restore information system functionality and business continuity as soon as possible.
