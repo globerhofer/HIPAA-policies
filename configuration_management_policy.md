@@ -1,4 +1,9 @@
+
 # Configuration Management Policy
+
+Pact outsources its configuration management to Catalyze, a service provider that stores all of Pact's' ePHI.  Catalyze has signed a BAA with Pact committing to the policy below.
+
+# Catalyze Configuration Management Policy
 
 Catalyze standardizes and automates configuration management through the use of Salt scripts as well as documentation of all changes to production systems and networks. Salt automatically configures all Catalyze systems according to established and tested policies, and is used as part of our Disaster Recovery plan and process.
 

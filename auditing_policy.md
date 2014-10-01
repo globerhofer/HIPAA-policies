@@ -1,7 +1,7 @@
 
 # Auditing Policy
 
-Pact outsources its auditing to Catalyze, a service provider that stores all ePHI and audit logs.  Catalyze's auditing policy is as follows.
+Pact outsources its auditing to Catalyze, a service provider that stores all ePHI and audit logs.  Catalyze has signed a BAA with Pact committing to the policy below.
 
 # Catalyze Auditing Policy
 
