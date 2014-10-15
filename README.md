@@ -36,7 +36,7 @@ To get in touch, shoot us an email at [hello@catalyze.io](mailto:hello@catalyze.
 
 ### License
 
-All policies are licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+All policies are licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/).
 
 ### Policy Index
 
