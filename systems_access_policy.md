@@ -93,6 +93,16 @@ All workstations at Catalyze are company owned, and all are laptop Apple product
 * All workstations have firewalls enabled to prevent unauthorized access unless explicitly granted.
 * All workstations are to have the following messages added to the lock screen and login screen: *This computer is owned by Catalyze, Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://catalyze.io/policy/) and have completed this training (https://training.catalyze.io/). Please contact us if you have problems with this - privacy@catalyze.io.*
 
+## Wireless Access Use
+
+* Catalyze production systems are not accessible directly over wireless channels.
+* Wireless access disabled on all production systems.
+* When access production systems via remote wireless connections, the same system access policies and procedures apply to wireless as all other connections, including wired.
+* Wireless networks managed within Catalyze non-production facilities (offices, etc) are secured with the following configurations:
+	* All data in transit over wireless is encrypted using WPA2 encryption;
+	* SSIDs are not broadcast;
+	* Passwords are rotated on a regular basis, presently quarterly. This process is managed by the Catalyze Security Officer.
+
 
 ## Employee Termination Procedures
 
