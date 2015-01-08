@@ -7,8 +7,8 @@ Assigned Security Responsibility - 164.308(a)(2) | Roles Policy | Partially
 Workforce Security - 164.308(a)(3)(i) | Employee Policies | Partially
 Information Access Management - 164.308(a)(4)(i) | System Access Policy | Yes
 Security Awareness and Training - 164.308(a)(5)(i) | Employee Policy | No
-Security Incident Procedures - 164.308(a)(6)(i) | IDS Policy | Yes (optional)
-Contingency Plan - 164.308(a)(7)(i) | Disaster Recovery Policy | Yes (optional)
+Security Incident Procedures - 164.308(a)(6)(i) | IDS Policy | Yes
+Contingency Plan - 164.308(a)(7)(i) | Disaster Recovery Policy | Yes
 Evaluation - 164.308(a)(8) | Auditing Policy | Yes
 
 | **Physical Safeguards** HIPAA Rule | Catalyze Control | Inherited
