@@ -1,6 +1,6 @@
 # Disaster Recover Policy
 
-The Catalyze Contingency Plan establishes procedures to recover Catalyze following a disruption resulting from a disaster. This policy, and associated procedures, do not apply to PaaS Customers that do not choose Catalyze Disaster Recovery Service. This Disaster Recovery Policy is maintained by the Catalyze Security Officer and Privacy Officer.
+The Catalyze Contingency Plan establishes procedures to recover Catalyze following a disruption resulting from a disaster. This Disaster Recovery Policy is maintained by the Catalyze Security Officer and Privacy Officer.
 
 The following objectives have been established for this plan: 
 
