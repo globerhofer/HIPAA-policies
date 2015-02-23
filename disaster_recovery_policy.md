@@ -1,4 +1,4 @@
-# Disaster Recover Policy
+# Disaster Recovery Policy
 
 The Catalyze Contingency Plan establishes procedures to recover Catalyze following a disruption resulting from a disaster. This Disaster Recovery Policy is maintained by the Catalyze Security Officer and Privacy Officer.
 
