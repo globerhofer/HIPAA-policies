@@ -10,16 +10,13 @@ The following objectives have been established for this plan:
 	* *Reconstitution phase* to restore IT system processing capabilities to normal operations.
 2. Identify the activities, resources, and procedures needed to carry out Catalyze processing requirements during prolonged interruptions to normal operations.
 3. Identify and define the impact of interruptions to Catalyze systems.
-4. Assign responsibilities to designated OPDIV personnel and provide guidance for recovering Catalyze during prolonged periods of interruption to normal operations. 
+4. Assign responsibilities to designated personnel and provide guidance for recovering Catalyze during prolonged periods of interruption to normal operations. 
 5. Ensure coordination with other Catalyze staff who will participate in the contingency planning strategies.
 6. Ensure coordination with external points of contact and vendors who will participate in the contingency planning strategies. 
 
 This Catalyze Contingency Plan has been developed as required under the Office of Management and Budget (OMB) Circular A-130, Management of Federal Information Resources, Appendix III, November 2000, and the Health Insurance Portability and Accountability Act (HIPAA) Final Security Rule, Section §164.308(a)(7), which requires the establishment and implementation of procedures for responding to events that damage systems containing electronic protected health information. 
 
-This Catalyze Contingency Plan is promulgated under the legislative requirements set forth in the Federal Information Security Management Act (FISMA) of 2002 and the guidelines established by the National Institute of Standards and Technology (NIST) Special Publication (SP) 800-34, titled "Contingency Planning Guide for Information Technology Systems" dated June 2002.
-
-This Catalyze Contingency Plan complies with the OPDIV IT Contingency Planning Policy as follows:
-> The organization shall develop a contingency planning capability to meet the needs of critical supporting operations in the event of a disruption extending beyond 48 hours. The procedures for execution of such a capability shall be documented in a formal contingency plan and shall be reviewed at least annually and updated as necessary. Personnel responsible for target systems shall be trained to execute contingency procedures. The plan, recovery capabilities, and personnel shall be tested to identify weaknesses of the capability at least annually.
+This Catalyze Contingency Plan is created under the legislative requirements set forth in the Federal Information Security Management Act (FISMA) of 2002 and the guidelines established by the National Institute of Standards and Technology (NIST) Special Publication (SP) 800-34, titled "Contingency Planning Guide for Information Technology Systems" dated June 2002.
  
 The Catalyze Contingency Plan also complies with the following federal and departmental policies:
 
@@ -51,6 +48,7 @@ Catalyze defined two categories of systems from a disaster recovery perspective.
 OPDIV sets forth an order of succession to ensure that decision-making authority for the Catalyze Contingency Plan is uninterrupted. The Chief Technology Officer (CTO) and Security Officer, Ben Uphoff, and VP of Engineering, Brian Lewis, are responsible for ensuring the safety of personnel and the execution of procedures documented within this Catalyze Contingency Plan. If the CTO and VP of Engineering are unable to function as the overall authority or chooses to delegate this responsibility to a successor, the CEO or CPO shall function as that authority. To provide contact initiation should the contingency plan need to be initiated, please use the contact list below.
 
 * Ben Uphoff, CTO: 414-335-0253, ben@catalyze.io
+* Nick Mistry, VP of Engineering: 210-452-5630, nick@catalyze.io
 * Travis Good, CEO: 303-351-2640, travis@catalyze.io
 * Mohan Balachandran, CPO: 214-215-7998, mohan@catalyze.io
 
@@ -67,10 +65,9 @@ The CTO and VP of Engineering shall establish criteria for validation/testing of
 
 ### Tabletop Testing
 
-Tabletop Testing is conducted in accordance with the CMS Contingency Planning Tabletop Test Procedures. The primary objective of the tabletop test is to ensure designated personnel are knowledgeable and capable of performing the notification/activation requirements and procedures as outlined in the CP, in a timely manner. The exercises include, but are not limited to:
+Tabletop Testing is conducted in accordance with the the CMS Risk Management Handbool, Volume 2 (http://www.cms.gov/Research-Statistics-Data-and-Systems/CMS-Information-Technology/InformationSecurity/Downloads/RMH_VII_4-5_Contingency_Plan_Exercise.pdf). The primary objective of the tabletop test is to ensure designated personnel are knowledgeable and capable of performing the notification/activation requirements and procedures as outlined in the CP, in a timely manner. The exercises include, but are not limited to:
 
-* Testing to validate the ability to respond to a crisis in a coordinated, timely, and effective manner, by simulating the occurrence of a specific crisis; and
-* Crisis communications and call tree verification.
+* Testing to validate the ability to respond to a crisis in a coordinated, timely, and effective manner, by simulating the occurrence of a specific crisis.
 
 ### Technical Testing
 
@@ -78,16 +75,16 @@ The primary objective of the technical test is to ensure the communication proce
 
 * Process from backup system at the alternate site;
 * Restore system using backups; and
-* Switch voice and data telecommunications to alternate processing site. 
+* Switch compute and storage resources to alternate processing site. 
 
 ## 1. Notification and Activation Phase
 
 This phase addresses the initial actions taken to detect and assess damage inflicted by a disruption to Catalyze. Based on the assessment of the Event, sometimes according to the Catalyze Incident Response Policy, the Contingency Plan may be activated by either the CTO or VP of Engineering.
 
-Contact information for key personnel is located in Appendix A. The notification sequence is listed below:
+The notification sequence is listed below:
 
 * The first responder is to notify the CTO. All known information must be relayed to the CTO.
-* The VP of Engineering is to contact the Web Services Team and inform them of the event. The CTO is to instruct all Team Leaders to begin assessment procedures.
+* The VP of Engineering is to contact the Web Services Team and inform them of the event. The CTO is to to begin assessment procedures.
 * The CTO is to notify team members and direct them to complete the assessment procedures outlined below to determine the extent of damage and estimated recovery time. If damage assessment cannot be performed locally because of unsafe conditions, the CTO is to following the steps below.
 	* Damage Assessment Procedures:
 	* The CTO and VP of Engineering are to logically assess damage, gain insight into whether the infrastructure is salvageable, and begin to formulate a plan for recovery.
@@ -97,8 +94,8 @@ Contact information for key personnel is located in Appendix A. The notification
 	* Catalyze will be unavailable for more than 48 hours.
 	* Hosting facility is damaged and will be unavailable for more than 24 hours.
 	* Other criteria, as appropriate and as defined by Catalyze.
-	* If the plan is to be activated, the CTO is to notify all Team Leaders and inform them of the details of the event and if relocation is required.
-	* Upon notification from the CTO, Team Leaders are to notify their respective teams. Team members are to be informed of all applicable information and prepared to respond and relocate if necessary.
+	* If the plan is to be activated, the CTO is to notify and inform team members of the details of the event and if relocation is required.
+	* Upon notification from the CTO, group leaders and managers are to notify their respective teams. Team members are to be informed of all applicable information and prepared to respond and relocate if necessary.
 	* The CTO is to notify the hosting facility partners that a contingency event has been declared and to ship the necessary materials (as determined by damage assessment) to the alternate site.
 	* The CTO is to notify remaining personnel and executive leadership on the general status of the incident.
 	* Notification can be message, email, or phone.
