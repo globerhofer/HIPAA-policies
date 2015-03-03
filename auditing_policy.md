@@ -47,7 +47,7 @@ This policy applies to all Catalyze Add-on systems, including BaaS, that store, 
 	* Network: Network level audit trails generally monitor information on what is operating, penetrations, and vulnerabilities.
 3. Catalyze shall log all incoming and outgoing traffic to into and out of its environment. This includes all successful and failed attempts at data access and editing. Data associated with this data will include origin, destination, time, and other relevant details that are available to Catalyze.
 4. Catalyze utilizes OSSEC to scan all systems for malicious and unauthorized software every 2 hours and at reboot of systems. Alerts from OSSEC are sent to Kibana, the centralized logging service that we use.
-5. Catalyze uses Nagios to monitor systems in its environment. 
+5. Catalyze leverages process monitoring tools throughout its environment.
 6. Catalyze treats its Developer Portal as a Platform Add-on and, as such, it logs all activity associated with Developer Portal Access.
 7. Catalyze uses OSSEC to monitor the integrity of log files by utilizing OSSEC System Integrity Checking capabilities.
 8. Catalyze shall identify “trigger events” or criteria that raise awareness of questionable conditions of viewing of confidential information. The “events” may be applied to the entire Catalyze Platform or may be specific to a Customer, partner, business associate, Platform Add-on or application (See Listing of Potential Trigger Events below).
