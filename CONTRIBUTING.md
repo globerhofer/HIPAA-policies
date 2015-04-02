@@ -2,7 +2,7 @@
 
 We encourage contributions to our open source policies. Here's a quick guide on how to contribute:
 
-- Fork this repository so you have a copy on your personal Github account
+- Fork this repository so you have a copy on your personal GitHub account
 - Clone the forked repository (`git clone git@github.com:USERNAME/policies.git`)
 - Make your changes on a new branch
 - Commit and push your changes up to your fork

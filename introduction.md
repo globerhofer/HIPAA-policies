@@ -47,7 +47,7 @@ In the case of Platform Add-ons, once the data is received from the application 
 
 The bastion host, Apache web server, Dropwizard application servers are externally facing and accessible via the Internet. The database servers, where the ePHI resides, are located on the internal Catalyze network and can only be accessed directly over an SSH connection through the bastion host. The access to the internal database is restricted to a limited number of personnel and strictly controlled to only those personnel with a business justified reason. Remote access to the internal servers is not accessible except through the load balancers and bastion host.
 
-All Platform Add-ons and operating systems are tested end-to-endfor usability, security and impact prior to deployment to production.
+All Platform Add-ons and operating systems are tested end-to-end for usability, security and impact prior to deployment to production.
 
 ## Version Control
 
