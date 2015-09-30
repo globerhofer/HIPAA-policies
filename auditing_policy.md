@@ -97,7 +97,7 @@ This policy applies to all Catalyze Add-on systems, including BaaS, that store, 
 ## Audit Log Security Controls and Backup
 
 4. Audit logs shall be protected from unauthorized access or modification, so the information they contain will be made available only if needed to evaluate a security incident or for routine audit activities as outlined in this policy.
-5. All audit logs are encrypted in transit and at rest to control access to the content of the logs. For PaaS Customers, it is the responsibility of the Customer to encrypt log data before it is sent to Catalyze Logging Service.
+5. All audit logs are encrypted in transit and at rest to control access to the content of the logs. 
 6. Audit logs shall be stored on a separate system to minimize the impact auditing may have on the privacy system and to prevent access to audit trails by those with system administrator privileges. This is done to apply the security principle of “separation of duties” to protect audit trails from hackers.
 7. For PaaS Customers choosing to use Catalyze logging services, log data will be separated from the log data of other Catalyze Customers.
 
