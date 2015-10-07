@@ -1,9 +1,12 @@
 # Catalyze HIPAA Compliance Policies
 
+**Deployment:**
+TODO
+
 HIPAA compliance is complicated, but it doesn't have to be. Catalyze helps relieve the technical burden with our HIPAA-compliant cloud computing platform and solutions for healthcare.
 
-In an effort to make compliance as easy as possible for companies working with protected health information (PHI), we decided to open source our company policies. 
-	
+In an effort to make compliance as easy as possible for companies working with protected health information (PHI), we decided to open source our company policies.
+
 Our policies have been written with modern, cloud-based technology vendors in mind. We looked far and wide for policy examples that fit our company, and couldn't find any. So we wrote our own. Importantly, these policies have been through three external audits—two HIPAA audits and one HITRUST audit.
 
 Do you handle PHI and not yet have your own company policies in place? Then you'll find our content useful.
