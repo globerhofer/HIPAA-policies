@@ -117,6 +117,9 @@ body{margin: 5px 0px 0px 0px;}
 .sub-header{
 	border-bottom: 1px solid $c_border;
 	padding: 15px;
+	position: relative;
+	z-index: 2;
+	background-color: #fff;
 	@extend .cf;
 	h1.site-title{
 		margin: 5px 0px 0px 0px;
@@ -259,6 +262,12 @@ body{margin: 5px 0px 0px 0px;}
 		}
 	}
 	li.tocify-focus{a{color: $c_brand;}}
+	#toc{
+		max-height: 92%;
+		overflow: scroll;
+		position: relative;
+		z-index: 0;
+	}
 }
 .device-controls{
 	@extend .cf;
