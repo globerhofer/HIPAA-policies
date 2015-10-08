@@ -222,6 +222,7 @@ body{margin: 5px 0px 0px 0px;}
 	top: 0px;
 	bottom: 0px;
 	width: 20.80%;
+	max-width: 300px;
 	box-shadow: 8px 0px 10px -7px $c_border;
 	ul{
 		&:first-of-type{@include easing(250ms);margin: 135px 0px 0px 0px;}
