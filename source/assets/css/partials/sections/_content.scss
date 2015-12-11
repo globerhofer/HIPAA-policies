@@ -313,18 +313,6 @@ body{margin: 5px 0px 0px 0px;}
 		padding: 0px 0px 20px 0px;
 		position: relative;
 		color: $c_header;
-		&:after{
-			position: absolute;
-			right: 0px;
-			font-size: 10px;
-			color: $c_brand;
-			background-color: $c_bg;
-			border: 1px solid $c_border;
-			padding: 5px;
-			font-weight: 600;
-			content: "SECTION";
-			@include border-radius(5px);
-		}
 	}
 	h2{
 		font-size: 16px;
