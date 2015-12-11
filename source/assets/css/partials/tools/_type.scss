@@ -1,7 +1,13 @@
 @import url(//fonts.googleapis.com/css?family=Work+Sans:400,200,300,500,600,700);
 @import url(//fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic);
-$f_bu: 'Avenir Next', 'Avenir', 'Helvetica Neue', Helvetica, sans-serif;
-$f_bu-serif: 'Adobe Garamond Pro', serif;
-$f_sans: 'Work Sans', $f_bu;
-$f_serif: 'Droid Serif', $f_bu-serif;
-body{font-family: $f_sans;font-size:14px;}
+// $f_bu: 'Avenir Next', 'Avenir', 'Helvetica Neue', Helvetica, sans-serif;
+// $f_bu-serif: 'Adobe Garamond Pro', serif;
+// $f_sans: 'Work Sans', $f_bu;
+// $f_serif: 'Droid Serif', $f_bu-serif;
+$f_bu: 'SF UI Text', 'San Francisco', sans-serif;
+$f_bu-serif: $f_bu;
+$f_sans: $f_bu;
+$f_serif: $f_bu;
+body{
+	font-family: $f_sans;font-size:14px;
+}
