@@ -62,7 +62,7 @@ The current Catalyze Privacy Officer is Travis Good ([travis@catalyze.io](mailto
 
 The Security Officer is responsible for facilitating the training and supervision of all workforce members [164.308(a)(3)(ii)(A) and 164.308(a)(5)(ii)(A)], investigation and sanctioning of any workforce member that is in violation of Catalyze security policies and non-compliance with the security regulations [164.308(a)(1)(ii)(c)], and writing, implementing, and maintaining all polices, procedures, and documentation related to efforts toward security and compliance [164.316(a-b)].
 
-The current Catalyze Security Officer is Benjamin Uphoff ([ben@catalyze.io](mailto:ben@catalyze.io)).
+The current Catalyze Security Officer is Adam Leko ([adam@catalyze.io](mailto:adam@catalyze.io)).
 
 ## Organizational Responsibilities
 
