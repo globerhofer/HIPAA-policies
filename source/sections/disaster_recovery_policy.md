@@ -45,10 +45,9 @@ Catalyze defined two categories of systems from a disaster recovery perspective.
 
 ## Line of Succession
 
-The following order of succession to ensure that decision-making authority for the Catalyze Contingency Plan is uninterrupted. The Chief Technology Officer (CTO) and Security Officer, Ben Uphoff, and VP of Engineering, Nick Mistry, are responsible for ensuring the safety of personnel and the execution of procedures documented within this Catalyze Contingency Plan. If the CTO and VP of Engineering are unable to function as the overall authority or chooses to delegate this responsibility to a successor, the CEO or CPO shall function as that authority. To provide contact initiation should the contingency plan need to be initiated, please use the contact list below.
+The following order of succession to ensure that decision-making authority for the Catalyze Contingency Plan is uninterrupted. The Chief Technology Officer (CTO) and Security Officer, Adam Leko, are responsible for ensuring the safety of personnel and the execution of procedures documented within this Catalyze Contingency Plan. If the CTO and VP of Engineering are unable to function as the overall authority or chooses to delegate this responsibility to a successor, the CEO or CPO shall function as that authority. To provide contact initiation should the contingency plan need to be initiated, please use the contact list below.
 
-* Ben Uphoff, CTO: 414-335-0253, ben@catalyze.io
-* Nick Mistry, VP of Engineering: 210-452-5630, nick@catalyze.io
+* Adam Leko, CTO: 414-335-0253, adam@catalyze.io
 * Travis Good, CEO: 303-351-2640, travis@catalyze.io
 * Mohan Balachandran, CPO: 214-215-7998, mohan@catalyze.io
 
