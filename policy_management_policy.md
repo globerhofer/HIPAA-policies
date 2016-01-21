@@ -1,6 +1,6 @@
 # Policy Management Policy
 
-Catalyze implements policies and procedures to maintain compliance and integrity of data. The Security Officer and Privacy Officer are responsible for maintaining policies and procedures and assuring all Catalyze workforce members, business associates, customers, and partners are adherent to all applicable policies. Previous versions of polices are retained to assure ease of finding policies at specific historic dates in time.
+Catalyze implements policies and procedures to maintain compliance and integrity of data. The Security Officer and Privacy Officer are responsible for maintaining policies and procedures and assuring all Catalyze workforce members, business associates, customers, and partners are adherent to all applicable policies. Previous versions of policies are retained to assure ease of finding policies at specific historic dates in time.
 
 ## Applicable Standards from the HITRUST Common Security Framework
 
