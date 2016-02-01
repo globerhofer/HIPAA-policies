@@ -25,3 +25,4 @@ Catalyze standardizes and automates configuration management through the use of 
 11. Catalyze also deploys environments locally using Vagrant to assure functionality before moving to staging or production.
 12. Catalyze schedules production deployments every four weeks.
 13. All formal change requests require unique ID and authentication.
+14. ClamAV is run on all production Docker hosts for anti-virus protection. Hosts are scanned daily for malicious binaries in critical system paths. The malware signature database is checked hourly and automatically updated if new signatures are available.
