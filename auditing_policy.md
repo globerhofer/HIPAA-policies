@@ -81,6 +81,7 @@ This policy applies to all Catalyze Add-on systems, including BaaS, that store, 
 ## Review and Reporting of Audit Findings
 
 1. Audit information that is routinely gathered must be reviewed in a timely manner, currently monthly, by the responsible workforce member(s).
+	* On a quarterly basis, logs are reviewed to assure the proper data is being captured and retained.
 2. The reporting process shall allow for meaningful communication of the audit findings to those workforce members, Customers, or Partners requesting the audit.
 	* Significant findings shall be reported immediately in a written format. Catalyze’s security incident response form may be utilized to report a single event.
 	* Routine findings shall be reported to the sponsoring leadership structure in a written report format.
