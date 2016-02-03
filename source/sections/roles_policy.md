@@ -4,7 +4,9 @@ Catalyze has a Security Officer [164.308(a)(2)] and Privacy Officer  [164.308(a)
 
 ## Applicable Standards from the HITRUST Common Security Framework
 
+* 02.f - Disciplinary Process
 * 06.d - Data Protection and Privacy of Covered Information
+* 06.f - Prevention of Misuse of Information Assets
 * 06.g - Compliance with Security Policies and Standards
 
 ## Applicable Standards from the HIPAA Security Rule

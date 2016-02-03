@@ -13,8 +13,6 @@ The incident response process addresses:
 
 ## Applicable Standards from the HITRUST Common Security Framework
 
-* 02.f - Disciplinary Process
-* 06.f - Prevention of Misuse of Information Assets
 * 11.a - Reporting Information Security Events
 * 11.c - Responsibilities and Procedures
 * 11.a - Reporting Information Security Events

@@ -18,7 +18,7 @@ In the future there may be 3rd party Add-on services available as part of the Ca
 
 ## Compliance Inheritance
 
-Catalyze provides compliant hosted software infrastructure for its Customers. Catalyze has been through a HIPAA compliance audit by a national, 3rd party compliance firm, to validate and map organizational policies and technical settings to HIPAA rules. Catalyze is currently undergoing a HITRUST audit to achieve HITRUST Certification.
+Catalyze provides compliant hosted software infrastructure for its Customers. Catalyze has been through a HIPAA compliance audit by a national, 3rd party compliance firm, to validate and map organizational policies and technical settings to HIPAA rules. Catalyze, as a company, and its technology, is HITRUST Certified.  Catalyze's infrastructure at Rackspace is HITRUST Certified and certification for AWS and Azure are in progress.
 
 Catalyze signs business associate agreements (BAAs) with its Customers. These BAAs outline Catalyze obligations and Customer obligations, as well as liability in the case of a breach. In providing infrastructure and managing security configurations that are a part of the technology requirements that exist in HIPAA and HITRUST, as well as future compliance frameworks, Catalyze manages various aspects of compliance for Customers. The aspects of compliance that Catalyze manages for Customers are inherited by Customers, and Catalyze assumes the risk associated with those aspects of compliance. In doing so, Catalyze helps Customers achieve and maintain compliance, as well as mitigates Customers risk.
 
@@ -47,7 +47,7 @@ In the case of Platform Add-ons, once the data is received from the application 
 
 The bastion host, Apache web server, Dropwizard application servers are externally facing and accessible via the Internet. The database servers, where the ePHI resides, are located on the internal Catalyze network and can only be accessed directly over an SSH connection through the bastion host. The access to the internal database is restricted to a limited number of personnel and strictly controlled to only those personnel with a business justified reason. Remote access to the internal servers is not accessible except through the load balancers and bastion host.
 
-All Platform Add-ons and operating systems are tested end-to-endfor usability, security and impact prior to deployment to production.
+All Platform Add-ons and operating systems are tested end-to-end for usability, security and impact prior to deployment to production.
 
 ## Version Control
 
