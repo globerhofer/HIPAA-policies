@@ -25,5 +25,5 @@ Catalyze standardizes and automates configuration management through the use of 
 11. Catalyze also deploys environments locally using Vagrant to assure functionality before moving to staging or production.
 12. Catalyze schedules production deployments every four weeks.
 13. All formal change requests require unique ID and authentication.
-14. ClamAV is run on all production hosts for anti-virus protection. Hosts are scanned daily for malicious binaries in critical system paths. The malware signature database is checked hourly and automatically updated if new signatures are available.
+14. ClamAV is run on all production hosts for anti-virus protection. Hosts are scanned daily for malicious binaries in critical system paths. The malware signature database is checked hourly and automatically updated if new signatures are available. ClamAV is a part of our Salt-based configuration management and this assures all hosts have anti-virus tools running on them.
 15. All physical media is encrypted at provisioning. To verify encryption is consistent and in place for all production storage, checks are performed on a quarterly basis.
