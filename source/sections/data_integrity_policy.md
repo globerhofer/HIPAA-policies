@@ -49,7 +49,7 @@ Production Systems that create, receive, store, or transmit customer data (herea
 * Implement and/or review controls designed to protect Production Data from improper alteration or destruction.
 * Ensure that Confidential data is stored in a manner that supports user access logs and automated monitoring for potential security incidents.
 * Ensure Catalyze customer Production Data is segmented and only accessible to customer authorized to access data.
-* All Production Data at rest is stored on encrypted volumes.
+* All Production Data at rest is stored on encrypted volumes. Encryption at rest is ensured through the use of automated deployment scripts referenced in the Catalyze Configuration Management Policy.
 
 ### Transmission Security
 

@@ -34,7 +34,7 @@ Access to Catalyze systems and application is limited for all users, including b
 * Requests for access to Catalyze Platform systems and applications is made formally to the VP of Engineering, Privacy Officer, or Security Officer.
 * Access is not granted until receipt, review, and approval by the Catalyze Security Officer;
 * The request for access is retained for future reference.
-* All access to Catalyze systems and services are reviewed and updated on an bi-annual basis to assure proper authorizations are in place commiserate with job functions. The form used to conduct account review is [here](https://docs.google.com/a/catalyze.io/forms/d/1oeejMta4XLiUsdH2gTKQ-glec6DBiwPJoY9F60HmPWk/viewform).
+* All access to Catalyze systems and services are reviewed and updated on an bi-annual basis to assure proper authorizations are in place commensurate with job functions. The form used to conduct account review is [here](https://docs.google.com/a/catalyze.io/forms/d/1oeejMta4XLiUsdH2gTKQ-glec6DBiwPJoY9F60HmPWk/viewform).
 * Any Catalyze workforce member can request change of access using this [form](https://docs.google.com/a/catalyze.io/forms/d/1ySICzCyEEdNqxHHErjlJqREBijwxs9z72L-rWXrxkm0/viewform).
 * Access to systems is controlled using centralized user management and authentication. All authentication requests utilize two factor authentication using mobile devices as the second factor.
 * Temporary accounts are not used unless absolutely necessary for business purposes.
