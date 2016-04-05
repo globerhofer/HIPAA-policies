@@ -23,7 +23,7 @@ Catalyze is committed to ensuring all workforce members actively address securit
 	* Current Catalyze training is hosted [here](https://training.catalyze.io/).
 2. All workforce members are granted access to formal organizational policies, which include the sanction policy for security violations.
 3. The Catalyze Employee Handbook clearly states the responsibilities and acceptable behavior regarding information system usage, including rules for email, Internet, mobile devices and social media usage.
-4. Catalyze does not allow mobile devices to conned to any of its production networks. 
+4. Catalyze does not allow mobile devices to connect to any of its production networks.
 5. All workforce members are educated about the approved set of tools to be installed on workstations.
 6. All new workforce members are given HIPAA training within 60 days of beginning employment. Training includes HIPAA reporting requirements, including the ability to anonymously report security incidents, and the levels of compliance and obligations for Catalyze and its Customers and Partners.
 7. All remote (teleworking) workforce members are trained on the risks, the controls implemented, their responsibilities, and sanctions associated with violation of policies. Additionally, remote security is maintained through the use of VPN tunnels for all access to production systems with access to ePHI data.
