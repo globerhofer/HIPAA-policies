@@ -111,7 +111,7 @@ The tasks outlines below are not sequential and some can be run in parallel.
 
 1. Contact Partners and Customers affected - Web Services
 2. Assess damage to the environment - Web Services
-3. Begin replication of new environment using automated and tested scrips, currently Salt. At this point it is determined whether to recover in AWS or in Rackspace. - Dev Ops
+3. Begin replication of new environment using automated and tested scrips, currently Salt. At this point it is determined whether to recover in AWS, Rackspace, Azure, and Softlayer. - Dev Ops
 4. Test new environment using pre-written tests - Web Services
 5. Test logging, security, and alerting functionality - Dev Ops
 6. Assure systems are appropriately patched and up to date. - Dev Ops
