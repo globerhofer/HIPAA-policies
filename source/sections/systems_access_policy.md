@@ -127,6 +127,7 @@ Catalyze does not use paper records for any sensitive information. Use of paper 
 * Each information system automatically requires users to change passwords at a pre-determined interval as determined by the organization, based on the criticality and sensitivity of the ePHI contained within the network, system, application, and/or database.
 * Passwords are inactivated immediately upon an employee’s termination (refer to the termination procedures in this policy).
 * All default system, application, and Partner passwords are changed before deployment to production.
+* Upon initial login, users must change any passwords that were automatically generated for them.
 * All passwords used in configuration scripts are secured and encrypted.
 * If a user believes their user ID has been compromised, they are required to immediately report the incident to the Security Office.
 
