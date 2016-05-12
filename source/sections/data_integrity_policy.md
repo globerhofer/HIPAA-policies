@@ -50,11 +50,14 @@ Production Systems that create, receive, store, or transmit customer data (herea
 * Ensure that Confidential data is stored in a manner that supports user access logs and automated monitoring for potential security incidents.
 * Ensure Catalyze customer Production Data is segmented and only accessible to customer authorized to access data.
 * All Production Data at rest is stored on encrypted volumes. Encryption at rest is ensured through the use of automated deployment scripts referenced in the Catalyze Configuration Management Policy.
+* Volume encryption keys and machines that generate volume encryption keys are protected from unauthorized access. Volume encryption key material is protected with access controls such that the key material is only accessible by privileged accounts.
+* Encrypted volumes use AES encryption with a minimum of 256-bit keys, or keys and ciphers of equivalent or higher cryptographic strength.
 
 ### Transmission Security
 
 * All data transmission is encrypted end to end. Encryption is not terminated at the network end point, and is carried through to the application.
-* Encryption keys and machines that generate keys are protected from unauthorized access.
-* Encryption keys are limited to use for one year and then must be regenerated.
+* Transmission encryption keys and machines that generate keys are protected from unauthorized access. Transmission encryption key material is protected with access controls such that the key material is only accessible by privileged accounts.
+* Transmission encryption keys use a minimum of 4096-bit RSA keys, or keys and ciphers of equivalent or higher cryptographic strength.
+* Transmission encryption keys are limited to use for one year and then must be regenerated.
 * In the case of Catalyze provided APIs, provide mechanisms to assure person sending or receiving data is authorized to send and save data.
 * System logs of all transmissions of Production Data access. These logs must be available for audit.
