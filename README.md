@@ -30,7 +30,7 @@ As a company who handles PHI, it's critical you maintain and publish your own po
 
 [Catalyze.io](htts://catalyze.io), healthcare's trusted HIPAA-compliant platform.
 
-We help companies who handle PHI, both business associates and covered entities, maintain compliance with our Platform as a Service, Mobile Backend as a Service, and managed data integration services. Think Heroku and Parse for healthcare. In addition, we also provide HL7 Integration for those who need to communicate with EHR vendors like Epic or Cerner.
+We help companies who handle PHI, both business associates and covered entities, maintain compliance with our Platform as a Service ([Stratum](https://catalyze.io/stratum)) and Managed Data Integration Services ([Redpoint](https://catalyze.io/redpoint)). 
 
 To get in touch, shoot us an email at [hello@catalyze.io](mailto:hello@catalyze.io). We'd love to hear from you!
 
