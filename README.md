@@ -55,7 +55,7 @@ Each policy is included as it's own markdown file in case you want to cherry pic
 * [Facility Access Policy](source/sections/facility_access_policy.md)
 * [Incident Response Policy](source/sections/incident_response_policy.md)
 * [Breach Policy](source/sections/breach_policy.md)
-* [Disaster Recover Policy](source/sections/disaster_recovery_policy.md)
+* [Disaster Recovery Policy](source/sections/disaster_recovery_policy.md)
 * [Disposable Media Policy](source/sections/disposable_media_policy.md)
 * [IDS Policy](source/sections/ids_policy.md)
 * [Vulnerability Scanning Policy](source/sections/vulnerability_scanning_policy.md)
