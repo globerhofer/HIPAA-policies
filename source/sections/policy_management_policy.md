@@ -13,9 +13,9 @@ Catalyze implements policies and procedures to maintain compliance and integrity
 
 ## Maintenance of Policies
 
-1. All policies are stored and up to date to maintain Catalyze compliance with HIPAA, HITRUST, NIST, and other relevant standards. Updates and version control is done similar to source code control.
-2. Policy update requests can be made by any workforce member at any time. Furthermore, all policies are reviewed annually by both the Security and Privacy Officer to assure accurate and up-to-date.
-3. Edits and updates made by appropriate and authorized workforce members are done on their own versions, or branches. These changes are only merged back into final, or master, versions by the Privacy or Security Officer, similarly to a pull request. All changes are linked to workforce personnel who made them and the Officer who accepted them.
+1. All policies are stored and up to date to maintain Catalyze compliance with HIPAA, HITRUST, NIST, and other relevant standards. Updates and version control are done similar to source code control.
+2. Policy update requests can be made by any workforce member at any time. Furthermore, all policies are reviewed annually by both the Security and Privacy Officer to assure they are accurate and up-to-date.
+3. Edits and updates made by appropriate and authorized workforce members are done on their own versions, or branches. These changes are only merged back into final, or master, versions by the Privacy or Security Officer, similar to a pull request. All changes are linked to workforce personnel who made them and the Officer who accepted them.
 4. All policies are made accessible to all Catalyze workforce members. The current master policies are published [here](https://catalyze.io/policy/).
 	* Changes can be requested to policies using this [form](https://docs.google.com/a/catalyze.io/forms/d/1sJ_8DcbbW8i2i85pqXU7JrjHLFYBhFj_TP5uAG4QFZE/viewform).
 	* Once the change has been approved to a Catalyze Policy we implement the policy change using Salt. The process for that is spelled out in the Catalyze Configuration Management Policy.
