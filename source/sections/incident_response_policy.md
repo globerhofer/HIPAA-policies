@@ -15,7 +15,6 @@ The incident response process addresses:
 
 * 11.a - Reporting Information Security Events
 * 11.c - Responsibilities and Procedures
-* 11.a - Reporting Information Security Events
 
 ## Applicable Standards from the HIPAA Security Rule
 
