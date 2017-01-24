@@ -1,6 +1,6 @@
 # Configuration Management Policy
 
-Catalyze standardizes and automates configuration management through the use of Salt scripts as well as documentation of all changes to production systems and networks. Salt automatically configures all Catalyze systems according to established and tested policies, and is used as part of our Disaster Recovery plan and process.
+Catalyze standardizes and automates configuration management through the use of Chef/Salt scripts as well as documentation of all changes to production systems and networks. Chef and Salt automatically configure all Catalyze systems according to established and tested policies, and are used as part of our Disaster Recovery plan and process.
 
 ## Applicable Standards from the HITRUST Common Security Framework
 
@@ -12,7 +12,7 @@ Catalyze standardizes and automates configuration management through the use of 
 
 ## Configuration Management
 
-1. Salt is used to standardize and automate configuration management.
+1. Chef and Salt are used to standardize and automate configuration management.
 2. OSSEC is used to scan systems every 2 hours and on reboot. These scans capture file system changes and also unauthorized or malicious software.
 3. No systems are deployed into Catalyze environments without approval of the Catalyze CTO.
 4. All changes to production systems, network devices, and firewalls are approved by the Catalyze CTO before they are implemented to assure they comply with business and security requirements. Additionally, all changes are tested before they are implemented in production. All changes are documented using issues filed in the "Deployment Ticket" JIRA project. Implementation of approved changes are only performed by authorized personnel.

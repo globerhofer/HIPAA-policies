@@ -18,7 +18,7 @@ Catalyze implements policies and procedures to maintain compliance and integrity
 3. Edits and updates made by appropriate and authorized workforce members are done on their own versions, or branches. These changes are only merged back into final, or master, versions by the Privacy or Security Officer, similar to a pull request. All changes are linked to workforce personnel who made them and the Officer who accepted them.
 4. All policies are made accessible to all Catalyze workforce members. The current master policies are published [here](https://catalyze.io/policy/).
 	* Changes can be requested to policies using this [form](https://docs.google.com/a/catalyze.io/forms/d/1sJ_8DcbbW8i2i85pqXU7JrjHLFYBhFj_TP5uAG4QFZE/viewform).
-	* Once the change has been approved to a Catalyze Policy we implement the policy change using Salt. The process for that is spelled out in the Catalyze Configuration Management Policy.
+	* Once the change has been approved to a Catalyze Policy we implement the policy change using Chef/Salt. The process for that is spelled out in the Catalyze Configuration Management Policy.
 	* Changes are automatically communicated to all Catalyze team members through integrations between Github and Slack that log all Github policy channels to a dedicated Catalyze Slack Channel.
 5. All policies, and associated documentation, are retained for 6 years from the date of its creation or the date when it last was in effect, whichever is later
 	1. Version history of all Catalyze policies is done via Github.
