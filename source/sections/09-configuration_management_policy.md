@@ -1,16 +1,16 @@
-# 10. Configuration Management Policy
+# 9. Configuration Management Policy
 
 Datica standardizes and automates configuration management through the use of Chef/Salt scripts as well as documentation of all changes to production systems and networks. Chef and Salt automatically configure all Datica systems according to established and tested policies, and are used as part of our Disaster Recovery plan and process.
 
-## 10.1 Applicable Standards from the HITRUST Common Security Framework
+## 9.1 Applicable Standards from the HITRUST Common Security Framework
 
 * 06 - Configuration Management
 
-## 10.2 Applicable Standards from the HIPAA Security Rule
+## 9.2 Applicable Standards from the HIPAA Security Rule
 
 * 164.310(a)(2)(iii) Access Control & Validation Procedures
 
-## 10.3 Configuration Management
+## 9.3 Configuration Management
 
 1. Chef and Salt are used to standardize and automate configuration management.
 2. OSSEC is used to scan systems every 2 hours and on reboot. These scans capture file system changes and also unauthorized or malicious software.

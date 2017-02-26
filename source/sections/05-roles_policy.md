@@ -1,20 +1,20 @@
-# 6. Roles Policy
+# 5. Roles Policy
 
 Datica has a Security Officer [164.308(a)(2)] and Privacy Officer  [164.308(a)(2)] appointed to assist in maintaining and enforcing safeguards towards compliance. The responsibilities associated with these roles are outlined below.
 
-## 6.1 Applicable Standards from the HITRUST Common Security Framework
+## 5.1 Applicable Standards from the HITRUST Common Security Framework
 
 * 02.f - Disciplinary Process
 * 06.d - Data Protection and Privacy of Covered Information
 * 06.f - Prevention of Misuse of Information Assets
 * 06.g - Compliance with Security Policies and Standards
 
-## 6.2 Applicable Standards from the HIPAA Security Rule
+## 5.2 Applicable Standards from the HIPAA Security Rule
 
 * 164.308(a)(2) - Assigned Security Responsibility
 * 164.308(a)(5)(i) - Security Awareness and Training
 
-## 6.3 Privacy Officer
+## 5.3 Privacy Officer
 
 The Privacy Officer is responsible for assisting with compliance and security training for workforce members, assuring organization remains in compliance with evolving compliance rules, and helping the Security Officer in his responsibilities.
 
@@ -25,7 +25,7 @@ The Privacy Officer is responsible for assisting with compliance and security tr
 
 The current Datica Privacy Officer is Travis Good ([travis@datica.com](mailto:travis@datica.com)).
 
-### 6.3.1 Workforce Training Responsibilities
+### 5.3.1 Workforce Training Responsibilities
 
 1. The Privacy Officer facilitates the training of all workforce members as follows:
 	1. New workforce members within their first month of employment;
@@ -60,13 +60,13 @@ The current Datica Privacy Officer is Travis Good ([travis@datica.com](mailto:tr
 	22. Procedures to re-use electronic media containing ePHI;
 	23. SSH key and sensitive document encryption procedures.
 
-## 6.4 Security Officer
+## 5.4 Security Officer
 
 The Security Officer is responsible for facilitating the training and supervision of all workforce members [164.308(a)(3)(ii)(A) and 164.308(a)(5)(ii)(A)], investigation and sanctioning of any workforce member that is in violation of Datica security policies and non-compliance with the security regulations [164.308(a)(1)(ii)(c)], and writing, implementing, and maintaining all polices, procedures, and documentation related to efforts toward security and compliance [164.316(a-b)].
 
 The current Datica Security Officer is Adam Leko ([adam@datica.com](mailto:adam@datica.com)).
 
-### 6.4.1 Organizational Responsibilities
+### 5.4.1 Organizational Responsibilities
 
 The Security Officer, in collaboration with the Privacy Officer, is responsible for facilitating the development, implementation, and oversight of all activities pertaining to Datica’s efforts to be compliant with the HIPAA Security Regulations, HITRUST CSF, and any other security and compliance frameworks.  The intent of the Security Officer Responsibilities is to maintain the confidentiality, integrity, and availability of ePHI.  These organizational responsibilities include, but are not limited to the following:
 
@@ -109,7 +109,7 @@ The Security Officer, in collaboration with the Privacy Officer, is responsible 
 	11. Media Disposal and/or Re-use;
 	12. Documentation requirements.
 
-### 6.4.2 Supervision of Workforce Responsibilities
+### 5.4.2 Supervision of Workforce Responsibilities
 
 Although the Security Officer is responsible for implementing and overseeing all activities related to maintaining compliance, it is the responsibility of all workforce members (i.e. team leaders, supervisors, managers, directors, co-workers, etc.) to supervise all workforce members and any other user of Datica’s systems, applications, servers, workstations, etc. that contain ePHI.
 
@@ -119,7 +119,7 @@ Although the Security Officer is responsible for implementing and overseeing all
 
 3. Take all reasonable steps to hire, retain, and promote workforce members and provide access to users who comply with the Security regulation and Datica’s security policies and procedures.
 
-### 6.4.3 Sanctions of Workforce Responsibilities
+### 5.4.3 Sanctions of Workforce Responsibilities
 
 All workforce members report non-compliance of Datica's policies and procedures to the Security Officer or other individual as assigned by the Security Officer.  Individuals that report violations in good faith may not be subjected to intimidation, threats, coercion, discrimination against, or any other retaliatory action as a consequence.
 
@@ -138,4 +138,3 @@ All workforce members report non-compliance of Datica's policies and procedures 
 4. In the case of an insider threat, the Security Officer and Privacy Officer are to setup a team to investigate and mitigate the risk of insider malicious activity. Datica workforce members are encouraged to come forward with information about insider threats, and can do so anonymously.
 
 5. The Security Officer maintains all documentation of the investigation, sanctions provided, and actions taken to prevent reoccurrence for a minimum of six years after the conclusion of the investigation.
-

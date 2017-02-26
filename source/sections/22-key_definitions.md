@@ -1,4 +1,4 @@
-# 23. Key Definitions
+# 22. Key Definitions
 
 * *Application*: An application hosted by Datica, either maintained and created by Datica, or maintained and created by a Customer or Partner.
 

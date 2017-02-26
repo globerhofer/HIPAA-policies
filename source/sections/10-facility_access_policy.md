@@ -4,7 +4,7 @@ Datica works with Subcontractors to assure restriction of physical access to sys
 
 Of note, Datica does not have ready access to ePHI, it provides cloud-based, compliant infrastructure to covered entities and business associates. Datica does not physically house any systems used by its Platform in Datica facilities. Physical security of our Platform servers is outlined [here](http://broadcast.rackspace.com/downloads/pdfs/RackspaceSecurityApproach.pdf).
 
-## 11.1 Applicable Standards from the HITRUST Common Security Framework
+## 10.1 Applicable Standards from the HITRUST Common Security Framework
 
 * 08.b - Physical Entry Controls
 * 08.d - Protecting Against External and Environmental Threats
@@ -12,13 +12,13 @@ Of note, Datica does not have ready access to ePHI, it provides cloud-based, com
 * 08.l - Secure Disposal or Re-Use of Equipment
 * 09.p - Disposal of Media
 
-## 11.2 Applicable Standards from the HIPAA Security Rule
+## 10.2 Applicable Standards from the HIPAA Security Rule
 
 * 164.310(a)(2)(ii) Facility Security Plan
 * 164.310(a)(2)(iii) Access Control & Validation Procedures
 * 164.310(b-c) Workstation Use & Security
 
-## 11.3 Datica-controlled Facility Access Policies
+## 10.3 Datica-controlled Facility Access Policies
 
 1. Visitor and third party support access is recorded and supervised. All visitors are escorted.
 2. Repairs are documented and the documentation is retained.

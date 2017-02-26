@@ -1,4 +1,4 @@
-# 25. HIPAA Mappings to Datica Controls
+# 24. HIPAA Mappings to Datica Controls
 
 Below is a list of HIPAA Safeguards and Requirements and the Datica controls in place to meet those.
 

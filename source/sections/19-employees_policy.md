@@ -1,8 +1,8 @@
-# 20. Employees Policy
+# 19. Employees Policy
 
 Datica is committed to ensuring all workforce members actively address security and compliance in their roles at Datica. As such, training is imperative to assuring an understanding of current best practices, the different types and sensitivities of data, and the sanctions associated with non-compliance.
 
-## 20.1 Applicable Standards from the HITRUST Common Security Framework
+## 19.1 Applicable Standards from the HITRUST Common Security Framework
 
 * 02.e - Information Security Awareness, Education, and Training
 * 06.e - Prevention of Misuse of Information Assets
@@ -10,11 +10,11 @@ Datica is committed to ensuring all workforce members actively address security 
 * 08.j - Controls Against Malicious Code
 * 01.y - Teleworking
 
-## 20.2 Applicable Standards from the HIPAA Security Rule
+## 19.2 Applicable Standards from the HIPAA Security Rule
 
 * 164.308(a)(5)(i) - Security Awareness and Training
 
-## 20.3 Employment Policies
+## 19.3 Employment Policies
 
 1. All new workforce members, including contractors, are given training on security policies and procedures, including operations security, within 30 days of employment.
 	* Records of training are kept for all workforce members.

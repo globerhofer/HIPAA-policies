@@ -1,8 +1,8 @@
-# 22. 3rd Party Policy
+# 21. 3rd Party Policy
 
 Datica makes every effort to assure all 3rd party organizations are compliant and do not compromise the integrity, security, and privacy of Datica or Datica Customer data. 3rd Parties include Customers, Partners, Subcontractors, and Contracted Developers.
 
-## 22.1 Applicable Standards from the HITRUST Common Security Framework
+## 21.1 Applicable Standards from the HITRUST Common Security Framework
 
 *  05.i - Identification of Risks Related to External Parties
 *  05.k - Addressing Security in Third Party Agreements
@@ -11,11 +11,11 @@ Datica makes every effort to assure all 3rd party organizations are compliant an
 *  09.g - Managing Changes to Third Party Services
 *  10.1 - Outsourced Software Development
 
-## 22.2 Applicable Standards from the HIPAA Security Rule
+## 21.2 Applicable Standards from the HIPAA Security Rule
 
 * 164.314(a)(1)(i) - Business Associate Contracts or Other Arrangements
 
-## 22.3 Policies to Assure 3rd Parties Support Datica Compliance
+## 21.3 Policies to Assure 3rd Parties Support Datica Compliance
 
 1. The following steps are required before 3rd parties are granted access to any Datica systems:
 	* Due diligence with the 3rd party;

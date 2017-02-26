@@ -1,4 +1,4 @@
-# 12. Incident Response Policy
+# 11. Incident Response Policy
 
 Datica implements an information security incident response process to consistently detect, respond, and report incidents, minimize loss and destruction, mitigate the weaknesses that were exploited, and restore information system functionality and business continuity as soon as possible.
 
@@ -11,21 +11,21 @@ The incident response process addresses:
 * Workforce training, education, and awareness on information security incidents and required responses; and
 * Facilitation of clear communication of information security incidents with internal, as well as external, stakeholders
 
-## 12.1 Applicable Standards from the HITRUST Common Security Framework
+## 11.1 Applicable Standards from the HITRUST Common Security Framework
 
 * 11.a - Reporting Information Security Events
 * 11.c - Responsibilities and Procedures
 
-## 12.2 Applicable Standards from the HIPAA Security Rule
+## 11.2 Applicable Standards from the HIPAA Security Rule
 
 * 164.308(a)(5)(i) – Security Awareness and Training
 * 164.308(a)(6) – Security Incident Procedures
 
-## 12.3 Incident Management Policies
+## 11.3 Incident Management Policies
 
 The Datica incident response process follows the process recommended by SANS, an industry leader in security (www.sans.org). Process flows are a direct representation of the SANS process. Review Appendix 1 for a flowchart identifying each phase.
 
-### 12.3.1 Identification Phase
+### 11.3.1 Identification Phase
 
 1. Immediately upon observation Datica members report suspected and known Precursors, Events, Indications, and Incidents in one of the following ways:
 	1. Direct report to management, the Security Officer, Privacy Officer, or other;
@@ -49,7 +49,7 @@ The Datica incident response process follows the process recommended by SANS, an
 	11. The Security Officer, Privacy Officer, or Datica representative appointed notifies any affected Customers and Partners. If no Customers and Partners are affected, notification is at the discretion of the Security and Privacy Officer.
 	12. In the case of a threat identified, the Security Officer is to form a team to investigate and involve necessary resources, both internal to Datica and potentially external.
 
-### 12.3.2 Containment Phase (Technical)
+### 11.3.2 Containment Phase (Technical)
 
 In this Phase, Datica’s IT department attempts to contain the security incident. It is extremely important to take detailed notes during the security incident response process. This provides that the evidence gathered during the security incident can be used successfully during prosecution, if appropriate.
 
@@ -70,7 +70,7 @@ In this Phase, Datica’s IT department attempts to contain the security inciden
 4. Continuously apprise Senior Management of progress.
 5. Continue to notify affected Customers and Partners with relevant updates as needed
 
-### 12.3.4 Eradication Phase (Technical)
+### 11.3.4 Eradication Phase (Technical)
 
 The Eradication Phase represents the SIRT’s effort to remove the cause, and the resulting security exposures, that are now on the affected system(s).
 
@@ -87,7 +87,7 @@ The Eradication Phase represents the SIRT’s effort to remove the cause, and th
 7. Continue to notify affected Customers and Partners with relevant updates as needed.
 8. Move to Phase IV, Recovery.
 
-### 12.3.5 Recovery Phase (Technical)
+### 11.3.5 Recovery Phase (Technical)
 
 The Recovery Phase represents the SIRT’s effort to restore the affected system(s) back to operation after the resulting security exposures, if any, have been corrected.
 
@@ -101,7 +101,7 @@ The Recovery Phase represents the SIRT’s effort to restore the affected system
 	7. Continue to notify affected Customers and Partners with relevant updates as needed.
 	8. Move to Phase V, Follow-up.
 
-### 12.3.6 Follow-up Phase (Technical and Non-Technical)
+### 11.3.6 Follow-up Phase (Technical and Non-Technical)
 
 The Follow-up Phase represents the review of the security incident to look for “lessons learned” and to determine whether the process that was taken could have been improved in any way. It is recommended all security incidents be reviewed shortly after resolution to determine where response could be improved. Timeframes may extend to one to two weeks post-incident.
 
@@ -113,11 +113,11 @@ The Follow-up Phase represents the review of the security incident to look for �
 	4. Carry out recommendations approved by Senior Management; sufficient budget, time and resources should be committed to this activity.
 	5. Close the security incident.
 
-### 12.3.7 Periodic Evaluation
+### 11.3.7 Periodic Evaluation
 
 It is important to note that the processes surrounding security incident response should be periodically reviewed and evaluated for effectiveness. This also involves appropriate training of resources expected to respond to security incidents, as well as the training of the general population regarding the Datica’s expectation for them, relative to security responsibilities. The incident response plan is tested annually.
 
-## 12.4 Security Incident Response Team (SIRT)
+## 11.4 Security Incident Response Team (SIRT)
 
 Individuals needed and responsible to respond to a security incident make up a Security Incident Response Team (SIRT). Members may include the following:
 
