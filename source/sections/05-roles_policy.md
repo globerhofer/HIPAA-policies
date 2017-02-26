@@ -42,16 +42,16 @@ The current Datica Privacy Officer is Travis Good ([travis@datica.com](mailto:tr
    4. Risk Management procedures and documentation;
    5. Auditing.  Datica may monitor access and activities of all users;
    6. Workstations may only be used to perform assigned job responsibilities;
-   7. Users may not download software onto Datica’s workstations and/or systems without prior approval from the Security Officer;
+   7. Users may not download software onto Datica's workstations and/or systems without prior approval from the Security Officer;
    8. Users are required to report malicious software to the Security Officer immediately;
-   9. Users are required to report unauthorized attempts, uses of, and theft of Datica’s systems and/or workstations;
+   9. Users are required to report unauthorized attempts, uses of, and theft of Datica's systems and/or workstations;
    10. Users are required to report unauthorized access to facilities
    11. Users are required to report noted log-in discrepancies (i.e. application states users last log-in was on a date user was on vacation;
    12. Users may not alter ePHI maintained in a database, unless authorized to do so by a Datica Customer;
-   13. Users are required to understand their role in Datica’s contingency plan;
+   13. Users are required to understand their role in Datica's contingency plan;
    14. Users may not share their user names nor passwords with anyone;
    15. Requirements for users to create and change passwords;
-   16. Users must set all applications that contain or transmit ePHI to automatically log off after “X” minutes of inactivity;
+   16. Users must set all applications that contain or transmit ePHI to automatically log off after "X" minutes of inactivity;
    17. Supervisors are required to report terminations of workforce members and other outside users;
    18. Supervisors are required to report a change in a users title, role, department, and/or location;
    19. Procedures to backup ePHI;
@@ -68,7 +68,7 @@ The current Datica Security Officer is Adam Leko ([adam@datica.com](mailto:adam@
 
 ### 5.3.1 Organizational Responsibilities
 
-The Security Officer, in collaboration with the Privacy Officer, is responsible for facilitating the development, implementation, and oversight of all activities pertaining to Datica’s efforts to be compliant with the HIPAA Security Regulations, HITRUST CSF, and any other security and compliance frameworks.  The intent of the Security Officer Responsibilities is to maintain the confidentiality, integrity, and availability of ePHI.  These organizational responsibilities include, but are not limited to the following:
+The Security Officer, in collaboration with the Privacy Officer, is responsible for facilitating the development, implementation, and oversight of all activities pertaining to Datica's efforts to be compliant with the HIPAA Security Regulations, HITRUST CSF, and any other security and compliance frameworks.  The intent of the Security Officer Responsibilities is to maintain the confidentiality, integrity, and availability of ePHI.  These organizational responsibilities include, but are not limited to the following:
 
 1. Oversees and enforces all activities necessary to maintain compliance and verifies the activities are in alignment with the requirements.
 2. Helps to established and maintain written policies and procedures to comply with the Security rule and maintains them for six years from the date of creation or date it was last in effect, whichever is later.
@@ -82,11 +82,11 @@ The Security Officer, in collaboration with the Privacy Officer, is responsible 
 10. Maintains a program promoting workforce members to report non-compliance with policies and procedures.
     * Promptly, properly, and consistently investigates and addresses reported violations and takes steps to prevent recurrence.
     * Applies consistent and appropriate sanctions against workforce members who fail to comply with the security policies and procedures of Datica.
-    * Mitigates, to the extent practicable, any harmful effect known to Datica of a use or disclosure of ePHI in violation of Datica’s policies and procedures, even if effect is the result of actions of Datica business associates, customers, and/or partners.
+    * Mitigates, to the extent practicable, any harmful effect known to Datica of a use or disclosure of ePHI in violation of Datica's policies and procedures, even if effect is the result of actions of Datica business associates, customers, and/or partners.
 11. Reports security efforts and incidents to administration immediately upon discovery. Responsibilities in the case of a known ePHI breach are documented in the [Datica Breach Policy](./#12-breach-policy).
 12. The Security Officer facilitates the communication of security updates and reminders to all workforce members to which it pertains.  Examples of security updates and reminders include, but are not limited to:
     * Latest malicious software or virus alerts;
-    * Datica’s requirement to report unauthorized attempts to access ePHI;
+    * Datica's requirement to report unauthorized attempts to access ePHI;
     * Changes in creating or changing passwords;
     * Additional security-focused training is provided to all workforce members by the Security Officer.  This training includes, but is not limited to:
     * Data backup plans;
@@ -100,21 +100,21 @@ The Security Officer, in collaboration with the Privacy Officer, is responsible 
 
 ### 5.3.2 Supervision of Workforce Responsibilities
 
-Although the Security Officer is responsible for implementing and overseeing all activities related to maintaining compliance, it is the responsibility of all workforce members (i.e. team leaders, supervisors, managers, directors, co-workers, etc.) to supervise all workforce members and any other user of Datica’s systems, applications, servers, workstations, etc. that contain ePHI.
+Although the Security Officer is responsible for implementing and overseeing all activities related to maintaining compliance, it is the responsibility of all workforce members (i.e. team leaders, supervisors, managers, directors, co-workers, etc.) to supervise all workforce members and any other user of Datica's systems, applications, servers, workstations, etc. that contain ePHI.
 
 1. Monitor workstations and applications for unauthorized use, tampering, and theft and report non-compliance according to the Security Incident Response policy.
 2. Assist the Security and Privacy Officers to ensure appropriate role-based access is provided to all users.
-3. Take all reasonable steps to hire, retain, and promote workforce members and provide access to users who comply with the Security regulation and Datica’s security policies and procedures.
+3. Take all reasonable steps to hire, retain, and promote workforce members and provide access to users who comply with the Security regulation and Datica's security policies and procedures.
 
 ### 5.3.3 Sanctions of Workforce Responsibilities
 
 All workforce members report non-compliance of Datica's policies and procedures to the Security Officer or other individual as assigned by the Security Officer.  Individuals that report violations in good faith may not be subjected to intimidation, threats, coercion, discrimination against, or any other retaliatory action as a consequence.
 
-1. The Security Officer promptly facilitates a thorough investigation of all reported violations of Datica’s security policies and procedures.  The Security Officer may request the assistance from others.
+1. The Security Officer promptly facilitates a thorough investigation of all reported violations of Datica's security policies and procedures.  The Security Officer may request the assistance from others.
    * Complete an audit trail/log to identify and verify the violation and sequence of events.
    * Interview any individual that may be aware of or involved in the incident.
    * All individuals are required to cooperate with the investigation process and provide factual information to those conducting the investigation.
-   * Provide individuals suspected of non-compliance of the Security rule and/or Datica’s policies and procedures the opportunity to explain their actions.
+   * Provide individuals suspected of non-compliance of the Security rule and/or Datica's policies and procedures the opportunity to explain their actions.
    * The investigators thoroughly documents the investigation as the investigation occurs.
 2. Violation of any security policy or procedure by workforce members may result in corrective disciplinary action, up to and including termination of employment.  Violation of this policy and procedures by others, including business associates, customers, and partners may result in termination of the relationship and/or associated privileges.  Violation may also result in civil and criminal penalties as determined by federal and state laws and regulations.
    * A violation resulting in a breach of confidentiality (i.e. release of PHI to an unauthorized individual), change of the integrity of any ePHI, or inability to access any ePHI by other users, requires immediate termination of the workforce member from Datica.

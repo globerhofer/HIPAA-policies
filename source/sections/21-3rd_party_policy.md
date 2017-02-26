@@ -25,7 +25,7 @@ Datica makes every effort to assure all 3rd party organizations are compliant an
    * Written agreements, with appropriate security requirements, are executed.
 2. All connections and data in transit between the Datica Platform and 3rd parties are encrypted end to end.
 3. Access granted to external parties is limited to the minimum necessary and granted only for the duration required.
-4. A standard business associate agreement with Customers and Partners is defined and includes the required security controls in accordance with the organization’s security policies. Additionally, responsibility is assigned in these agreements.
+4. A standard business associate agreement with Customers and Partners is defined and includes the required security controls in accordance with the organization's security policies. Additionally, responsibility is assigned in these agreements.
 5. Datica has Service Level Agreements (SLAs) with Subcontractors with an agreed service arrangement addressing liability, service definitions, security controls, and aspects of services management.
    * Datica utilizes monitoring tools to regularly evaluate Subcontractors against relevant SLAs.
 7. Third parties are unable to make changes to any Datica infrastructure without explicit permission from Datica. Additionally, no Datica Customers or Partners have access outside of their own environment, meaning they cannot access, modify, or delete anything related to other 3rd parties.
