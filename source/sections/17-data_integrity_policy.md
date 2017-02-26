@@ -2,48 +2,50 @@
 
 Datica takes data integrity very seriously. As stewards and partners of Datica Customers, we strive to assure data is protected from unauthorized access and that it is available when needed. The following policies drive many of our procedures and technical settings in support of the Datica mission of data protection.
 
-## 17.1 Applicable Standards from the HITRUST Common Security Framework
+## 17.1 Applicable Standards
+
+### 17.1.1 Applicable Standards from the HITRUST Common Security Framework
 
 * 10.b - Input Data Validation
 
-## 17.2 Applicable Standards from the HIPAA Security Rule
+### 17.1.2 Applicable Standards from the HIPAA Security Rule
 
 * 164.308(a)(8) - Evaluation
 
-## 17.3 Data integrity Policy
+## 17.2 Data Integrity Policy
 
 Production Systems that create, receive, store, or transmit customer data (hereafter "Production Systems") must follow the following guidelines.
 
-### 17.4 Disabling non-essential services
+### 17.2.1 Disabling Non-Essential Services
 
 * All Production Systems must disable services that are not required to achieve the business purpose or function of the system.
 
-### 17.5 Monitoring Log-in Attempts
+### 17.2.2 Monitoring Log-in Attempts
 
 * All access to Production Systems must be logged. This is done following the Datica Auditing Policy.
 
-### 17.6 Prevention of Malware on Production Systems
+### 17.2.3 Prevention of Malware on Production Systems
 
 * All Production Systems must have OSSEC running at set to scan system every 2 hours and at reboot to assure not malware is present. Detected malware is evaluated and removed.
 * All Production Systems are to only be used for Datica business needs.
 
-### 17.7 Patch Management
+### 17.2.4 Patch Management
 
 * Patches, application, and system OS versions are kept up to date at all times. New versions are tested.
 * Administrators subscribe to mailing lists to assure up to date on current version of all Datica managed software on Production Systems.
 
-### 17.8 Intrusion Detection and Vulnerability Scanning
+### 17.2.5 Intrusion Detection and Vulnerability Scanning
 
 * Production Systems are monitors using IDS systems. Suspicious activity is logged and alerts are generated.
 * Vulnerability scanning of Production Systems must occur on a predetermined, regular basis, no less than annually. Currently it is weekly. Scans are reviewed by Security Officer, with defined steps for risk mitigation, and retained for future reference.
 
-### 17.9 Production System Security
+### 17.2.6 Production System Security
 
 * System, network, and server security is managed and maintained by the VP of Engineering and the Security Officer.
 * Up to date system lists and architecture diagrams are kept for all Production environments.
 * Access to Production Systems is controlled using centralized tools and two-factor authentication.
 
-### 17.10 Production Data Security
+### 17.2.7 Production Data Security
 
 * Reduce the risk of compromise of Production Data.
 * Implement and/or review controls designed to protect Production Data from improper alteration or destruction.
@@ -53,7 +55,7 @@ Production Systems that create, receive, store, or transmit customer data (herea
 * Volume encryption keys and machines that generate volume encryption keys are protected from unauthorized access. Volume encryption key material is protected with access controls such that the key material is only accessible by privileged accounts.
 * Encrypted volumes use AES encryption with a minimum of 256-bit keys, or keys and ciphers of equivalent or higher cryptographic strength.
 
-### 17.11 Transmission Security
+### 17.2.8 Transmission Security
 
 * All data transmission is encrypted end to end. Encryption is not terminated at the network end point, and is carried through to the application.
 * Transmission encryption keys and machines that generate keys are protected from unauthorized access. Transmission encryption key material is protected with access controls such that the key material is only accessible by privileged accounts.

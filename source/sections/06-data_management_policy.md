@@ -6,24 +6,26 @@ Data backup is an important part of the day-to-day operations of Datica. To prot
 
 Violation of this policy and its procedures by workforce members may result in corrective disciplinary action, up to and including termination of employment.
 
-## 6.1 Applicable Standards from the HITRUST Common Security Framework
+## 6.1 Applicable Standards
+
+### 6.1.1 Applicable Standards from the HITRUST Common Security Framework
 
 * 01.v - Information Access Restriction
 
-## 6.2 Applicable Standards from the HIPAA Security Rule
+### 6.1.2 Applicable Standards from the HIPAA Security Rule
 
 * 164.308(a)(7)(ii)(A) - Data Backup Plan
 * 164.310(d)(2)(iii) - Accountability
 * 164.310(d)(2)(iv) - Data Backup and Storage
 
-## 6.3 Backup Policy and Procedures
+## 6.2 Backup Policy and Procedures
 
-1. Perform daily snapshot backups of all systems that process, store, or transmit ePHI for Datica Customers, including PaaS Customers that utilize the Datica Backup Service
+1. Perform daily snapshot backups of all systems that process, store, or transmit ePHI for Datica Customers, including PaaS Customers that utilize the Datica Backup Service.
 2. Datica Ops Team, lead by VP of Engineering, is designated to be in charge of backups.
 3. Dev Ops Team members are trained and assigned assigned to complete backups and manage the backup media.
 4. Document backups
-	* Name of the system
-	* Date & time of backup
-	* Where backup stored (or to whom it was provided)
+   * Name of the system
+   * Date & time of backup
+   * Where backup stored (or to whom it was provided)
 5. Securely encrypt stored backups in a manner that protects them from loss or environmental damage.
 6. Test backups and document that files have been completely and accurately restored from the backup media.

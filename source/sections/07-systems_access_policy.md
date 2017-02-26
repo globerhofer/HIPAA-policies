@@ -2,7 +2,9 @@
 
 Access to Datica systems and application is limited for all users, including but not limited to workforce members, volunteers, business associates, contracted providers, consultants, and any other entity, is allowable only on a minimum necessary basis. All users are responsible for reporting an incident of unauthorized user or access of the organization’s information systems. These safeguards have been established to address the HIPAA Security regulations including the following:
 
-## 7.1 Applicable Standards from the HITRUST Common Security Framework
+## 7.1 Applicable Standards
+
+### 7.1.1 Applicable Standards from the HITRUST Common Security Framework
 
 * 01.d - User Password Management
 * 01.f - Password Use
@@ -16,7 +18,7 @@ Access to Datica systems and application is limited for all users, including but
 * 02.i - Removal of Access Rights
 * 06.e - Prevention of Misuse of Information Assets
 
-## 7.2 Applicable Standards from the HIPAA Security Rule
+### 7.1.2 Applicable Standards from the HIPAA Security Rule
 
 * 164.308a4iiC Access Establishment and Modification
 * 164.308a3iiB Workforce Clearance Procedures
@@ -29,7 +31,7 @@ Access to Datica systems and application is limited for all users, including but
 * 164.310c Workstation Security
 * 164.308a3iiC Termination Procedures
 
-## 7.3 Access Establishment and Modification
+## 7.2 Access Establishment and Modification
 
 * Requests for access to Datica Platform systems and applications is made formally to the VP of Engineering, Privacy Officer, or Security Officer.
 * Access is not granted until receipt, review, and approval by the Datica Security Officer;
@@ -38,34 +40,34 @@ Access to Datica systems and application is limited for all users, including but
 * Any Datica workforce member can request change of access using this [form](https://docs.google.com/a/catalyze.io/forms/d/1ySICzCyEEdNqxHHErjlJqREBijwxs9z72L-rWXrxkm0/viewform).
 * Access to systems is controlled using centralized user management and authentication. All authentication requests utilize two factor authentication using mobile devices as the second factor.
 * Temporary accounts are not used unless absolutely necessary for business purposes.
-	* Accounts are reviewed every 90 days to assure temporary accounts are not left unnecessarily.
-	* Accounts that are inactive for over 90 days are removed.
+  * Accounts are reviewed every 90 days to assure temporary accounts are not left unnecessarily.
+  * Accounts that are inactive for over 90 days are removed.
 * In the case of non-personal information, such as generic educational content, identification and authentication may not be required. This is the responsibility of Datica Customers to define, and not Datica.
 * Privileged users must first access systems using standard, unique user accounts before switching to privileged users and performing privileged tasks.
 * All application to application communication using service accounts is restricted and not permitted unless absolutely needed. Automated tools are used to limit account access across applications and systems.
 * Generic accounts are not allowed on Datica systems.
 * Access is granted through encrypted, VPN tunnels.
-	* VPN utilizes AES 256 bit encryption.
+  * VPN utilizes AES 256 bit encryption.
 * In cases of increased risk or known attempted unauthorized access, immediate steps are taken by the Security and Privacy Officer to limit access and reduce risk of unauthorized access.
 * Direct system to system, system to application, and application to application authentication and authorization are limited and controlled to restrict access.
 
-## 7.4 Workforce Clearance Procedures
+## 7.3 Workforce Clearance Procedures
 
 * The level of security assigned to a user to the organization’s information systems is based on the minimum necessary amount of data access required to carry out legitimate job responsibilities assigned to a user’s job classification and/or to a user needing access to carry out treatment, payment, or healthcare operations.
 * All access requests are treated on a ‘least-access principle”.
 * Datica maintains a minimum necessary approach to access to Customer data. As such, Datica, including all workforce members, does not readily have access to any ePHI.
 
-## 7.5 Access Authorization
+## 7.4 Access Authorization
 
 * Role based access categories for each Datica system and application are pre-approved by the Security Officer or VP of Engineering.
 * Datica utilizes hardware and software firewalls to segment data, prevent unauthorized access, and monitor traffic for denial of service attacks.
 
-## 7.6 Person or Entity Authentication
+## 7.5 Person or Entity Authentication
 
 * Each workforce member has and uses a unique user ID and password that identifies him/her as the user of the information system.
 * Each Customer and Partner has and uses a unique user ID and password that identifies him/her as the user of the information system.
 
-## 7.7 Unique User Identification
+## 7.6 Unique User Identification
 
 * Access to the Datica Platform systems and applications is controlled by requiring unique User Login ID’s and passwords for each individual user and developer.
 * Passwords requirements mandate strong password controls (see below).
@@ -73,13 +75,13 @@ Access to Datica systems and application is limited for all users, including but
 * Default accounts on all production systems, including root, are disabled.
 * Shared accounts are not allowed within Datica systems or networks.
 
-## 7.8 Automatic Logoff
+## 7.7 Automatic Logoff
 
 * Users are required to make information systems inaccessible by any other individual when unattended by the users (ex. by using a password protected screen saver or logging off the system).
 * Information systems automatically log users off the systems after 10 minutes of inactivity.
 * The Security Officer pre-approves exceptions to automatic log off requirements.
 
-## 7.9 Employee Workstation Use
+## 7.8 Employee Workstation Use
 
 All workstations at Datica are company owned, and all are laptop Apple products running Mac operating system.
 
@@ -93,32 +95,32 @@ All workstations at Datica are company owned, and all are laptop Apple products 
 * All workstations have firewalls enabled to prevent unauthorized access unless explicitly granted.
 * All workstations are to have the following messages added to the lock screen and login screen: *This computer is owned by Datica, Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://policy.datica.com) and have completed this training (https://training.datica.com/). Please contact us if you have problems with this - privacy@datica.com.*
 
-## 7.10 Wireless Access Use
+## 7.9 Wireless Access Use
 
 * Datica production systems are not accessible directly over wireless channels.
 * Wireless access disabled on all production systems.
 * When access production systems via remote wireless connections, the same system access policies and procedures apply to wireless as all other connections, including wired.
 * Wireless networks managed within Datica non-production facilities (offices, etc) are secured with the following configurations:
-	* All data in transit over wireless is encrypted using WPA2 encryption;
-	* SSIDs are not broadcast;
-	* Passwords are rotated on a regular basis, presently quarterly. This process is managed by the Datica Security Officer.
+  * All data in transit over wireless is encrypted using WPA2 encryption;
+  * SSIDs are not broadcast;
+  * Passwords are rotated on a regular basis, presently quarterly. This process is managed by the Datica Security Officer.
 
 
-## 7.11 Employee Termination Procedures
+## 7.10 Employee Termination Procedures
 
 * The Human Resources Department (or other designated department), users, and their supervisors are required to notify the Security Officer upon completion and/or termination of access needs and facilitating completion of the “Termination Checklist".
 * The Human Resources Department, users, and supervisors are required to notify the IS Help Desk to terminate a user’s access rights if there is evidence or reason to believe the following (these incidents are also reported on an incident report and is filed with the Privacy Officer):
-	* The user has been using their access rights inappropriately;
-	* A user’s password has been compromised (a new password may be provided to the user if the user is not identified as the individual compromising the original password);
-	* An unauthorized individual is utilizing a user’s User Login ID and password (a new password may be provided to the user if the user is not identified as providing the unauthorized individual with the User Login ID and password).
+  * The user has been using their access rights inappropriately;
+  * A user’s password has been compromised (a new password may be provided to the user if the user is not identified as the individual compromising the original password);
+  * An unauthorized individual is utilizing a user’s User Login ID and password (a new password may be provided to the user if the user is not identified as providing the unauthorized individual with the User Login ID and password).
 * The Security Officer will terminate users’ access rights immediately upon notification.
 * The Security Officer audits and may terminate access of users that have not logged into organization’s information systems/applications for an extended period of time.
 
-## 7.12 Paper Records
+## 7.11 Paper Records
 
 Datica does not use paper records for any sensitive information. Use of paper for recording and storing sensitive data is against Datica policies.
 
-## 7.13 Password Management
+## 7.12 Password Management
 
 * User IDs and passwords are used to control access to Datica systems and may not be disclosed to anyone for any reason.
 * Users may not allow anyone, for any reason, to have access to any information system using another user’s unique user ID and password.
@@ -131,7 +133,7 @@ Datica does not use paper records for any sensitive information. Use of paper fo
 * All passwords used in configuration scripts are secured and encrypted.
 * If a user believes their user ID has been compromised, they are required to immediately report the incident to the Security Office.
 
-## 7.14 PaaS Customer Access to Systems
+## 7.13 PaaS Customer Access to Systems
 
 Datica grants PaaS customer secure system access via VPN connections. This access is only to Customer-specific systems, no other systems in the environment. These connections are setup at customer deployment. These connections are secured and encrypted and the only method for customers to connect to Datica hosted systems.
 

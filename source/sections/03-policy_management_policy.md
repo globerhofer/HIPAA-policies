@@ -2,16 +2,18 @@
 
 Datica implements policies and procedures to maintain compliance and integrity of data. The Security Officer and Privacy Officer are responsible for maintaining policies and procedures and assuring all Datica workforce members, business associates, customers, and partners are adherent to all applicable policies. Previous versions of policies are retained to assure ease of finding policies at specific historic dates in time.
 
-## 3.1 Applicable Standards from the HITRUST Common Security Framework
+## 3.1 Applicable Standards
+
+### 3.1.1 Applicable Standards from the HITRUST Common Security Framework
 
 * 12.c - Developing and Implementing Continuity Plans Including Information Security
 
-## 3.2 Applicable Standards from the HIPAA Security Rule
+### 3.1.2 Applicable Standards from the HIPAA Security Rule
 
 * 164.316(a) - Policies and Procedures
 * 164.316(b)(1)(i) - Documentation
 
-## 3.3 Maintenance of Policies
+## 3.2 Maintenance of Policies
 
 1. All policies are stored and up to date to maintain Datica compliance with HIPAA, HITRUST, NIST, and other relevant standards. Updates and version control are done similar to source code control.
 2. Policy update requests can be made by any workforce member at any time. Furthermore, all policies are reviewed annually by both the Security and Privacy Officer to assure they are accurate and up-to-date.

@@ -4,15 +4,17 @@ Datica recognizes that media containing ePHI may be reused when appropriate step
 
 Datica utilizes dedicated hardware from Subcontractors. ePHI is only stored on SSD volumes in our hosted environment. All SSD volumes utilized by Datica and Datica Customers are encrypted. Datica does not use, own, or manage any mobile devices, SD cards, or tapes that have access to ePHI.
 
-## 14.1 Applicable Standards from the HITRUST Common Security Framework
+## 14.1 Applicable Standards
+
+### 14.1.1 Applicable Standards from the HITRUST Common Security Framework
 
 * 0.9o - Management of Removable Media
 
-## 14.2 Applicable Standards from the HIPAA Security Rule
+### 14.1.2 Applicable Standards from the HIPAA Security Rule
 
 * 164.310(d)(1) - Device and Media Controls
 
-## 14.3 Disposable Media Policy
+## 14.2 Disposable Media Policy
 
 1. All removable media is restricted, audited, and is encrypted.
 2. Datica assumes all disposable media in its Platform may contain ePHI, so it treats all disposable media with the same protections and disposal policies.
@@ -23,5 +25,5 @@ Datica utilizes dedicated hardware from Subcontractors. ePHI is only stored on S
 7. Any media containing ePHI is disposed using a method that ensures the ePHI could not be readily recovered or reconstructed.
 8. The methods of destruction, disposal, and reuse are reassessed periodically, based on current technology, accepted practices, and availability of timely and cost-effective destruction, disposal, and reuse technologies and services.
 9. In the cases of a Datica Customer terminating a contract with Datica and no longer utilize Datica Services, the following actions will be taken depending on the Datica Services in use. In all cases it is solely the responsibility of the Datica Customer to maintain the safeguards required of HIPAA once the data is transmitted out of Datica Systems.
-	* In the case of BaaS Customer termination, Datica will provide the customer with the ability to export data in commonly used format, currently CSV, for 30 days from the time of termination.
-	* In the case of PaaS Customer termination, Datica will provide the customer with 30 days from the date of termination to export data.
+   * In the case of BaaS Customer termination, Datica will provide the customer with the ability to export data in commonly used format, currently CSV, for 30 days from the time of termination.
+   * In the case of PaaS Customer termination, Datica will provide the customer with 30 days from the date of termination to export data.
