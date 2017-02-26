@@ -43,8 +43,8 @@ This HIPAA Business Associate Agreement (this “BAA”) defines the rights and 
 8. Nondisclosure. Customer agrees that the terms of this BAA are not publicly known and constitute Business Associate Confidential Information under the Agreement.
 9. Entire Agreement; Conflict. Except as amended by this BAA, the Agreement will remain in full force and effect. This BAA, together with the Agreement as amended by this BAA: (a) is intended by the parties as a final, complete and exclusive expression of the terms of their agreement; and (b) supersedes all prior agreements and understandings (whether oral or written) between the parties with respect to the subject matter hereof. If there is a conflict between the Agreement, this BAA or any other amendment or BAA to the Agreement or this BAA, the document later in time will prevail.
 10. Miscellaneous.
-	1. Amendment. Customer and Business Associate agrees to take such action as is reasonably necessary to amend this HIPAA BAA from time to time as is necessary for either party to comply with the requirements of the Privacy Rule and related laws and regulations.
-	2. Survival.  Customer and Business Associate’s respective rights and obligations under this HIPAA BAA shall survive the termination of the Agreement.
-	3. Interpretation. Any ambiguity in the PaaS Agreement shall be resolved to permit Customer to comply with HIPAA and the Privacy Rule.
+    1. Amendment. Customer and Business Associate agrees to take such action as is reasonably necessary to amend this HIPAA BAA from time to time as is necessary for either party to comply with the requirements of the Privacy Rule and related laws and regulations.
+    2. Survival.  Customer and Business Associate’s respective rights and obligations under this HIPAA BAA shall survive the termination of the Agreement.
+    3. Interpretation. Any ambiguity in the PaaS Agreement shall be resolved to permit Customer to comply with HIPAA and the Privacy Rule.
 
-SIGNATURE  FOLLOWS
+SIGNATURE FOLLOWS

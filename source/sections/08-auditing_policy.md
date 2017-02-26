@@ -55,21 +55,21 @@ This policy applies to all Datica Add-on systems, including BaaS, that store, tr
 9. In addition to trigger events, Datica utilizes OSSEC log correlation functionality to proactively identify and enable alerts based on log data.
 10. Logs are reviewed weekly by Security Officer.
 11. Datica’s Security Officer and Privacy Officer are authorized to select and use auditing tools that are designed to detect network vulnerabilities and intrusions. Such tools are explicitly prohibited by others, including Customers and Partners, without the explicit authorization of the Security Officer. These tools may include, but are not limited to:
-	* Scanning tools and devices;
-	* Password cracking utilities;
-	* Network “sniffers.”
-	* Passive and active intrusion detection systems.
+    * Scanning tools and devices;
+    * Password cracking utilities;
+    * Network “sniffers.”
+    * Passive and active intrusion detection systems.
 12. The process for review of audit logs, trails, and reports shall include:
-	* Description of the activity as well as rationale for performing the audit.
-	* Identification of which Datica workforce members will be responsible for review (workforce members shall not review audit logs that pertain to their own system activity).
-	* Frequency of the auditing process.
-	* Determination of significant events requiring further review and follow-up.
-	* Identification of appropriate reporting channels for audit results and required follow-up.
+    * Description of the activity as well as rationale for performing the audit.
+    * Identification of which Datica workforce members will be responsible for review (workforce members shall not review audit logs that pertain to their own system activity).
+    * Frequency of the auditing process.
+    * Determination of significant events requiring further review and follow-up.
+    * Identification of appropriate reporting channels for audit results and required follow-up.
 13. Vulnerability testing software may be used to probe the network to identify what is running (e.g., operating system or product versions in place), whether publicly-known vulnerabilities have been corrected, and evaluate whether the system can withstand attacks aimed at circumventing security controls.
-	* Testing may be carried out internally or provided through an external third-party vendor. Whenever possible, a third party auditing vendor should not be providing the organization IT oversight services (e.g., vendors providing IT services should not be auditing their own services - separation of duties).
-	* Testing shall be done on a routine basis, currently monthly.
+    * Testing may be carried out internally or provided through an external third-party vendor. Whenever possible, a third party auditing vendor should not be providing the organization IT oversight services (e.g., vendors providing IT services should not be auditing their own services - separation of duties).
+    * Testing shall be done on a routine basis, currently monthly.
 14. Software patches and updates will be applied to all systems in a timely manner. In the case of routine updates, they will be applied after thorough testing. In the case of updates to correct known vulnerabilities, priority will be given to testing to speed the time to production. Critical security patches are applied within 30 days from testing and all security patches are applied within 90 days after testing.
-	* In the case of PaaS Customers, updates to Application and Database versions are the responsibility of Customers, though Datica will, at it's own discretion, notify and recommend updates to customer systems.
+    * In the case of PaaS Customers, updates to Application and Database versions are the responsibility of Customers, though Datica will, at it's own discretion, notify and recommend updates to customer systems.
 
 ## 8.3 Audit Requests
 

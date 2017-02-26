@@ -34,9 +34,7 @@ The current Datica Privacy Officer is Travis Good ([travis@datica.com](mailto:tr
    2. Existing workforce members annually;
    3. Existing workforce members whose functions are affected by a material change in the policies and procedures, within a month after the material change becomes effective;
    4. Existing workforce members as needed due to changes in security and risk posture of Datica.
-
 2. The Security Officer or designee maintains documentation of the training session materials and attendees for a minimum of six years.
-
 3. The training session focuses on, but is not limited to, the following subjects defined in Datica's security policies and procedures:
    1. HIPAA Privacy, Security, and Breach notification rules;
    2. HITRUST Common Security Framework;
@@ -87,18 +85,18 @@ The Security Officer, in collaboration with the Privacy Officer, is responsible 
     * Mitigates, to the extent practicable, any harmful effect known to Datica of a use or disclosure of ePHI in violation of Datica’s policies and procedures, even if effect is the result of actions of Datica business associates, customers, and/or partners.
 11. Reports security efforts and incidents to administration immediately upon discovery. Responsibilities in the case of a known ePHI breach are documented in the [Datica Breach Policy](./#12-breach-policy).
 12. The Security Officer facilitates the communication of security updates and reminders to all workforce members to which it pertains.  Examples of security updates and reminders include, but are not limited to:
-	* Latest malicious software or virus alerts;
-	* Datica’s requirement to report unauthorized attempts to access ePHI;
-	* Changes in creating or changing passwords;
-	* Additional security-focused training is provided to all workforce members by the Security Officer.  This training includes, but is not limited to:
-	* Data backup plans;
-	* System auditing procedures;
-	* Redundancy procedures;
-	* Contingency plans;
-	* Virus protection;
-	* Patch management;
-	* Media Disposal and/or Re-use;
-	* Documentation requirements.
+    * Latest malicious software or virus alerts;
+    * Datica’s requirement to report unauthorized attempts to access ePHI;
+    * Changes in creating or changing passwords;
+    * Additional security-focused training is provided to all workforce members by the Security Officer.  This training includes, but is not limited to:
+    * Data backup plans;
+    * System auditing procedures;
+    * Redundancy procedures;
+    * Contingency plans;
+    * Virus protection;
+    * Patch management;
+    * Media Disposal and/or Re-use;
+    * Documentation requirements.
 
 ### 5.3.2 Supervision of Workforce Responsibilities
 

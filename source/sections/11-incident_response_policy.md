@@ -39,15 +39,15 @@ The Datica incident response process follows the process recommended by SANS, an
    7. The individual receiving the report facilitates completion of an [Incident Identification form](./incident.orm.pdf) and notifies the Security Officer (if not already done).
    8. The Security Officer determines if the issue is a Precursor, Event, Indication, or Incident.
    9. If the issue is an event, indication, or precursor the Security Officer forwards it to the appropriate resource for resolution.
-	  1. Non-Technical Event (minor infringement): the Security Officer completes a SIR Form (see Appendix 2) and investigates the incident.
-	  2. Technical Event: Assign the issue to an IT resource for resolution. This resource may also be a contractor or outsourced technical resource, in the event of a small office or lack of expertise in the area.
+      1. Non-Technical Event (minor infringement): the Security Officer completes a SIR Form (see Appendix 2) and investigates the incident.
+      2. Technical Event: Assign the issue to an IT resource for resolution. This resource may also be a contractor or outsourced technical resource, in the event of a small office or lack of expertise in the area.
    10. If the issue is a security incident the Security Officer activates the Security Incident Response Team (SIRT) and notifies senior management.
        1. If a non-technical security incident is discovered the SIRT completes the investigation, implements preventative measures, and resolves the security incident.
-	   2. Once the investigation is completed, progress to Phase V, Follow-up.
-	   3. If the issue is a technical security incident, commence to Phase II: Containment.
-	   4. The Containment, Eradication, and Recovery Phases are highly technical. It is important to have them completed by a highly qualified technical security resource with oversight by the SIRT team.
-	   5. Each individual on the SIRT and the technical security resource document all measures taken during each phase, including the start and end times of all efforts.
-	   6. The lead member of the SIRT team facilitates initiation of a Security Incident Report (SIR) Form (See Appendix 2 for sample format) or an Incident Survey Form (See Appendix 4).  The intent of the SIR form is to provide a summary of all events, efforts, and conclusions of each Phase of this policy and procedures.
+       2. Once the investigation is completed, progress to Phase V, Follow-up.
+       3. If the issue is a technical security incident, commence to Phase II: Containment.
+       4. The Containment, Eradication, and Recovery Phases are highly technical. It is important to have them completed by a highly qualified technical security resource with oversight by the SIRT team.
+       5. Each individual on the SIRT and the technical security resource document all measures taken during each phase, including the start and end times of all efforts.
+       6. The lead member of the SIRT team facilitates initiation of a Security Incident Report (SIR) Form (See Appendix 2 for sample format) or an Incident Survey Form (See Appendix 4).  The intent of the SIR form is to provide a summary of all events, efforts, and conclusions of each Phase of this policy and procedures.
    11. The Security Officer, Privacy Officer, or Datica representative appointed notifies any affected Customers and Partners. If no Customers and Partners are affected, notification is at the discretion of the Security and Privacy Officer.
    12. In the case of a threat identified, the Security Officer is to form a team to investigate and involve necessary resources, both internal to Datica and potentially external.
 
@@ -65,8 +65,8 @@ In this Phase, Datica’s IT department attempts to contain the security inciden
    5. Change the password(s) to the affected system(s).
    6. Determine whether it is safe to continue operations with the affect system(s).
    7. If it is safe, allow the system to continue to function;
-	  1. Complete any documentation relative to the security incident on the SIR Form.
-	  2. Move to Phase V, Follow-up.
+      1. Complete any documentation relative to the security incident on the SIR Form.
+      2. Move to Phase V, Follow-up.
    8. If it is NOT safe to allow the system to continue operations, discontinue the system(s) operation and move to Phase III, Eradication.
    9. The individual completing this phase provides written communication to the SIRT.
 4. Continuously apprise Senior Management of progress.
