@@ -1,4 +1,4 @@
-# HIPAA Inheritance for PaaS Customers
+# 2. HIPAA Inheritance for PaaS Customers
 
 | **Administrative Controls** HIPAA Rule | Datica Control | Inherited
 --- | --- | ---

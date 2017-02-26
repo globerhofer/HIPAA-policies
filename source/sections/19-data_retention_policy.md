@@ -1,12 +1,12 @@
-# Data Retention Policy
+# 19. Data Retention Policy
 
 Despite not being a requirement within HIPAA, Datica understand and appreciates the importance of health data retention. Acting as a subcontractor, and at times a business associate, Datica is not directly responsible for health and medical records retention as set forth by each state. Despite this, Datica has created and implemented the following policy to make it easier for Datica Customers to support data retention laws.
 
-## State Medical Record Laws
+## 19.1 State Medical Record Laws
 
 * [Listing of state requirements for medical record retention](http://www.healthit.gov/sites/default/files/appa7-1.pdf)
 
-## Data Retention Policy
+## 19.2 Data Retention Policy
 
 * Current Datica Customers have data stored by Datica as a part of the Datica Service.
 * Once a Customer ceases to be a Customer, as defined below, the following steps are

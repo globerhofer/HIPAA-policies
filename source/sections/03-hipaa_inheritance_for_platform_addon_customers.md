@@ -1,4 +1,4 @@
-# HIPAA Inheritance for Platform Add-on Customers
+# 3. HIPAA Inheritance for Platform Add-on Customers
 
 | **Administrative Controls** HIPAA Rule | Datica Control | Inherited
 --- | --- | ---

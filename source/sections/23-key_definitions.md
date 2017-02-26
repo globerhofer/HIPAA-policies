@@ -1,4 +1,4 @@
-# Key Definitions
+# 23. Key Definitions
 
 * *Application*: An application hosted by Datica, either maintained and created by Datica, or maintained and created by a Customer or Partner.
 
@@ -160,5 +160,3 @@
 * *Workstation*: An electronic computing device, such as a laptop or desktop computer, or any other device that performs similar functions, used to create, receive, maintain, or transmit ePHI. Workstation devices may include, but are not limited to: laptop or desktop computers, personal digital assistants (PDAs), tablet PCs, and other handheld devices. For the purposes of this policy, “workstation” also includes the combination of hardware, operating system, application software, and network connection.
 
 * *Workforce*: Means employees, volunteers, trainees, and other persons whose conduct, in the performance of work for a covered entity, is under the direct control of such entity, whether or not they are paid by the covered entity.
-
-

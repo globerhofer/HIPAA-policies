@@ -1,21 +1,20 @@
-
-# Risk Management Policy
+# 5. Risk Management Policy
 
 This policy establishes the scope, objectives, and procedures of Datica's information security risk management process. The risk management process is intended to support and protect the organization and its ability to fulfill its mission.
 
-## Applicable Standards from the HITRUST Common Security Framework
+## 5.1 Applicable Standards from the HITRUST Common Security Framework
 
 * 03.a - Risk Management Program Development
 * 03.b - Performing Risk Assessments
 * 03.c - Risk Mitigation
 
-## Applicable Standards from the HIPAA Security Rule
+## 5.2 Applicable Standards from the HIPAA Security Rule
 
 * 164.308(a)(1)(ii)(A) – HIPAA Security Rule Risk Analysis
 * 164.308(a)(1)(ii)(B) – HIPAA Security Rule Risk Management
 * 164.308(a)(8) – HIPAA Security Rule Evaluation
 
-## Risk Management Policies
+## 5.3 Risk Management Policies
 
 1. It is the policy of Datica to conduct thorough and timely risk assessments of the potential threats and vulnerabilities to the confidentiality, integrity, and availability of electronic protected health information (ePHI) (and other confidential and proprietary electronic information) it stores, transmits, and/or processes for its Customers and to develop strategies to efficiently and effectively mitigate the risks identified in the assessment process as an integral part of the Datica's information security program.
 2. Risk analysis and risk management are recognized as important components of Datica’s corporate compliance program and information security program in accordance with the Risk Analysis and Risk Management implementation specifications within the Security Management standard and the evaluation standards set forth in the HIPAA Security Rule, 45 CFR 164.308(a)(1)(ii)(A), 164.308(a)(1)(ii)(B), 164.308(a)(1)(i), and 164.308(a)(8).
@@ -34,9 +33,11 @@ This policy establishes the scope, objectives, and procedures of Datica's inform
 6. The implementation, execution, and maintenance of the information security risk analysis and risk management process is the responsibility of Datica’s Security Officer (or other designated employee), and the identified Risk Management Team.
 7. All risk management efforts, including decisions made on what controls to put in place as well as those to not put into place, are documented and the documentation is maintained for six years.
 
-## Risk Management Procedures
+## 5.4 Risk Management Procedures
 
-**Risk Assessment**: The intent of completing a risk assessment is to determine potential threats and vulnerabilities and the likelihood and impact should they occur. The output of this process helps to identify appropriate controls for reducing or eliminating risk.
+### 5.4.1 Risk Assessment
+
+The intent of completing a risk assessment is to determine potential threats and vulnerabilities and the likelihood and impact should they occur. The output of this process helps to identify appropriate controls for reducing or eliminating risk.
 
 * Step 1. System Characterization
 	* The first step in assessing risk is to define the scope of the effort. To do this, identify where ePHI is received, maintained, processed, or transmitted. Using information-gathering techniques, the Datica Platform boundaries are identified.
@@ -74,7 +75,9 @@ This policy establishes the scope, objectives, and procedures of Datica's inform
 	* Results of the risk assessment are documented in an official report, spreadsheet, or briefing and provided to senior management to make decisions on policy, procedure, budget, and Platform operational and management changes.
 	* Output – A risk assessment report that describes the threats and vulnerabilities, measures the risk, and provides recommendations for control implementation.
 
-**Risk Mitigation**: Risk mitigation involves prioritizing, evaluating, and implementing the appropriate risk-reducing controls recommended from the Risk Assessment process to ensure the confidentiality, integrity and availability of Datica Platform ePHI. Determination of appropriate controls to reduce risk is dependent upon the risk tolerance of the organization consistent with its goals and mission.
+### 5.4.2 Risk Mitigation
+
+Risk mitigation involves prioritizing, evaluating, and implementing the appropriate risk-reducing controls recommended from the Risk Assessment process to ensure the confidentiality, integrity and availability of Datica Platform ePHI. Determination of appropriate controls to reduce risk is dependent upon the risk tolerance of the organization consistent with its goals and mission.
 
 * Step 1. Prioritize Actions
 	* Using results from Step 7 of the Risk Assessment, sort the threat and vulnerability pairs according to their risk-levels in descending order. This establishes a prioritized list of actions needing to be taken, with the pairs at the top of the list getting/requiring the most immediate attention and top priority in allocating resources
@@ -117,13 +120,14 @@ This policy establishes the scope, objectives, and procedures of Datica's inform
 	* If risk reduction expectations are not met, then repeat all or a part of the risk management process so that additional controls needed to lower risk to an acceptable level can be identified.
 	* Output – Residual Risk documentation
 
-**Risk Management Schedule**: The two principle components of the risk management process - risk assessment and risk mitigation - will be carried out according to the following schedule to ensure the continued adequacy and continuous improvement of Datica’s information security program:
+### 5.4.3 Risk Management Schedule
 
-* Scheduled Basis – an overall risk assessment of Datica’s information system infrastructure will be conducted annually. The assessment process should be completed in a timely fashion so that risk mitigation strategies can be determined and included in the corporate budgeting process.
-* Throughout a System’s Development Life Cycle – from the time that a need for a new, untested information system configuration and/or application is identified through the time it is disposed of, ongoing assessments of the potential threats to a system and its vulnerabilities should be undertaken as a part of the maintenance of the system.
+The two principle components of the risk management process - risk assessment and risk mitigation - will be carried out according to the following schedule to ensure the continued adequacy and continuous improvement of Datica’s information security program:
+
+* Scheduled Basis – an overall risk assessment of Datica's information system infrastructure will be conducted annually. The assessment process should be completed in a timely fashion so that risk mitigation strategies can be determined and included in the corporate budgeting process.
+* Throughout a System's Development Life Cycle – from the time that a need for a new, untested information system configuration and/or application is identified through the time it is disposed of, ongoing assessments of the potential threats to a system and its vulnerabilities should be undertaken as a part of the maintenance of the system.
 * As Needed – the Security Officer (or other designated employee) or Risk Management Team may call for a full or partial risk assessment in response to changes in business strategies, information technology, information sensitivity, threats, legal liabilities, or other significant factors that affect Datica’s Platform.
 
-## Process Documentation
+## 5.5 Process Documentation
 
 Maintain documentation of all risk assessment, risk management, and risk mitigation efforts for a minimum of six years.
-

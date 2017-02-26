@@ -1,4 +1,4 @@
-# Auditing Policy
+# 9. Auditing Policy
 
 Datica shall audit access and activity of electronic protected health information (ePHI) applications and systems in order to ensure compliance. The Security Rule requires healthcare organizations to implement reasonable hardware, software, and/or procedural mechanisms that record and examine activity in information systems that contain or use ePHI. Audit activities may be limited by application, system, and/or network auditing capabilities and resources. Datica shall make reasonable and good-faith efforts to safeguard information privacy and security through a well-thought-out approach to auditing that is consistent with available resources.
 
@@ -12,7 +12,7 @@ It is the policy of Datica to safeguard the confidentiality, integrity, and avai
 
 This policy applies to all Datica Add-on systems, including BaaS, that store, transmit, or process ePHI. This policy, and associated procedures, do not apply to PaaS Customers that do not choose Datica Logging Service.
 
-## Applicable Standards from the HITRUST Common Security Framework
+## 9.1 Applicable Standards from the HITRUST Common Security Framework
 
 * 0.a Information Security Management Program
 * 01.a Access Control Policy
@@ -23,7 +23,7 @@ This policy applies to all Datica Add-on systems, including BaaS, that store, tr
 * 09.ab - Monitoring System Use
 * 06.e - Prevention of Misuse of Information
 
-## Applicable Standards from the HIPAA Security Rule
+## 9.2 Applicable Standards from the HIPAA Security Rule
 
 * 45 CFR ¬ß 164.308(a)(1)(ii)(D) - Information System Activity Review
 * 45 CFR ¬ß 164.308(a)(5)(ii)(B) & (C) - Protection from Malicious Software & Log-in Monitoring
@@ -32,7 +32,7 @@ This policy applies to all Datica Add-on systems, including BaaS, that store, tr
 * 45 CFR ¬ß 164.312(c)(2) - Mechanism to Authenticate ePHI
 * 45 CFR ¬ß 164.312(e)(2)(i) - Integrity Controls
 
-# Auditing Policies
+## 9.3 Auditing Policies
 
 1. Responsibility for auditing information system access and activity is assigned to Datica’s Security Officer. The Security Officer shall:
 	* Assign the task of generating reports for audit activities to the workforce member responsible for the application, system, or network;
@@ -69,7 +69,7 @@ This policy applies to all Datica Add-on systems, including BaaS, that store, tr
 14. Software patches and updates will be applied to all systems in a timely manner. In the case of routine updates, they will be applied after thorough testing. In the case of updates to correct known vulnerabilities, priority will be given to testing to speed the time to production. Critical security patches are applied within 30 days from testing and all security patches are applied within 90 days after testing.
 	* In the case of PaaS Customers, updates to Application and Database versions are the responsibility of Customers, though Datica will, at it's own discretion, notify and recommend updates to customer systems.
 
-## Audit Requests
+## 9.4 Audit Requests
 
 1. A request may be made for an audit for a specific cause. The request may come from a variety of sources including, but not limited to, Privacy Officer, Security Officer, Customer, Partner, or an Application owner or application user.
 2. A request for an audit for specific cause must include time frame, frequency, and nature of the request. The request must be reviewed and approved by Datica’s Privacy or Security Officer.
@@ -77,7 +77,7 @@ This policy applies to all Datica Add-on systems, including BaaS, that store, tr
 	* Should the audit disclose that a workforce member has accessed ePHI inappropriately, the minimum necessary/least privileged information shall be shared with Datica’s Security Officer to determine appropriate sanction/ corrective disciplinary action.
 	* Only de-identified information shall be shared with Customer or Partner regarding the results of the investigative audit process. This information will be communicated to the appropriate personnel by Datica’s Privacy Officer or designee. Prior to communicating with customers and partners regarding an audit, it is recommended that Datica consider seeking risk management and/or legal counsel.
 
-## Review and Reporting of Audit Findings
+## 9.5 Review and Reporting of Audit Findings
 
 1. Audit information that is routinely gathered must be reviewed in a timely manner, currently monthly, by the responsible workforce member(s).
 	* On a quarterly basis, logs are reviewed to assure the proper data is being captured and retained.
@@ -88,25 +88,25 @@ This policy applies to all Datica Add-on systems, including BaaS, that store, tr
 4. Security audits constitute an internal, confidential monitoring practice that may be included in Datica’s performance improvement activities and reporting. Care shall be taken to ensure that the results of the audits are disclosed to administrative level oversight structures only and that information which may further expose organizational risk is shared with extreme caution. Generic security audit information may be included in organizational reports (individually-identifiable e PHI shall not be included in the reports).
 5. Whenever indicated through evaluation and reporting, appropriate corrective actions must be undertaken. These actions shall be documented and shared with the responsible workforce members, Customers, and/or Partners.
 
-## Auditing Customer and Partner Activity
+## 9.6 Auditing Customer and Partner Activity
 
 1. Periodic monitoring of Customer and Partner activity shall be carried out to ensure that access and activity is appropriate for privileges granted and necessary to the arrangement between Datica and the 3rd party. Datica will make every effort to assure Customers and Partners do not gain access to data outside of their own Environments.
 2. If it is determined that the Customer or Partner has exceeded the scope of access privileges, Datica’s leadership must remedy the problem immediately.
 3. If it is determined that a Customer or Partner has violated the terms of the HIPAA business associate agreement or any terms within the HIPAA regulations, Datica must take immediate action to remediate the situation. Continued violations may result in discontinuation of the business relationship.
 
-## Audit Log Security Controls and Backup
+## 9.7 Audit Log Security Controls and Backup
 
-4. Audit logs shall be protected from unauthorized access or modification, so the information they contain will be made available only if needed to evaluate a security incident or for routine audit activities as outlined in this policy.
-5. All audit logs are encrypted in transit and at rest to control access to the content of the logs.
-6. Audit logs shall be stored on a separate system to minimize the impact auditing may have on the privacy system and to prevent access to audit trails by those with system administrator privileges. This is done to apply the security principle of “separation of duties” to protect audit trails from hackers.
-7. For PaaS Customers choosing to use Datica logging services, log data will be separated from the log data of other Datica Customers.
+1. Audit logs shall be protected from unauthorized access or modification, so the information they contain will be made available only if needed to evaluate a security incident or for routine audit activities as outlined in this policy.
+2. All audit logs are encrypted in transit and at rest to control access to the content of the logs.
+3. Audit logs shall be stored on a separate system to minimize the impact auditing may have on the privacy system and to prevent access to audit trails by those with system administrator privileges. This is done to apply the security principle of “separation of duties” to protect audit trails from hackers.
+4. For PaaS Customers choosing to use Datica logging services, log data will be separated from the log data of other Datica Customers.
 
-## Workforce Training, Education, Awareness and Responsibilities
+## 9.8 Workforce Training, Education, Awareness and Responsibilities
 
 1. Datica workforce members are provided training, education, and awareness on safeguarding the privacy and security of business and ePHI. Datica’s commitment to auditing access and activity of the information applications, systems, and networks is communicated through new employee orientation, ongoing training opportunities and events, and applicable policies. Datica workforce members are made aware of responsibilities with regard to privacy and security of information as well as applicable sanctions/corrective disciplinary actions should the auditing process detect a workforce member’s failure to comply with organizational policies.
 2. Datica Customers are provided with necessary information to understand Datica auditing capabilities, and PaaS Customers can choose the level of logging and auditing that Datica will implement on their behalf.
 
-## External Audits of Information Access and Activity
+## 9.9 External Audits of Information Access and Activity
 
 1. Prior to contracting with an external audit firm, Datica shall:
 	* Outline the audit responsibility, authority, and accountability;
@@ -116,16 +116,16 @@ This policy applies to all Datica Add-on systems, including BaaS, that store, tr
 	* Obtain a signed HIPAA business associate agreement;
 	* Assign organizational responsibility for supervision of the external audit firm.
 
-## Retention of Audit Data
+## 9.10 Retention of Audit Data
 
 1. Audit logs shall be maintained based on organizational needs. There is no standard or law addressing the retention of audit log/trail information. Retention of this information shall be based on:
-A. Organizational history and experience.
-B. Available storage space.
-1. Reports summarizing audit activities shall be retained for a period of six years.
+   * Organizational history and experience.
+   * Available storage space.
+2. Reports summarizing audit activities shall be retained for a period of six years.
 3. Log data is currently retained and readily accessible for a 1-month period. Beyond that, log data is available via cold backup.
 4. For Paas Customers, they choose the length of backup retention and availability that Datica will implement and enforce.
 
-## Potential Trigger Events
+## 9.11 Potential Trigger Events
 
 * High risk or problem prone incidents or events.
 * Business associate, customer, or partner complaints.
