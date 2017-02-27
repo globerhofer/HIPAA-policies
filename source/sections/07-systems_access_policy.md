@@ -105,7 +105,6 @@ All workstations at Datica are company owned, and all are laptop Apple products 
   * SSIDs are not broadcast;
   * Passwords are rotated on a regular basis, presently quarterly. This process is managed by the Datica Security Officer.
 
-
 ## 7.10 Employee Termination Procedures
 
 1. The Human Resources Department (or other designated department), users, and their supervisors are required to notify the Security Officer upon completion and/or termination of access needs and facilitating completion of the "Termination Checklist".
