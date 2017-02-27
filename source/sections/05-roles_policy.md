@@ -97,6 +97,12 @@ The Security Officer, in collaboration with the Privacy Officer, is responsible 
     * Patch management;
     * Media Disposal and/or Re-use;
     * Documentation requirements.
+13. The Security Officer works with the COO to ensure that any security objectives have appropriate consideration during the budgeting process.
+    * In general, security and compliance are core to Datica's technology and service offerings; in most cases this means security-related objectives cannot be split out to separate budget line items.
+    * For cases that *can* be split out into discrete items, such as licenses for commercial tooling, the Security Officer follows Datica's standard corporate budgeting process.
+      * At the beginning of every fiscal year, the COO contacts the Security Officer to plan for the upcoming year's expenses.
+      * The Security Officer works with the COO to forecast spending needs based on the previous year's level, along with changes for the upcoming year such as additional staff hires.
+      * During the year, if an unforeseen security-related expense arises that was not in the budget forecast, the Security Officer works with the COO to reallocate any resources as necessary to cover this expense.
 
 ### 5.3.2 Supervision of Workforce Responsibilities
 
