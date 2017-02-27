@@ -25,6 +25,8 @@ Datica is committed to ensuring all workforce members actively address security 
    * Current Datica training is hosted [here](https://training.datica.com/).
 2. All workforce members are granted access to formal organizational policies, which include the sanction policy for security violations.
 3. The Datica Employee Handbook clearly states the responsibilities and acceptable behavior regarding information system usage, including rules for email, Internet, mobile devices and social media usage.
+   * Workforce members are required to sign an agreement stating that they have read and will abide by all terms outlined in the Datica Employee Handbook, along with all policies and processes described in this document.
+   * A Human Resources representative will provide the agreement to new employees during their onboarding process.
 4. Datica does not allow mobile devices to connect to any of its production networks.
 5. All workforce members are educated about the approved set of tools to be installed on workstations.
 6. All new workforce members are given HIPAA training within 60 days of beginning employment. Training includes HIPAA reporting requirements, including the ability to anonymously report security incidents, and the levels of compliance and obligations for Datica and its Customers and Partners.
