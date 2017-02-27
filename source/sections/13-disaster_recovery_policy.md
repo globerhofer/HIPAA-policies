@@ -122,7 +122,7 @@ The tasks outlines below are not sequential and some can be run in parallel.
 7. Deploy environment to production - Web Services
 8. Update DNS to new environment. - Dev Ops
 
-## 13.5.3 Reconstitution Phase
+### 13.5.3 Reconstitution Phase
 
 This section discusses activities necessary for restoring Datica operations at the original or new site. The goal is to restore full operations within 24 hours of a disaster or outage. When the hosted data center at the original or new site has been restored, Datica operations at the alternate site may be transitioned back. The goal is to provide a seamless transition of operations from the alternate site to the computer center.
 
@@ -133,7 +133,5 @@ This section discusses activities necessary for restoring Datica operations at t
    * Deploy environment to production - Web Services
    * Assure systems are appropriately patched and up to date. - Dev Ops
    * Update DNS to new environment. - Dev Ops
-
 2. Plan Deactivation
-
-If the Datica environment is moved back to the original site from the alternative site, all hardware used at the alternate site should be handled and disposed of according to the Datica Media Disposal Policy.
+   * If the Datica environment is moved back to the original site from the alternative site, all hardware used at the alternate site should be handled and disposed of according to the Datica Media Disposal Policy.
