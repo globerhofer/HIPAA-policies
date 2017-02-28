@@ -51,7 +51,7 @@ The current Datica Privacy Officer is Travis Good ([travis@datica.com](mailto:tr
    13. Users are required to understand their role in Datica's contingency plan;
    14. Users may not share their user names nor passwords with anyone;
    15. Requirements for users to create and change passwords;
-   16. Users must set all applications that contain or transmit ePHI to automatically log off after "X" minutes of inactivity;
+   16. Users must set all applications that contain or transmit ePHI to automatically log off after 15 minutes of inactivity;
    17. Supervisors are required to report terminations of workforce members and other outside users;
    18. Supervisors are required to report a change in a users title, role, department, and/or location;
    19. Procedures to backup ePHI;
