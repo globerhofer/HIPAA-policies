@@ -2,7 +2,7 @@
 
 Datica works with Subcontractors to assure restriction of physical access to systems used as part of the Datica Platform. Datica and its Subcontractors control access to the physical buildings/facilities that house these systems/applications, or in which Datica workforce members operate, in accordance to the HIPAA Security Rule 164.310 and its implementation specifications. Physical Access to all of Datica facilities is limited to only those authorized in this policy. In an effort to safeguard ePHi from unauthorized access, tampering, and theft, access is allowed to areas only to those persons authorized to be in them and with escorts for unauthorized persons. All workforce members are responsible for reporting an incident of unauthorized visitor and/or unauthorized access to Datica's facility.
 
-Of note, Datica does not have ready access to ePHI, it provides cloud-based, compliant infrastructure to covered entities and business associates. Datica does not physically house any systems used by its Platform in Datica facilities. Physical security of our Platform servers is outlined [here](http://broadcast.rackspace.com/downloads/pdfs/RackspaceSecurityApproach.pdf).
+Of note, Datica does not have ready access to ePHI, it provides cloud-based, compliant infrastructure to covered entities and business associates. Datica does not physically house any systems used by its Platform in Datica facilities. Physical security of our Platform servers is outlined [in §1.4](#1.4-datica-organizational-concepts).
 
 ## 10.1 Applicable Standards
 
