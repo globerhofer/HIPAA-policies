@@ -47,13 +47,13 @@ This policy applies to all Datica Add-on systems, including BaaS, that store, tr
    * System: System level audit trails generally monitor and log user activities, applications accessed, and other system defined specific actions. Datica utilizes file system monitoring from OSSEC to assure the integrity of file system data.
    * Network: Network level audit trails generally monitor information on what is operating, penetrations, and vulnerabilities.
 3. Datica shall log all incoming and outgoing traffic to into and out of its environment. This includes all successful and failed attempts at data access and editing. Data associated with this data will include origin, destination, time, and other relevant details that are available to Datica.
-4. Datica utilizes OSSEC to scan all systems for malicious and unauthorized software every 2 hours and at reboot of systems. Alerts from OSSEC are sent to Kibana, the centralized logging service that we use.
+4. Datica utilizes OSSEC to scan all systems for malicious and unauthorized software every 2 hours and at reboot of systems.
 5. Datica leverages process monitoring tools throughout its environment.
-6. Datica treats its Developer Portal as a Platform Add-on and, as such, it logs all activity associated with Developer Portal Access.
+6. Datica treats its Dashboard as a Platform Add-on and, as such, it logs all activity associated with Dashboard Access.
 7. Datica uses OSSEC to monitor the integrity of log files by utilizing OSSEC System Integrity Checking capabilities.
 8. Datica shall identify "trigger events" or criteria that raise awareness of questionable conditions of viewing of confidential information. The "events" may be applied to the entire Datica Platform or may be specific to a Customer, partner, business associate, Platform Add-on or application (See Listing of Potential Trigger Events below).
 9. In addition to trigger events, Datica utilizes OSSEC log correlation functionality to proactively identify and enable alerts based on log data.
-10. Logs are reviewed weekly by Security Officer.
+10. Logs are reviewed weekly by the Security Officer.
 11. Datica's Security Officer and Privacy Officer are authorized to select and use auditing tools that are designed to detect network vulnerabilities and intrusions. Such tools are explicitly prohibited by others, including Customers and Partners, without the explicit authorization of the Security Officer. These tools may include, but are not limited to:
     * Scanning tools and devices;
     * Password cracking utilities;
@@ -68,8 +68,7 @@ This policy applies to all Datica Add-on systems, including BaaS, that store, tr
 13. Vulnerability testing software may be used to probe the network to identify what is running (e.g., operating system or product versions in place), whether publicly-known vulnerabilities have been corrected, and evaluate whether the system can withstand attacks aimed at circumventing security controls.
     * Testing may be carried out internally or provided through an external third-party vendor. Whenever possible, a third party auditing vendor should not be providing the organization IT oversight services (e.g., vendors providing IT services should not be auditing their own services - separation of duties).
     * Testing shall be done on a routine basis, currently monthly.
-14. Software patches and updates will be applied to all systems in a timely manner. In the case of routine updates, they will be applied after thorough testing. In the case of updates to correct known vulnerabilities, priority will be given to testing to speed the time to production. Critical security patches are applied within 30 days from testing and all security patches are applied within 90 days after testing.
-    * In the case of PaaS Customers, updates to Application and Database versions are the responsibility of Customers, though Datica will, at it's own discretion, notify and recommend updates to customer systems.
+14. Software patches and updates will be applied to all systems in a timely manner.
 
 ## 8.3 Audit Requests
 

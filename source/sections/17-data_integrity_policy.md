@@ -16,48 +16,50 @@ Production Systems that create, receive, store, or transmit customer data (herea
 
 ## 17.2 Disabling Non-Essential Services
 
-* All Production Systems must disable services that are not required to achieve the business purpose or function of the system.
+1. All Production Systems must disable services that are not required to achieve the business purpose or function of the system.
 
 ## 17.3 Monitoring Log-in Attempts
 
-* All access to Production Systems must be logged. This is done following the Datica Auditing Policy.
+1. All access to Production Systems must be logged. This is done following the Datica Auditing Policy.
 
 ## 17.4 Prevention of Malware on Production Systems
 
-* All Production Systems must have OSSEC running at set to scan system every 2 hours and at reboot to assure not malware is present. Detected malware is evaluated and removed.
-* All Production Systems are to only be used for Datica business needs.
+1. All Production Systems must have OSSEC running at set to scan system every 2 hours and at reboot to assure not malware is present. Detected malware is evaluated and removed.
+2. Virus scanning software is run on all production hosts for anti-virus protection. Hosts are scanned daily for malicious binaries in critical system paths. The malware signature database is checked hourly and automatically updated if new signatures are available.
+3. All Production Systems are to only be used for Datica business needs.
 
 ## 17.5 Patch Management
 
-* Patches, application, and system OS versions are kept up to date at all times. New versions are tested.
-* Administrators subscribe to mailing lists to assure up to date on current version of all Datica managed software on Production Systems.
+1. Software patches and updates will be applied to all systems in a timely manner. In the case of routine updates, they will be applied after thorough testing. In the case of updates to correct known vulnerabilities, priority will be given to testing to speed the time to production. Critical security patches are applied within 30 days from testing and all security patches are applied within 90 days after testing.
+    * In the case of PaaS Customers, updates to Application and Database versions are the responsibility of Customers, though Datica will, at it's own discretion, notify and recommend updates to customer systems.
+2. Administrators subscribe to mailing lists to assure up to date on current version of all Datica managed software on Production Systems.
 
 ## 17.6 Intrusion Detection and Vulnerability Scanning
 
-* Production Systems are monitors using IDS systems. Suspicious activity is logged and alerts are generated.
-* Vulnerability scanning of Production Systems must occur on a predetermined, regular basis, no less than annually. Currently it is weekly. Scans are reviewed by Security Officer, with defined steps for risk mitigation, and retained for future reference.
+1. Production Systems are monitors using IDS systems. Suspicious activity is logged and alerts are generated.
+2. Vulnerability scanning of Production Systems must occur on a predetermined, regular basis, no less than annually. Currently it is weekly. Scans are reviewed by Security Officer, with defined steps for risk mitigation, and retained for future reference.
 
 ## 17.7 Production System Security
 
-* System, network, and server security is managed and maintained by the VP of Engineering and the Security Officer.
-* Up to date system lists and architecture diagrams are kept for all Production environments.
-* Access to Production Systems is controlled using centralized tools and two-factor authentication.
+1. System, network, and server security is managed and maintained by the VP of Engineering and the Security Officer.
+2. Up to date system lists and architecture diagrams are kept for all Production environments.
+3. Access to Production Systems is controlled using centralized tools and two-factor authentication.
 
 ## 17.8 Production Data Security
 
-* Reduce the risk of compromise of Production Data.
-* Implement and/or review controls designed to protect Production Data from improper alteration or destruction.
-* Ensure that Confidential data is stored in a manner that supports user access logs and automated monitoring for potential security incidents.
-* Ensure Datica customer Production Data is segmented and only accessible to customer authorized to access data.
-* All Production Data at rest is stored on encrypted volumes. Encryption at rest is ensured through the use of automated deployment scripts referenced in the Datica Configuration Management Policy.
-* Volume encryption keys and machines that generate volume encryption keys are protected from unauthorized access. Volume encryption key material is protected with access controls such that the key material is only accessible by privileged accounts.
-* Encrypted volumes use AES encryption with a minimum of 256-bit keys, or keys and ciphers of equivalent or higher cryptographic strength.
+1. Reduce the risk of compromise of Production Data.
+2. Implement and/or review controls designed to protect Production Data from improper alteration or destruction.
+3. Ensure that Confidential data is stored in a manner that supports user access logs and automated monitoring for potential security incidents.
+4. Ensure Datica customer Production Data is segmented and only accessible to customer authorized to access data.
+5. All Production Data at rest is stored on encrypted volumes. Encryption at rest is ensured through the use of automated deployment scripts referenced in the Datica Configuration Management Policy.
+6. Volume encryption keys and machines that generate volume encryption keys are protected from unauthorized access. Volume encryption key material is protected with access controls such that the key material is only accessible by privileged accounts.
+7. Encrypted volumes use AES encryption with a minimum of 256-bit keys, or keys and ciphers of equivalent or higher cryptographic strength.
 
 ## 17.9 Transmission Security
 
-* All data transmission is encrypted end to end. Encryption is not terminated at the network end point, and is carried through to the application.
-* Transmission encryption keys and machines that generate keys are protected from unauthorized access. Transmission encryption key material is protected with access controls such that the key material is only accessible by privileged accounts.
-* Transmission encryption keys use a minimum of 4096-bit RSA keys, or keys and ciphers of equivalent or higher cryptographic strength.
-* Transmission encryption keys are limited to use for one year and then must be regenerated.
-* In the case of Datica provided APIs, provide mechanisms to assure person sending or receiving data is authorized to send and save data.
-* System logs of all transmissions of Production Data access. These logs must be available for audit.
+1. All data transmission is encrypted end to end. Encryption is not terminated at the network end point, and is carried through to the application.
+2. Transmission encryption keys and machines that generate keys are protected from unauthorized access. Transmission encryption key material is protected with access controls such that the key material is only accessible by privileged accounts.
+3. Transmission encryption keys use a minimum of 4096-bit RSA keys, or keys and ciphers of equivalent or higher cryptographic strength.
+4. Transmission encryption keys are limited to use for one year and then must be regenerated.
+5. In the case of Datica provided APIs, provide mechanisms to assure person sending or receiving data is authorized to send and save data.
+6. System logs of all transmissions of Production Data access. These logs must be available for audit.
