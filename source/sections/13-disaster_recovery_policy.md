@@ -47,9 +47,10 @@ Datica defined two categories of systems from a disaster recovery perspective.
 
 ## 13.2 Line of Succession
 
-The following order of succession to ensure that decision-making authority for the Datica Contingency Plan is uninterrupted. The Chief Technology Officer (CTO) and Security Officer, Adam Leko, are responsible for ensuring the safety of personnel and the execution of procedures documented within this Datica Contingency Plan. If the CTO and VP of Engineering are unable to function as the overall authority or chooses to delegate this responsibility to a successor, the CEO or CPO shall function as that authority. To provide contact initiation should the contingency plan need to be initiated, please use the contact list below.
+The following order of succession to ensure that decision-making authority for the Datica Contingency Plan is uninterrupted. The Chief Technology Officer (CTO) and VP Engineering are responsible for ensuring the safety of personnel and the execution of procedures documented within this Datica Contingency Plan. If the CTO and VP Engineering are unable to function as the overall authority or chooses to delegate this responsibility to a successor, the CEO or COO shall function as that authority. To provide contact initiation should the contingency plan need to be initiated, please use the contact list below.
 
-* Adam Leko, CTO: 414-335-0253, adam@datica.com
+* Adam Leko, CTO: 608-628-2582, adam@datica.com
+* Vince Kenney, VP Engineering: 608-886-7709, vince@datica.com
 * Travis Good, CEO: 303-351-2640, travis@datica.com
 * Brian Lindstrom, COO: 608-577-7003, blindstrom@datica.com
 
@@ -59,6 +60,8 @@ The following teams have been developed and trained to respond to a contingency 
 
 1. The **Ops Team** is responsible for recovery of the Datica hosted environment, network devices, and all servers. Members of the team include personnel who are also responsible for the daily operations and maintenance of Datica. The team leader is the VP of Engineering and directs the Dev Ops Team.
 2. The **Web Services Team** is responsible for assuring all application servers, web services, and platform add-ons are working. It is also responsible for testing redeployments and assessing damage to the environment. The team leader is the CTO and directs the Web Services Team.
+
+Members of the Ops and Web Services teams must maintain local copies of the contact information from [§13.2](#13.2-line-of-succession). Additionally, the CTO and VP Engineering must maintain a local copy of this policy in the event Internet access is not available during a disaster scenario.
 
 ## 13.4 Testing and Maintenance
 
