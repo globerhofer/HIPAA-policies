@@ -125,7 +125,7 @@ Datica does not use paper records for any sensitive information. Use of paper fo
 3. On all production systems and application in the Datica environment, password configurations are set to require that passwords are a minimum of 8 character length, 90 day password expiration, account lockout after 5 invalid attempts, password history of last 4 passwords remembered, and account lockout after 15 minutes of inactivity.
 4. All system and application passwords are hashed by concatenating the user's password and a random 256-bit salt value, generated on a per-user basis, and then applying SHA-256 to the value to create a password hash. The password hash and the salt are then stored in the backend database and are used for password validation on future user authentication attempts.
 5. Each information system automatically requires users to change passwords at a pre-determined interval as determined by the organization, based on the criticality and sensitivity of the ePHI contained within the network, system, application, and/or database.
-6. Passwords are inactivated immediately upon an employee's termination (refer to the [termination procedures in section 7.10 of this policy](#7.10-employee-termination-procedures).
+6. Passwords are inactivated immediately upon an employee's termination (refer to the [Employee Termination Procedures in §7.10](#7.10-employee-termination-procedures)).
 7. All default system, application, and Partner passwords are changed before deployment to production.
 8. Upon initial login, users must change any passwords that were automatically generated for them.
 9. All passwords used in configuration scripts are secured and encrypted.
