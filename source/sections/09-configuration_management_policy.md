@@ -94,7 +94,7 @@ Datica standardizes and automates configuration management through the use of Ch
    * Changes to Salt states or pillar values.
    * Changes to Chef recipes.
    * For configuration changes that cannot be handled by Chef or Salt, a runbook describing exactly what changes will be made and by whom.
-2. Configuration changes to Chef recipes or Salt states must be initiated by creating a Merge Request in Gitlab.
+2. Configuration changes to Chef recipes or Salt states must be initiated by creating a Merge Request in GitLab.
    * The ops team member will create a feature branch and make their changes on that branch.
    * The ops team member must test their configuration change locally when possible, or on a development and/or staging sandbox otherwise.
    * At least one other ops team member must review the Chef or Salt change before merging the change into the main branch.
