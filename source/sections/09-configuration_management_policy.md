@@ -37,17 +37,17 @@ Datica standardizes and automates configuration management through the use of Ch
    * The CTO grants access to the JIRA DT project following the procedures covered in the [Access Establishment and Modification section](#7.2-access-establishment-and-modification).
 2. The VP Engineering or CTO must approve the provisioning request before any new system can be provisioned.
 3. Once provisioning has been approved, the ops team member must configure the new system according to the standard baseline chosen for the system's role.
-   * For Linux systems, this means adding the appropriate grains to the Salt configuration file as running a `highstate` operation.
+   * For Linux systems, this means adding the appropriate grains to the Salt configuration file and running a `highstate` operation.
    * For Windows systems, this means adding the appropriate roles to the system's Chef profile and forcing a Chef run.
 4. If the system will be used to house production data (ePHI), the ops team member must add an encrypted block data volume to the VM during provisioning.
    * For systems on AWS, the ops team member must add an encrypted Elastic Block Storage (EBS) volume.
    * For systems on other cloud providers, the ops team member must add a block data volume and set up OS-level data encryption using Salt or Chef.
 5. Once the system has been provisioned, the ops team member must contact the security team to inspect the new system. A member of the security team will verify that the secure baseline has been applied to the new system, including (but not limited to) verifying the following items:
-   * Removal of default users used during provisioning
-   * Network configuration for system
-   * Data volume encryption settings
-   * Intrusion detection and virus scanning software installed
-   * All items listed below in the operating system-specific subsections below
+   * Removal of default users used during provisioning.
+   * Network configuration for system.
+   * Data volume encryption settings.
+   * Intrusion detection and virus scanning software installed.
+   * All items listed below in the operating system-specific subsections below.
 6. Once the security team member has verified the new system is correctly configured, the team member must add that system to the Nessus security scanner configuration.
 7. The new system may be rotated into production once the CTO verifies all the provisioning steps listed above have been correctly followed and has marked the issue with the `Approved` state.
 
