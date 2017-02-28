@@ -131,7 +131,16 @@ Datica does not use paper records for any sensitive information. Use of paper fo
 9. All passwords used in configuration scripts are secured and encrypted.
 10. If a user believes their user ID has been compromised, they are required to immediately report the incident to the Security Office.
 
-## 7.13 PaaS Customer Access to Systems
+## 7.13 Access to ePHI
+
+1. Employees may not download ePHI to any workstations used to connect to production systems.
+2. Disallowing transfer of ePHI to workstations is enforced through technical measures.
+   * All production access to systems is performed through a bastion/jump host accessed through a VPN. Direct access to production systems is disallowed by Datica's VPN configuration.
+   * On production Linux bastions, all file transfer services are disabled including file-transfer functionality of SSH services (SCP/SFTP).
+   * On production Windows bastions, local drive mappings are disabled by Group Policy settings.
+   * Configuration settings for enforcing these technical controls are managed by Datica's configuration management tooling, Chef/Salt.
+
+## 7.14 PaaS Customer Access to Systems
 
 Datica grants PaaS customer secure system access via VPN connections. This access is only to Customer-specific systems, no other systems in the environment. These connections are setup at customer deployment. These connections are secured and encrypted and the only method for customers to connect to Datica hosted systems.
 
