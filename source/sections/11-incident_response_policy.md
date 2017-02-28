@@ -11,6 +11,8 @@ The incident response process addresses:
 * Workforce training, education, and awareness on information security incidents and required responses; and
 * Facilitation of clear communication of information security incidents with internal, as well as external, stakeholders
 
+*Note:* These policies were adapted from work by the [HIPAA Collaborative of Wisconsin Security Networking Group](http://hipaacow.org/wp-content/uploads/2015/02/HCR-Security-Incident-Response-FINAL-12.18.14.doc). Refer to the linked document for additional copyright information.
+
 ## 11.1 Applicable Standards
 
 ### 11.1.1 Applicable Standards from the HITRUST Common Security Framework
@@ -25,13 +27,32 @@ The incident response process addresses:
 
 ## 11.2 Incident Management Policies
 
-*Note:* These policies were adapted from work by the [HIPAA Collaborative of Wisconsin Security Networking Group](http://hipaacow.org/wp-content/uploads/2015/02/HCR-Security-Incident-Response-FINAL-12.18.14.doc). Refer to the linked document for additional copyright information.
-
 The Datica incident response process follows the process recommended by [SANS](https://www.sans.org), an industry leader in security. Process flows are a direct representation of the SANS process which can be found in [this document](sections/incident-flowchart.pdf).
+
+Datica's incident response classifies security-related events into the following categories:
+
+* **Events** - Any observable computer security-related occurrence in a system or network with a negative consequence. Examples:
+  * Hardware component failing causing service outages.
+  * Software error causing service outages.
+  * General network or system instability.
+* **Precursors** - A sign that an incident may occur in the future. Examples:
+  * Monitoring system showing unusual behavior.
+  * Audit log alerts indicated several failed login attempts.
+  * Suspicious emails targeting specific Datica staff members with administrative access to production systems.
+* **Indications** - A sign that an incident may have occurred or may be occurring at the present time. Examples:
+  * IDS alerts for modified system files or unusual system accesses.
+  * Antivirus alerts for infected files.
+  * Excessive network traffic directed at unexpected geographic locations.
+* **Incidents** - A violation of computer security policies or acceptable use policies, often resulting in data breaches. Examples:
+  * Unauthorized disclosure of ePHI.
+  * Unauthorized change or destruction of ePHI.
+  * A data breach accomplished by an internal or external entity.
+
+Datica employees must report any unauthorized or suspicious activity seen on production systems or associated with related communication systems (such as email or Slack). In practice this means keeping an eye out for security events, and letting the Security Officer know about any observed precursors or indications as soon as they are discovered.
 
 ### 11.2.1 Identification Phase
 
-1. Immediately upon observation Datica members report suspected and known Precursors, Events, Indications, and Incidents in one of the following ways:
+1. Immediately upon observation Datica members report suspected and known Events, Precursors, Indications, and Incidents in one of the following ways:
    1. Direct report to management, the Security Officer, Privacy Officer, or other;
    2. Email;
    3. Phone call;
@@ -39,7 +60,7 @@ The Datica incident response process follows the process recommended by [SANS](h
    5. Secure Chat.
    6. Anonymously through workforce members desired channels.
 2. The individual receiving the report facilitates completion of an [Incident Identification form](sections/IH-Identification.pdf) and notifies the Security Officer (if not already done).
-3. The Security Officer determines if the issue is a Precursor, Event, Indication, or Incident.
+3. The Security Officer determines if the issue is a Event, Precursor, Indication, or Incident.
    1. If the issue is an event, indication, or precursor the Security Officer forwards it to the appropriate resource for resolution.
       1. Non-Technical Event (minor infringement): the Security Officer completes a [SIR Form](sections/sir-form.doc) and investigates the incident.
       2. Technical Event: Assign the issue to an IT resource for resolution. This resource may also be a contractor or outsourced technical resource, in the event of a small office or lack of expertise in the area.
