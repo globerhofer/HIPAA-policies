@@ -83,13 +83,13 @@ Access to Datica systems and application is limited for all users, including but
 
 ## 7.8 Employee Workstation Use
 
-All workstations at Datica are company owned, and all are laptop Apple products running Mac operating system.
+All workstations at Datica are company owned, and all are laptop Apple products running Mac OSX or Linux.
 
 1. Workstations may not be used to engage in any activity that is illegal or is in violation of organization's policies.
 2. Access may not be used for transmitting, retrieving, or storage of any communications of a discriminatory or harassing nature or materials that are obscene or "X-rated". Harassment of any kind is prohibited. No messages with derogatory or inflammatory remarks about an individual's race, age, disability, religion, national origin, physical attributes, sexual preference, or health condition shall be transmitted or maintained. No abusive, hostile, profane, or offensive language is to be transmitted through organization's system.
 3. Information systems/applications also may not be used for any other purpose that is illegal, unethical, or against company policies or contrary to organization's best interests. Messages containing information related to a lawsuit or investigation may not be sent without prior approval.
 4. Solicitation of non-company business, or any use of organization's information systems/applications for personal gain is prohibited.
-5. Transmitted messages may not contain material that criticizes organization, its providers, its employees, or others.
+5. Transmitted messages may not contain material that criticizes the organization, its providers, its employees, or others.
 6. Users may not misrepresent, obscure, suppress, or replace another user's identity in transmitted or stored messages.
 7. Workstation hard drives will be encrypted using FileVault 2.0 or equivalent.
 8. All workstations have firewalls enabled to prevent unauthorized access unless explicitly granted.
@@ -98,11 +98,10 @@ All workstations at Datica are company owned, and all are laptop Apple products 
 ## 7.9 Wireless Access Use
 
 1. Datica production systems are not accessible directly over wireless channels.
-2. Wireless access disabled on all production systems.
+2. Wireless access is disabled on all production systems.
 3. When access production systems via remote wireless connections, the same system access policies and procedures apply to wireless as all other connections, including wired.
 4. Wireless networks managed within Datica non-production facilities (offices, etc) are secured with the following configurations:
   * All data in transit over wireless is encrypted using WPA2 encryption;
-  * SSIDs are not broadcast;
   * Passwords are rotated on a regular basis, presently quarterly. This process is managed by the Datica Security Officer.
 
 ## 7.10 Employee Termination Procedures

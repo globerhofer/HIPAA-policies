@@ -46,7 +46,7 @@ The current Datica Privacy Officer is Travis Good ([travis@datica.com](mailto:tr
    8. Users are required to report malicious software to the Security Officer immediately;
    9. Users are required to report unauthorized attempts, uses of, and theft of Datica's systems and/or workstations;
    10. Users are required to report unauthorized access to facilities
-   11. Users are required to report noted log-in discrepancies (i.e. application states users last log-in was on a date user was on vacation;
+   11. Users are required to report noted log-in discrepancies (i.e. application states users last log-in was on a date user was on vacation);
    12. Users may not alter ePHI maintained in a database, unless authorized to do so by a Datica Customer;
    13. Users are required to understand their role in Datica's contingency plan;
    14. Users may not share their user names nor passwords with anyone;
@@ -125,5 +125,5 @@ All workforce members report non-compliance of Datica's policies and procedures 
 2. Violation of any security policy or procedure by workforce members may result in corrective disciplinary action, up to and including termination of employment.  Violation of this policy and procedures by others, including business associates, customers, and partners may result in termination of the relationship and/or associated privileges.  Violation may also result in civil and criminal penalties as determined by federal and state laws and regulations.
    * A violation resulting in a breach of confidentiality (i.e. release of PHI to an unauthorized individual), change of the integrity of any ePHI, or inability to access any ePHI by other users, requires immediate termination of the workforce member from Datica.
 3. The Security Officer facilitates taking appropriate steps to prevent recurrence of the violation (when possible and feasible).
-4. In the case of an insider threat, the Security Officer and Privacy Officer are to setup a team to investigate and mitigate the risk of insider malicious activity. Datica workforce members are encouraged to come forward with information about insider threats, and can do so anonymously.
+4. In the case of an insider threat, the Security Officer and Privacy Officer are to set up a team to investigate and mitigate the risk of insider malicious activity. Datica workforce members are encouraged to come forward with information about insider threats, and can do so anonymously.
 5. The Security Officer maintains all documentation of the investigation, sanctions provided, and actions taken to prevent reoccurrence for a minimum of six years after the conclusion of the investigation.
