@@ -9,7 +9,7 @@ Datica is committed to ensuring all workforce members actively address security 
 * 02.e - Information Security Awareness, Education, and Training
 * 06.e - Prevention of Misuse of Information Assets
 * 07.c - Acceptable Use of Assets
-* 08.j - Controls Against Malicious Code
+* 09.j - Controls Against Malicious Code
 * 01.y - Teleworking
 
 ### 19.1.2 Applicable Standards from the HIPAA Security Rule
