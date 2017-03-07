@@ -68,11 +68,13 @@ The current Datica Security Officer is Adam Leko ([adam@datica.com](mailto:adam@
 
 ### 5.3.1 Organizational Responsibilities
 
-The Security Officer, in collaboration with the Privacy Officer, is responsible for facilitating the development, implementation, and oversight of all activities pertaining to Datica's efforts to be compliant with the HIPAA Security Regulations, HITRUST CSF, and any other security and compliance frameworks. The intent of the Security Officer Responsibilities is to maintain the confidentiality, integrity, and availability of ePHI. These organizational responsibilities include, but are not limited to the following:
+The Security Officer, in collaboration with the Privacy Officer, is responsible for facilitating the development, testing, implementation, training, and oversight of all activities pertaining to Datica's efforts to be compliant with the HIPAA Security Regulations, HITRUST CSF, and any other security and compliance frameworks. The intent of the Security Officer Responsibilities is to maintain the confidentiality, integrity, and availability of ePHI. The Security Officer is appointed by and reports to the Board of Directors and the CEO.
+
+These organizational responsibilities include, but are not limited to the following:
 
 1. Oversees and enforces all activities necessary to maintain compliance and verifies the activities are in alignment with the requirements.
 2. Helps to established and maintain written policies and procedures to comply with the Security rule and maintains them for six years from the date of creation or date it was last in effect, whichever is later.
-3. Updates policies and procedures as necessary and appropriate to maintain compliance and maintains changes made for six years from the date of creation or date it was last in effect, whichever is later.
+3. Reviews and updates policies and procedures as necessary and appropriate to maintain compliance and maintains changes made for six years from the date of creation or date it was last in effect, whichever is later.
 4. Facilitates audits to validate compliance efforts throughout the organization.
 5. Documents all activities and assessments completed to maintain compliance and maintains documentation for six years from the date of creation or date it was last in effect, whichever is later.
 6. Provides copies of the policies and procedures to management, customers, and partners, and has them available to review by all other workforce members to which they apply.
