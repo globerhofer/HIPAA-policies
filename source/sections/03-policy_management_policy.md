@@ -32,6 +32,11 @@ Datica implements policies and procedures to maintain compliance and integrity o
   4. Once the review is completed, the Security Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
   5. If the review is approved, the Security Officer then marks the issue as Done, adding any pertinent notes required.
   6. Policy review is monitored on a quarterly basis using Jira reporting to assess compliance with above policy.
-7. Datica utilizes the HITRUST MyCSF framework to track compliance with the HITRUST CSF on an annual basis. Datica also tracks compliance with HIPAA and publishes results [here](https://hipaa.datica.com).
+7. Datica utilizes the HITRUST MyCSF framework to track compliance with the HITRUST CSF on an annual basis. Datica also tracks compliance with HIPAA and publishes results [here](https://hipaa.datica.com). In order to track and measure adherence on an annual basis, Datica using the following process to track HITRUST audits, both full and interim:
+  1. The Security Officer initiates the HITRUST audit activity by creating an issue in the Compliance Review Actvivity Project in Jira.
+  2. The Security Officer or the Privacy Officer is assigned to own and manage the HITRUST activity.
+  3. Once the HITRUST actitvity is completed, the Security Officer approves or rejects the Issue.
+  5. If the review is approved, the Security Officer then marks the issue as Done, adding any pertinent notes required.
+  6. Compliance with annual compliance assessments, utilizing the HITRUST CSF as a framework, is monitored on a quarterly basis using Jira reporting to assess compliance with above policy.
 
 Additional documentation related to maintenance of policies is outlined in the Security officers responsibilities.
