@@ -25,7 +25,13 @@ Datica implements policies and procedures to maintain compliance and integrity o
 5. All policies, and associated documentation, are retained for 6 years from the date of its creation or the date when it last was in effect, whichever is later
    1. Version history of all Datica policies is done via Github.
    2. Backup storage of all policies is done with Box.
-6. The policies and information security policies are reviewed and audited annually. Issues that come up as part of this process are reviewed by Datica management to assure all risks and potential gaps are mitigated and/or fully addressed. The policy review form can be found [here](https://docs.google.com/a/catalyze.io/forms/d/1kuyIYA-Z-tmRdfMwrVMl59BujIy9y1dyjMSd8_Wy760/viewform).
+6. The policies and information security policies are reviewed and audited annually. Issues that come up as part of this process are reviewed by Datica management to assure all risks and potential gaps are mitigated and/or fully addressed. The process for reviewing polices is outlined below:
+  1. The Security Officer initiates the policy review by creating an issue in the Compliance Review Actvivity Project in Jira.
+  2. The Security Officer or the Privacy Officer is assigned to review the current Datica policies (https://policy.datica.com/).
+  3. If changes are made, the above process is used. All changes are documented in the Issue.
+  4. Once the review is completed, the Security Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
+  5. If the review is approved, the Security Officer then marks the issue as Done, adding any pertinent notes required.
+  6. Policy review is monitored on a quarterly basis using Jira reporting to assess compliance with above policy.
 7. Datica utilizes the HITRUST MyCSF framework to track compliance with the HITRUST CSF on an annual basis. Datica also tracks compliance with HIPAA and publishes results [here](https://hipaa.datica.com).
 
 Additional documentation related to maintenance of policies is outlined in the Security officers responsibilities.
