@@ -34,6 +34,13 @@ This policy establishes the scope, objectives, and procedures of Datica's inform
 5. All Datica workforce members are expected to fully cooperate with all persons charged with doing risk management work, including contractors and audit personnel. Any workforce member that violates this policy will be subject to disciplinary action based on the severity of the violation, as outlined in the Datica Roles Policy.
 6. The implementation, execution, and maintenance of the information security risk analysis and risk management process is the responsibility of Datica's Security Officer (or other designated employee), and the identified Risk Management Team.
 7. All risk management efforts, including decisions made on what controls to put in place as well as those to not put into place, are documented and the documentation is maintained for six years.
+8. The details of the Risk Management Process, including risk assessment, discovery, and mitigation, are outlined in detail below. The process is tracked, measured, and monitored using the following procedures:
+  1. The Security Officer or the Privacy Officer initiates the Risk Management Procedures by creating an issue in the Compliance Review Actvivity Project in Jira.
+  2. The Security Officer or the Privacy Officer is assigned to carry out the Risk Management Procedures.
+  3. All findings are documented in approved spreadsheet that is linked to the Issue.
+  4. Once the Risk Management Procedures are complete, along with correspondign documentation, the Security Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
+  5. If the review is approved, the Security Officer then marks the issue as Done, adding any pertinent notes required.
+9. The Risk Management Procedure is monitored on a quarterly basis using Jira reporting to assess compliance with above policy.
 
 ## 4.3 Risk Management Procedures
 
