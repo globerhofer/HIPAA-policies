@@ -25,7 +25,10 @@ Production systems that create, receive, store, or transmit Customer data (herea
 ## 17.4 Prevention of Malware on Production Systems
 
 1. All Production Systems must have OSSEC running at set to scan system every 2 hours and at reboot to assure not malware is present. Detected malware is evaluated and removed.
-2. Virus scanning software is run on all Production Systems for anti-virus protection. Hosts are scanned daily for malicious binaries in critical system paths. The malware signature database is checked hourly and automatically updated if new signatures are available.
+2. Virus scanning software is run on all Production Systems for anti-virus protection.
+   * Hosts are scanned daily for malicious binaries in critical system paths.
+   * The malware signature database is checked hourly and automatically updated if new signatures are available.
+   * Logs of virus scans are maintained according to the requirements outlined in [§8.6](#8.6-audit-log-security-controls-and-backup).
 3. All Production Systems are to only be used for Datica business needs.
 
 ## 17.5 Patch Management
