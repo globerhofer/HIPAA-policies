@@ -21,9 +21,9 @@ Datica implements policies and procedures to maintain compliance and integrity o
 4. All policies are made accessible to all Datica workforce members. The current master policies are published at [https://policy.datica.com](https://policy.datica.com).
    * Changes can be requested to policies using this [form](https://docs.google.com/a/catalyze.io/forms/d/1sJ_8DcbbW8i2i85pqXU7JrjHLFYBhFj_TP5uAG4QFZE/viewform).
    * Once the change has been approved to a Datica Policy we implement the policy change using Chef/Salt. The process for that is spelled out in the Datica Configuration Management Policy.
-   * Changes are automatically communicated to all Datica team members through integrations between Github and Slack that log all Github policy channels to a dedicated Datica Slack Channel.
+   * Changes are automatically communicated to all Datica team members through integrations between GiHhub and Slack that log all GitHub policy channels to a dedicated Datica Slack Channel.
 5. All policies, and associated documentation, are retained for 6 years from the date of its creation or the date when it last was in effect, whichever is later
-   1. Version history of all Datica policies is done via Github.
+   1. Version history of all Datica policies is done via GitHub.
    2. Backup storage of all policies is done with Box.
 6. The policies and information security policies are reviewed and audited annually. Issues that come up as part of this process are reviewed by Datica management to assure all risks and potential gaps are mitigated and/or fully addressed. The process for reviewing polices is outlined below:
   1. The Security Officer initiates the policy review by creating an issue in the JIRA Compliance Review Activity (CRA) project.
