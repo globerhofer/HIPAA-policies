@@ -32,7 +32,7 @@ Datica makes every effort to assure all 3rd party organizations are compliant an
 8. Whenever outsourced development is utilized by Datica, all changes to production systems will be approved and implemented by Datica workforce members only. All outsourced development requires a formal contract with Datica.
 9. Datica maintains and annually reviews a list all current Partners and Subcontractors.
 10. Datica assesses security requirements and compliance considerations with all Partners and Subcontractors. This includes annual assessment of SOC2 Reports for all Datica infrastructure partners.
-    * Datica leverages recurring calendar invites to assure reviews of SLAs with all 3rd parties are performed annually. These are performed by the Datica Security Officer and Privacy Officer. Google Forms are used to track such reviews. The process for reviewing SLAs is outlined below:
+    * Datica leverages recurring calendar invites to assure reviews of SLAs with all 3rd parties are performed annually. These are performed by the Datica Security Officer and Privacy Officer. The process for reviewing SLAs is outlined below:
       1. The Security Officer initiates the SLA review by creating an issue in the JIRA Compliance Review Activity (CRA) Project.
       2. The Security Officer, or a Privacy Officer, is assigned to review the SLA and performance of 3rd parties.
       3. SLA performance is documented in the Issue.
