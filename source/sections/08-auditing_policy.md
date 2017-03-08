@@ -81,10 +81,10 @@ This policy applies to all Datica Add-on systems, including BaaS, that store, tr
 ## 8.4 Review and Reporting of Audit Findings
 
 1. Audit information that is routinely gathered must be reviewed in a timely manner, currently monthly, by the responsible workforce member(s). On a quarterly basis, logs are reviewed to assure the proper data is being captured and retained. The following process details how log reviews are done at Datica:
-  1. The Security Officer initiates the log review by creating an issue in the Compliance Review Actvivity Project in Jira.
+  1. The Security Officer initiates the log review by creating an issue in the JIRA Compliance Review Activity (CRA) Project.
   2. The Security Officer, or a Datica Security Engineer assigned by the Security Officer, is assigned to review the logs.
   3. Relevant audit log findings are added to the Issue; these findings are investigated in a later step. Once those steps are completed, the Issue is then reviewed again.
-  4. Once the review is completed, the Security Officer approves or rejects the Issue. Relevant findings are reviewed a this stage. If the Issue is rejected, it goes back for further review and documentation. The communications protocol around specific findings are outlned below.
+  4. Once the review is completed, the Security Officer approves or rejects the Issue. Relevant findings are reviewed a this stage. If the Issue is rejected, it goes back for further review and documentation. The communications protocol around specific findings are outlined below.
   5. If the Issue is approved, the Security Officer then marks the issue as Done, adding any pertinent notes required.
 2. The reporting process shall allow for meaningful communication of the audit findings to those workforce members, Customers, or Partners requesting the audit.
    * Significant findings shall be reported immediately in a written format. Datica's security incident response form may be utilized to report a single event.
@@ -92,7 +92,7 @@ This policy applies to all Datica Add-on systems, including BaaS, that store, tr
 3. Reports of audit results shall be limited to internal use on a minimum necessary/need-to-know basis. Audit results shall not be disclosed externally without administrative and/or legal counsel approval.
 4. Security audits constitute an internal, confidential monitoring practice that may be included in Datica's performance improvement activities and reporting. Care shall be taken to ensure that the results of the audits are disclosed to administrative level oversight structures only and that information which may further expose organizational risk is shared with extreme caution. Generic security audit information may be included in organizational reports (individually-identifiable e PHI shall not be included in the reports).
 5. Whenever indicated through evaluation and reporting, appropriate corrective actions must be undertaken. These actions shall be documented and shared with the responsible workforce members, Customers, and/or Partners.
-6. Log review activity is monitored on a quarterly basis using Jira reporting to assess compliance with above policy.
+6. Log review activity is monitored on a quarterly basis using JIRA reporting to assess compliance with above policy.
 
 ## 8.5 Auditing Customer and Partner Activity
 

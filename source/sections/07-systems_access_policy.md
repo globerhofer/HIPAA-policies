@@ -37,12 +37,12 @@ Access to Datica systems and application is limited for all users, including but
 2. Access is not granted until receipt, review, and approval by the Datica Security Officer;
 3. The request for access is retained for future reference.
 4. All access to Datica systems and services are reviewed and updated on an bi-annual basis to assure proper authorizations are in place commensurate with job functions. The process for conducting reviews is outlined below:
-  1. The Security Officer initiates the review of user access by creating an issue in the Compliance Review Actvivity Project in Jira.
+  1. The Security Officer initiates the review of user access by creating an issue in the JIRA Compliance Review Activity (CRA) Project.
   2. The Security Officer, or a Privacy Officer, is assigned to review levels of access for each Datica workforce member.
   3. If user access is are found during review that is not in line with the least privilege principle, the process below is used to modify user access and notify the user of access changes. Once those steps are completed, the Issue is then reviewed again.
   4. Once the review is completed, the Security Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
   5. If the review is approved, the Security Officer then marks the issue as Done, adding any pertinent notes required.
-  6. Review of user access is monitored on a quarterly basis using Jira reporting to assess compliance with above policy.
+  6. Review of user access is monitored on a quarterly basis using JIRA reporting to assess compliance with above policy.
 5. Any Datica workforce member can request change of access using this [form](https://docs.google.com/a/catalyze.io/forms/d/1ySICzCyEEdNqxHHErjlJqREBijwxs9z72L-rWXrxkm0/viewform).
 6. Access to systems is controlled using centralized user management and authentication.
 7. Temporary accounts are not used unless absolutely necessary for business purposes.
