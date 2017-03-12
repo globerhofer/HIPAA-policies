@@ -25,7 +25,7 @@ Datica implements policies and procedures to maintain compliance and integrity o
 5. All policies, and associated documentation, are retained for 6 years from the date of its creation or the date when it last was in effect, whichever is later
    1. Version history of all Datica policies is done via GitHub.
    2. Backup storage of all policies is done with Box.
-6. The policies and information security policies are reviewed and audited annually. Issues that come up as part of this process are reviewed by Datica management to assure all risks and potential gaps are mitigated and/or fully addressed. The process for reviewing polices is outlined below:
+6. The policies and information security policies are reviewed and audited annually, or after significant changes occur to Datica's organizational environment. Issues that come up as part of this process are reviewed by Datica management to assure all risks and potential gaps are mitigated and/or fully addressed. The process for reviewing polices is outlined below:
   1. The Security Officer initiates the policy review by creating an issue in the JIRA Compliance Review Activity (CRA) project.
   2. The Security Officer or the Privacy Officer is assigned to review the current Datica policies ([https://policy.datica.com/](https://policy.datica.com/)).
   3. If changes are made, the above process is used. All changes are documented in the Issue.
