@@ -40,3 +40,15 @@ Datica is committed to ensuring all workforce members actively address security 
 12. Datica employees are strictly forbidden from downloading any ePHI to their workstations.
     * Restricting transfers of ePHI is enforced through technical controls as described in [§7.13](#7.13-access-to-ephi).
     * Employees found to be in violation of this policy will be subject to sanctions as described in [§5.3.3](#5.3-security-officer).
+
+## 19.3 Issue Escalation
+
+Datica workforce members are to escalate issues using the procedures outlined in the Employee Handbook. Issues that are brought to the Escalation Team are assigned an owner. The membership of the Escalation Team is maintained by the Chief Executive Officer.
+
+It is the duty of that owner to follow the process outlined below:
+
+      1. Create an Issue in the JIRA Compliance Review Activity (CRA) Project.
+      2. The Issue is investigated, documented, and, when a conclusion or remediation is reached, it is moved to Review.
+      3. The Issue is reviewed by another member of the Escalation Team. If the Issue is rejected, it goes back for further evaluation and review.
+      4. If the Issue is approved, it is marked as Done, adding any pertinent notes required.
+      5. The workforce member that initiated the process is notified of the outcome via email.
