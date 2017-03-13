@@ -30,11 +30,11 @@ Datica makes every effort to assure all 3rd party organizations are compliant an
    * Datica utilizes monitoring tools to regularly evaluate Subcontractors against relevant SLAs.
 7. Third parties are unable to make changes to any Datica infrastructure without explicit permission from Datica. Additionally, no Datica Customers or Partners have access outside of their own environment, meaning they cannot access, modify, or delete anything related to other 3rd parties.
 8. Whenever outsourced development is utilized by Datica, all changes to production systems will be approved and implemented by Datica workforce members only. All outsourced development requires a formal contract with Datica.
-9. Datica maintains and annually reviews a list all current Partners and Subcontractors.
+9. Datica maintains and annually reviews a list all current Partners and Subcontractors. This list is maintained by the Datica Privacy Officer. The annual review is conducted as a part of the below referenced SLA review.
 10. Datica assesses security requirements and compliance considerations with all Partners and Subcontractors. This includes annual assessment of SOC2 Reports for all Datica infrastructure partners.
     * Datica leverages recurring calendar invites to assure reviews of SLAs with all 3rd parties are performed annually. These are performed by the Datica Security Officer and Privacy Officer. The process for reviewing SLAs is outlined below:
       1. The Security Officer initiates the SLA review by creating an issue in the JIRA Compliance Review Activity (CRA) Project.
-      2. The Security Officer, or a Privacy Officer, is assigned to review the SLA and performance of 3rd parties.
+      2. The Security Officer, or a Privacy Officer, is assigned to review the SLA and performance of 3rd parties. The list of current 3rd parties is also reviewed to assure it is up to date and complete.
       3. SLA performance is documented in the Issue.
       4. Once the review is completed and documented, the Security Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
 11. Regular review is conducted as required by SLAs to assure security and compliance. These reviews include reports, audit trails, security events, operational issues, failures and disruptions, and identified issues are investigated and resolved in a reasonable and timely manner.
