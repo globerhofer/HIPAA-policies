@@ -47,8 +47,8 @@ Datica workforce members are to escalate issues using the procedures outlined in
 
 It is the duty of that owner to follow the process outlined below:
 
-      1. Create an Issue in the JIRA Compliance Review Activity (CRA) Project.
-      2. The Issue is investigated, documented, and, when a conclusion or remediation is reached, it is moved to Review.
-      3. The Issue is reviewed by another member of the Escalation Team. If the Issue is rejected, it goes back for further evaluation and review.
-      4. If the Issue is approved, it is marked as Done, adding any pertinent notes required.
-      5. The workforce member that initiated the process is notified of the outcome via email.
+1. Create an Issue in the JIRA Compliance Review Activity (CRA) Project.
+2. The Issue is investigated, documented, and, when a conclusion or remediation is reached, it is moved to Review.
+3. The Issue is reviewed by another member of the Escalation Team. If the Issue is rejected, it goes back for further evaluation and review.
+4. If the Issue is approved, it is marked as Done, adding any pertinent notes required.
+5. The workforce member that initiated the process is notified of the outcome via email.
