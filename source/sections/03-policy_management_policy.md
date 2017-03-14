@@ -21,7 +21,7 @@ Datica implements policies and procedures to maintain compliance and integrity o
 4. All policies are made accessible to all Datica workforce members. The current master policies are published at [https://policy.datica.com](https://policy.datica.com).
    * Changes can be requested to policies using this [form](https://docs.google.com/a/catalyze.io/forms/d/1sJ_8DcbbW8i2i85pqXU7JrjHLFYBhFj_TP5uAG4QFZE/viewform).
    * Once the change has been approved to a Datica Policy we implement the policy change using Chef/Salt. The process for that is spelled out in the Datica Configuration Management Policy.
-   * Changes are automatically communicated to all Datica team members through integrations between GiHhub and Slack that log all GitHub policy channels to a dedicated Datica Slack Channel.
+   * Changes are automatically communicated to all Datica team members through integrations between GitHub and Slack that log all GitHub policy channels to a dedicated Datica Slack Channel.
 5. All policies, and associated documentation, are retained for 6 years from the date of its creation or the date when it last was in effect, whichever is later
    1. Version history of all Datica policies is done via GitHub.
    2. Backup storage of all policies is done with Box.
