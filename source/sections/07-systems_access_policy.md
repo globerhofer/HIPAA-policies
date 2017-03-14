@@ -136,6 +136,13 @@ Datica does not use paper records for any sensitive information. Use of paper fo
 8. Upon initial login, users must change any passwords that were automatically generated for them.
 9. All passwords used in configuration scripts are secured and encrypted.
 10. If a user believes their user ID has been compromised, they are required to immediately report the incident to the Security Office.
+11. In cases where a user has forgotten their password, the following procedure is used to reset the password.
+  * The user submits a password reset request to password-reset@datica.com. The request should include the system to which the user has lost access and needs the password reset.
+  * An administrator with password reset privileges is notified and connects diretly with the user requesting the password reset.
+  * The administrator verifies the identity of the user either in-person or through a separate communication channel such as phone or Slack.
+  * Once verified, the adminsitrator resets the password.
+
+The password-reset email inbox is used to track and store password reset requests. The Security Officer is the owner of this group and modifies membership as needed.
 
 ## 7.13 Access to ePHI
 
