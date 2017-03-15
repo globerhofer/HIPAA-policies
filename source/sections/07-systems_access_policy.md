@@ -75,11 +75,12 @@ Access to Datica systems and application is limited for all users, including but
 
 ## 7.6 Unique User Identification
 
-1. Access to the Datica Platform systems and applications is controlled by requiring unique User Login ID's and passwords for each individual user and developer.
+1. Access to the Datica Platform systems and applications is controlled by requiring unique User Login IDs and passwords for each individual user and developer.
 2. Passwords requirements mandate strong password controls (see below).
 3. Passwords are not displayed at any time and are not transmitted or stored in plain text.
 4. Default accounts on all production systems, including root, are disabled.
 5. Shared accounts are not allowed within Datica systems or networks.
+6. Automated log-on configurations that store user passwords or bypass password entry are not permitted for use with Datica workstations or production systems.
 
 ## 7.7 Automatic Logoff
 
