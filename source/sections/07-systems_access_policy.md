@@ -128,7 +128,7 @@ Datica does not use paper records for any sensitive information. Use of paper fo
 
 1. User IDs and passwords are used to control access to Datica systems and may not be disclosed to anyone for any reason.
 2. Users may not allow anyone, for any reason, to have access to any information system using another user's unique user ID and password.
-3. On all production systems and application in the Datica environment, password configurations are set to require:
+3. On all production systems and applications in the Datica environment, password configurations are set to require:
    * a minimum length of 8 characters;
    * a mix of upper case characters, lower case characters, and numbers or special characters;
    * a 90-day password expiration;
