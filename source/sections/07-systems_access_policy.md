@@ -134,9 +134,10 @@ Datica does not use paper records for any sensitive information. Use of paper fo
 6. Passwords are inactivated immediately upon an employee's termination (refer to the [Employee Termination Procedures in §7.10](#7.10-employee-termination-procedures)).
 7. All default system, application, and Partner passwords are changed before deployment to production.
 8. Upon initial login, users must change any passwords that were automatically generated for them.
-9. All passwords used in configuration scripts are secured and encrypted.
-10. If a user believes their user ID has been compromised, they are required to immediately report the incident to the Security Office.
-11. In cases where a user has forgotten their password, the following procedure is used to reset the password.
+9. Password change methods must use a confirmation method to correct for user input errors.
+10. All passwords used in configuration scripts are secured and encrypted.
+11. If a user believes their user ID has been compromised, they are required to immediately report the incident to the Security Office.
+12. In cases where a user has forgotten their password, the following procedure is used to reset the password.
   * The user submits a password reset request to password-reset@datica.com. The request should include the system to which the user has lost access and needs the password reset.
   * An administrator with password reset privileges is notified and connects directly with the user requesting the password reset.
   * The administrator verifies the identity of the user either in-person or through a separate communication channel such as phone or Slack.
