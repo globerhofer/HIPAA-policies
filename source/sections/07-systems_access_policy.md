@@ -66,7 +66,9 @@ Access to Datica systems and application is limited for all users, including but
 10. All application to application communication using service accounts is restricted and not permitted unless absolutely needed. Automated tools are used to limit account access across applications and systems.
 11. Generic accounts are not allowed on Datica systems.
 12. Access is granted through encrypted, VPN tunnels that utilize two-factor authentication.
-    * VPN utilizes AES 256 bit encryption.
+    * Two-factor authentication is accomplished using a Time-based One-Time Password (TOTP) as the second factor.
+    * VPN connections use 256-bit AES 256 encryption, or equivalent.
+    * VPN sessions are automatically disconnected after 30 minutes of inactivity.
 13. In cases of increased risk or known attempted unauthorized access, immediate steps are taken by the Security and Privacy Officer to limit access and reduce risk of unauthorized access.
 14. Direct system to system, system to application, and application to application authentication and authorization are limited and controlled to restrict access.
 
