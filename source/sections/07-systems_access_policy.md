@@ -35,6 +35,9 @@ Access to Datica systems and application is limited for all users, including but
 
 1. Requests for access to Datica Platform systems and applications is made formally using the following process:
   1. The Datica workforce member, or their manager, initiates the access request by creating an Issue in the JIRA Compliance Review Activity (CRA) Project.
+     * User identities must be verified prior to granting access to new accounts.
+     * Identity verification must be done in person where possible; for remote employees, identities must be verified over the phone.
+     * For new accounts, the method used to verify the user's identity must be recorded on the Issue.
   2. The Security Officer will grant access to systems as dictated by the employee's job title. If additional access is required outside of the minimum necessary to perform job functions, the requester must include a description of why the additional access is required as part of the access request.
   3. Once the review is completed, the Security Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
   4. If the review is approved, the Security Officer then marks the Issue as Done, adding any pertinent notes required. The Security Officer then grants requested access.
@@ -45,25 +48,25 @@ Access to Datica systems and application is limited for all users, including but
 2. Access is not granted until receipt, review, and approval by the Datica Security Officer;
 3. The request for access is retained for future reference.
 4. All access to Datica systems and services are reviewed and updated on an bi-annual basis to assure proper authorizations are in place commensurate with job functions. The process for conducting reviews is outlined below:
-  1. The Security Officer initiates the review of user access by creating an Issue in the JIRA Compliance Review Activity (CRA) Project.
-  2. The Security Officer, or a Privacy Officer, is assigned to review levels of access for each Datica workforce member.
-  3. If user access is are found during review that is not in line with the least privilege principle, the process below is used to modify user access and notify the user of access changes. Once those steps are completed, the Issue is then reviewed again.
-  4. Once the review is completed, the Security Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
-  5. If the review is approved, the Security Officer then marks the Issue as Done, adding any pertinent notes required.
-  6. Review of user access is monitored on a quarterly basis using JIRA reporting to assess compliance with above policy.
+   1. The Security Officer initiates the review of user access by creating an Issue in the JIRA Compliance Review Activity (CRA) Project.
+   2. The Security Officer, or a Privacy Officer, is assigned to review levels of access for each Datica workforce member.
+   3. If user access is are found during review that is not in line with the least privilege principle, the process below is used to modify user access and notify the user of access changes. Once those steps are completed, the Issue is then reviewed again.
+   4. Once the review is completed, the Security Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
+   5. If the review is approved, the Security Officer then marks the Issue as Done, adding any pertinent notes required.
+   6. Review of user access is monitored on a quarterly basis using JIRA reporting to assess compliance with above policy.
 5. Any Datica workforce member can request change of access using the process outlined in [§7.2 paragraph 1](#7.2-access-establishment-and-modification).
 6. Access to production systems is controlled using centralized user management and authentication.
 7. Temporary accounts are not used unless absolutely necessary for business purposes.
-  * Accounts are reviewed every 90 days to assure temporary accounts are not left unnecessarily.
-  * Accounts that are inactive for over 90 days are removed.
+   * Accounts are reviewed every 90 days to assure temporary accounts are not left unnecessarily.
+   * Accounts that are inactive for over 90 days are removed.
 8. In the case of non-personal information, such as generic educational content, identification and authentication may not be required. This is the responsibility of Datica Customers to define, and not Datica.
 9. Privileged users must first access systems using standard, unique user accounts before switching to privileged users and performing privileged tasks.
-  * For production systems, this is enforced by creating non-privileged user accounts that must invoke `sudo` to perform privileged tasks.
-  * Rights for privileged accounts are granted by the Security Officer using the process outlined in [§7.2 paragraph 1](#7.2-access-establishment-and-modification).
+   * For production systems, this is enforced by creating non-privileged user accounts that must invoke `sudo` to perform privileged tasks.
+   * Rights for privileged accounts are granted by the Security Officer using the process outlined in [§7.2 paragraph 1](#7.2-access-establishment-and-modification).
 10. All application to application communication using service accounts is restricted and not permitted unless absolutely needed. Automated tools are used to limit account access across applications and systems.
 11. Generic accounts are not allowed on Datica systems.
 12. Access is granted through encrypted, VPN tunnels that utilize two-factor authentication.
-  * VPN utilizes AES 256 bit encryption.
+    * VPN utilizes AES 256 bit encryption.
 13. In cases of increased risk or known attempted unauthorized access, immediate steps are taken by the Security and Privacy Officer to limit access and reduce risk of unauthorized access.
 14. Direct system to system, system to application, and application to application authentication and authorization are limited and controlled to restrict access.
 
@@ -118,16 +121,16 @@ All workstations at Datica are company owned, and all are laptop Apple products 
 2. Wireless access is disabled on all production systems.
 3. When access production systems via remote wireless connections, the same system access policies and procedures apply to wireless as all other connections, including wired.
 4. Wireless networks managed within Datica non-production facilities (offices, etc) are secured with the following configurations:
-  * All data in transit over wireless is encrypted using WPA2 encryption;
-  * Passwords are rotated on a regular basis, presently quarterly. This process is managed by the Datica Security Officer.
+   * All data in transit over wireless is encrypted using WPA2 encryption;
+   * Passwords are rotated on a regular basis, presently quarterly. This process is managed by the Datica Security Officer.
 
 ## 7.10 Employee Termination Procedures
 
 1. The Human Resources Department (or other designated department), users, and their supervisors are required to notify the Security Officer upon completion and/or termination of access needs and facilitating completion of the "Termination Checklist".
 2. The Human Resources Department, users, and supervisors are required to notify the Security Officer to terminate a user's access rights if there is evidence or reason to believe the following (these incidents are also reported on an incident report and is filed with the Privacy Officer):
-  * The user has been using their access rights inappropriately;
-  * A user's password has been compromised (a new password may be provided to the user if the user is not identified as the individual compromising the original password);
-  * An unauthorized individual is utilizing a user's User Login ID and password (a new password may be provided to the user if the user is not identified as providing the unauthorized individual with the User Login ID and password).
+   * The user has been using their access rights inappropriately;
+   * A user's password has been compromised (a new password may be provided to the user if the user is not identified as the individual compromising the original password);
+   * An unauthorized individual is utilizing a user's User Login ID and password (a new password may be provided to the user if the user is not identified as providing the unauthorized individual with the User Login ID and password).
 3. The Security Officer will terminate users' access rights immediately upon notification, and will coordinate with the appropriate Datica employees to terminate access to any non-production systems managed by those employees.
 4. The Security Officer audits and may terminate access of users that have not logged into organization's information systems/applications for an extended period of time.
 
@@ -157,10 +160,10 @@ Datica does not use paper records for any sensitive information. Use of paper fo
 10. All passwords used in configuration scripts are secured and encrypted.
 11. If a user believes their user ID has been compromised, they are required to immediately report the incident to the Security Office.
 12. In cases where a user has forgotten their password, the following procedure is used to reset the password.
-  * The user submits a password reset request to password-reset@datica.com. The request should include the system to which the user has lost access and needs the password reset.
-  * An administrator with password reset privileges is notified and connects directly with the user requesting the password reset.
-  * The administrator verifies the identity of the user either in-person or through a separate communication channel such as phone or Slack.
-  * Once verified, the administrator resets the password.
+    * The user submits a password reset request to password-reset@datica.com. The request should include the system to which the user has lost access and needs the password reset.
+    * An administrator with password reset privileges is notified and connects directly with the user requesting the password reset.
+    * The administrator verifies the identity of the user either in-person or through a separate communication channel such as phone or Slack.
+    * Once verified, the administrator resets the password.
 
 The password-reset email inbox is used to track and store password reset requests. The Security Officer is the owner of this group and modifies membership as needed.
 
