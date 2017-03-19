@@ -53,7 +53,7 @@ Datica standardizes and automates configuration management through the use of Ch
    * Intrusion detection and virus scanning software installed.
    * All items listed below in the operating system-specific subsections below.
 6. Once the security team member has verified the new system is correctly configured, the team member must add that system to the Nessus security scanner configuration.
-7. The new system may be rotated into production once the CTO verifies all the provisioning steps listed above have been correctly followed and has marked the issue with the `Approved` state.
+7. The new system may be rotated into production once the CTO verifies all the provisioning steps listed above have been correctly followed and has marked the Issue with the `Approved` state.
 
 ### 9.3.1 Provisioning Linux Systems
 
@@ -102,7 +102,7 @@ Datica standardizes and automates configuration management through the use of Ch
    * The ops team member will create a feature branch and make their changes on that branch.
    * The ops team member must test their configuration change locally when possible, or on a development and/or staging sandbox otherwise.
    * At least one other ops team member must review the Chef or Salt change before merging the change into the main branch.
-3. In all cases, before rolling out the change to production, the ops team member must file an issue in the DT project describing the change. This issue must link to the reviewed Merge Request and/or include a link to the runbook.
+3. In all cases, before rolling out the change to production, the ops team member must file an Issue in the DT project describing the change. This Issue must link to the reviewed Merge Request and/or include a link to the runbook.
 4. Once the request has been approved by the CTO, the ops team member may roll out the change into production environments.
 
 ## 9.5 Patch Management Procedures
