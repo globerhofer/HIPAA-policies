@@ -87,6 +87,10 @@ Access to Datica systems and application is limited for all users, including but
 
 1. Each workforce member has and uses a unique user ID and password that identifies him/her as the user of the information system.
 2. Each Customer and Partner has and uses a unique user ID and password that identifies him/her as the user of the information system.
+3. All Customer support desk interactions must be verified before Datica support personnel will satisfy any request having information security implications.
+   * Datica's current support desk software, Zendesk, requires users to authenticate before submitting support tickets.
+   * Support issues submitted via Datica's dashboard require that users authenticate with their Datica account before submitting support tickets.
+   * Support issues submitted by email must be verified by Datica personnel using a phone number that has been registered with the corresponding account.
 
 ## 7.6 Unique User Identification
 
