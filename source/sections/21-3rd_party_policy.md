@@ -23,10 +23,11 @@ Datica makes every effort to assure all 3rd party organizations are compliant an
 2. All connections and data in transit between the Datica Platform and 3rd parties are encrypted end to end.
 3. A standard business associate agreement with Customers and Partners is defined and includes the required security controls in accordance with the organization's security policies. Additionally, responsibility is assigned in these agreements.
 4. Datica has Service Level Agreements (SLAs) with Subcontractors with an agreed service arrangement addressing liability, service definitions, security controls, and aspects of services management.
+   * Subcontractors must coordinate, manage, and communicate any changes to services provided to Datica.
    * Datica utilizes monitoring tools to regularly evaluate Subcontractors against relevant SLAs.
 5. No Datica Customers or Partners have access outside of their own environment, meaning they cannot access, modify, or delete anything related to other 3rd parties.
 6. Datica does not outsource software development.
-7. Datica maintains and annually reviews a list all current Partners and Subcontractors. This list is maintained by the Datica Privacy Officer. The annual review is conducted as a part of the below referenced SLA review.
+7. Datica maintains and annually reviews a list all current Partners and Subcontractors. This list is maintained by the Datica Privacy Officer, includes details on all provided services, and is recorded in [§1.4](#1.4-datica-organizational-concepts). The annual review is conducted as a part of the below referenced SLA review.
 8. Datica assesses security requirements and compliance considerations with all Partners and Subcontractors. This includes annual assessment of SOC2 Reports for all Datica infrastructure partners.
    * Datica leverages recurring calendar invites to assure reviews of SLAs with all 3rd parties are performed annually. These are performed by the Datica Security Officer and Privacy Officer. The process for reviewing SLAs is outlined below:
      1. The Security Officer initiates the SLA review by creating an Issue in the JIRA Compliance Review Activity (CRA) Project.
