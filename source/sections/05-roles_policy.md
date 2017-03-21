@@ -40,7 +40,7 @@ The current Datica Privacy Officer is Travis Good ([travis@datica.com](mailto:tr
    2. HITRUST Common Security Framework;
    3. NIST Security Rules;
    4. Risk Management procedures and documentation;
-   5. Auditing.  Datica may monitor access and activities of all users;
+   5. Auditing. Datica may monitor access and activities of all users;
    6. Workstations may only be used to perform assigned job responsibilities;
    7. Users may not download software onto Datica's workstations and/or systems without prior approval from the Security Officer;
    8. Users are required to report malicious software to the Security Officer immediately;
@@ -90,7 +90,7 @@ These organizational responsibilities include, but are not limited to the follow
     * Latest malicious software or virus alerts;
     * Datica's requirement to report unauthorized attempts to access ePHI;
     * Changes in creating or changing passwords;
-    * Additional security-focused training is provided to all workforce members by the Security Officer.  This training includes, but is not limited to:
+    * Additional security-focused training is provided to all workforce members by the Security Officer. This training includes, but is not limited to:
     * Data backup plans;
     * System auditing procedures;
     * Redundancy procedures;
@@ -116,15 +116,15 @@ Although the Security Officer is responsible for implementing and overseeing all
 
 ### 5.3.3 Sanctions of Workforce Responsibilities
 
-All workforce members report non-compliance of Datica's policies and procedures to the Security Officer or other individual as assigned by the Security Officer.  Individuals that report violations in good faith may not be subjected to intimidation, threats, coercion, discrimination against, or any other retaliatory action as a consequence.
+All workforce members report non-compliance of Datica's policies and procedures to the Security Officer or other individual as assigned by the Security Officer. Individuals that report violations in good faith may not be subjected to intimidation, threats, coercion, discrimination against, or any other retaliatory action as a consequence.
 
-1. The Security Officer promptly facilitates a thorough investigation of all reported violations of Datica's security policies and procedures.  The Security Officer may request the assistance from others.
+1. The Security Officer promptly facilitates a thorough investigation of all reported violations of Datica's security policies and procedures. The Security Officer may request the assistance from others.
    * Complete an audit trail/log to identify and verify the violation and sequence of events.
    * Interview any individual that may be aware of or involved in the incident.
    * All individuals are required to cooperate with the investigation process and provide factual information to those conducting the investigation.
    * Provide individuals suspected of non-compliance of the Security rule and/or Datica's policies and procedures the opportunity to explain their actions.
    * The investigators thoroughly documents the investigation as the investigation occurs.
-2. Violation of any security policy or procedure by workforce members may result in corrective disciplinary action, up to and including termination of employment.  Violation of this policy and procedures by others, including business associates, customers, and partners may result in termination of the relationship and/or associated privileges.  Violation may also result in civil and criminal penalties as determined by federal and state laws and regulations.
+2. Violation of any security policy or procedure by workforce members may result in corrective disciplinary action, up to and including termination of employment. Violation of this policy and procedures by others, including business associates, customers, and partners may result in termination of the relationship and/or associated privileges. Violation may also result in civil and criminal penalties as determined by federal and state laws and regulations.
    * A violation resulting in a breach of confidentiality (i.e. release of PHI to an unauthorized individual), change of the integrity of any ePHI, or inability to access any ePHI by other users, requires immediate termination of the workforce member from Datica.
 3. The Security Officer facilitates taking appropriate steps to prevent recurrence of the violation (when possible and feasible).
 4. In the case of an insider threat, the Security Officer and Privacy Officer are to set up a team to investigate and mitigate the risk of insider malicious activity. Datica workforce members are encouraged to come forward with information about insider threats, and can do so anonymously.
