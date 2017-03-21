@@ -123,7 +123,7 @@ All workforce members report non-compliance of Datica's policies and procedures 
    * Interview any individual that may be aware of or involved in the incident.
    * All individuals are required to cooperate with the investigation process and provide factual information to those conducting the investigation.
    * Provide individuals suspected of non-compliance of the Security rule and/or Datica's policies and procedures the opportunity to explain their actions.
-   * The investigators thoroughly documents the investigation as the investigation occurs.
+   * The investigator thoroughly documents the investigation as the investigation occurs. This documentation must include a list of all employees involved in the violation.
 2. Violation of any security policy or procedure by workforce members may result in corrective disciplinary action, up to and including termination of employment. Violation of this policy and procedures by others, including business associates, customers, and partners may result in termination of the relationship and/or associated privileges. Violation may also result in civil and criminal penalties as determined by federal and state laws and regulations.
    * A violation resulting in a breach of confidentiality (i.e. release of PHI to an unauthorized individual), change of the integrity of any ePHI, or inability to access any ePHI by other users, requires immediate termination of the workforce member from Datica.
 3. The Security Officer facilitates taking appropriate steps to prevent recurrence of the violation (when possible and feasible).
