@@ -40,6 +40,9 @@ Datica is committed to ensuring all workforce members actively address security 
 12. Datica employees are strictly forbidden from downloading any ePHI to their workstations.
     * Restricting transfers of ePHI is enforced through technical controls as described in [§7.13](#7.13-access-to-ephi).
     * Employees found to be in violation of this policy will be subject to sanctions as described in [§5.3.3](#5.3-security-officer).
+13. Employees are required to cooperate with federal and state investigations.
+    * Employees must not interfere with investigations through willful misrepresentation, omission of facts, or by the use of threats against any person.
+    * Employees found to be in violation of this policy will be subject to sanctions as described in [§5.3.3](#5.3-security-officer).
 
 ## 19.3 Issue Escalation
 
