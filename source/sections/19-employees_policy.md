@@ -29,12 +29,14 @@ Datica is committed to ensuring all workforce members actively address security 
    * A Human Resources representative will provide the agreement to new employees during their onboarding process.
 4. Datica does not allow mobile devices to connect to any of its production networks.
 5. All workforce members are educated about the approved set of tools to be installed on workstations.
-6. All new workforce members are given HIPAA training within 60 days of beginning employment. Training includes HIPAA reporting requirements, including the ability to anonymously report security incidents, and the levels of compliance and obligations for Datica and its Customers and Partners.
+6. All new workforce members are given HIPAA training within 30 days of beginning employment. Training includes HIPAA reporting requirements, including the ability to anonymously report security incidents, and the levels of compliance and obligations for Datica and its Customers and Partners.
+   * Current Datica training is hosted at [training.datica.com](https://training.datica.com/).
 7. All remote (teleworking) workforce members are trained on the risks, the controls implemented, their responsibilities, and sanctions associated with violation of policies. Additionally, remote security is maintained through the use of VPN tunnels for all access to production systems with access to ePHI data.
 8. All Datica-purchased and -owned computers are to display this message at login and when the computer is unlocked: *This computer is owned by Datica Health, Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://policy.datica.com) and have completed this training (https://training.datica.com). Please contact us if you have problems with this - privacy@datica.com*.
 9. Employees may only use Datica-purchased and -owned workstations for accessing production systems with access to ePHI data.
    * Any workstations used to access production systems must be configured as prescribed in [§7.8](#7.8-employee-workstation-use).
    * Any workstations used to access production systems must have virus protection software installed, configured, and enabled.
+   * Datica may monitor access and activities of all users on workstations and production systems in order to meet auditing policy requirements ([§8](#8.-auditing-policy)).
 10. Access to internal Datica systems can be requested using the procedures outlined in [§7.2](#7.2-access-establishment-and-modification). All requests for access much be granted to the Datica Security Officer.
 11. Request for modifications of access for any Datica employee can be made using the procedures outlined in [§7.2](#7.2-access-establishment-and-modification).
 12. Datica employees are strictly forbidden from downloading any ePHI to their workstations.
