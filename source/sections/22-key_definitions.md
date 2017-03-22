@@ -133,11 +133,11 @@
     * Terminated workforce member accessing applications, systems, or network.
 
 * *Threat*: The potential for a particular threat-source to successfully exercise a particular vulnerability. Threats are commonly categorized as:
-  * Environmental – external fires, HVAC failure/temperature inadequacy, water pipe burst, power failure/fluctuation, etc.
-  * Human – hackers, data entry, workforce/ex-workforce members, impersonation, insertion of malicious code, theft, viruses, SPAM, vandalism, etc.
-  * Natural – fires, floods, electrical storms, tornados, etc.
-  * Technological – server failure, software failure, ancillary equipment failure, etc. and environmental threats, such as power outages, hazardous material spills.
-  * Other – explosions, medical emergencies, misuse or resources, etc.
+  * Environmental - external fires, HVAC failure/temperature inadequacy, water pipe burst, power failure/fluctuation, etc.
+  * Human - hackers, data entry, workforce/ex-workforce members, impersonation, insertion of malicious code, theft, viruses, SPAM, vandalism, etc.
+  * Natural - fires, floods, electrical storms, tornados, etc.
+  * Technological - server failure, software failure, ancillary equipment failure, etc. and environmental threats, such as power outages, hazardous material spills.
+  * Other - explosions, medical emergencies, misuse or resources, etc.
 
 * *Threat Source*: Any circumstance or event with the potential to cause harm (intentional or unintentional) to an IT system. Common threat sources can be natural, human or environmental which can impact the organization's ability to protect ePHI.
 

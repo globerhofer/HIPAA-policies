@@ -22,8 +22,8 @@ The incident response process addresses:
 
 ### 11.1.2 Applicable Standards from the HIPAA Security Rule
 
-* 164.308(a)(5)(i) – Security Awareness and Training
-* 164.308(a)(6) – Security Incident Procedures
+* 164.308(a)(5)(i) - Security Awareness and Training
+* 164.308(a)(6) - Security Incident Procedures
 
 ## 11.2 Incident Management Policies
 
