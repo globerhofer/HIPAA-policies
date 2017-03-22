@@ -147,3 +147,8 @@
 		h1.site-title{display: none;}
 	}
 }
+@media print {
+	.no-print, .no-print * {
+		display: none !important;
+	}
+}
