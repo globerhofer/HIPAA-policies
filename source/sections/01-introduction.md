@@ -49,9 +49,9 @@ Additionally, IPtables is used on each each server for logical segmentation. IPt
 
 In the case of Platform Add-ons, once the data is received from the application server, a series of Application Programming Interface (API) calls is made to the database servers where the ePHI resides. The ePHI is separated into PostgreSQL and Percona databases through programming logic built, so that access to one database server will not present you with the full ePHI spectrum.
 
-The bastion host, nginx web server, and application servers are externally facing and accessible via the Internet. The database servers, where the ePHI resides, are located on the internal Datica network and can only be accessed directly over an SSH connection through the bastion host. The access to the internal database is restricted to a limited number of personnel and strictly controlled to only those personnel with a business justified reason. Remote access to the internal servers is not accessible except through the load balancers and bastion host.
+The VPN server, nginx web server, and application servers are externally facing and accessible via the Internet. The database servers, where the ePHI resides, are located on the internal Datica network and can only be accessed through a bastion host over a VPN connection. Access to the internal database is restricted to a limited number of personnel and strictly controlled to only those personnel with a business-justified reason. Remote access to internal servers is not accessible except through load balancers.
 
-All Platform Add-ons and operating systems are tested end-to-end for usability, security and impact prior to deployment to production.
+All Platform Add-ons and operating systems are tested end-to-end for usability, security, and impact prior to deployment to production.
 
 ## 1.5 Requesting Audit and Compliance Reports
 
