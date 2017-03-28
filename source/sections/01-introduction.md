@@ -18,7 +18,7 @@ In the future there may be 3rd party Add-on services available as part of the Da
 
 ## 1.3 Compliance Inheritance
 
-Datica provides compliant hosted software infrastructure for its Customers. Datica has been through a HIPAA compliance audit by a national, 3rd party compliance firm, to validate and map organizational policies and technical settings to HIPAA rules. Datica, as a company, and its technology, is HITRUST Certified. Datica's infrastructure at AWS, Azure, Rackspace, and SoftLayer is HITRUST Certified.
+Datica provides compliant hosted software infrastructure for its Customers. Datica has been through a HIPAA compliance audit by a national third-party compliance firm to validate and map organizational policies and technical controls to HIPAA rules. Datica's company policies, procedures, and technologies are HITRUST Certified. Datica's service offerings are available on AWS, Azure, Rackspace, and SoftLayer; current production systems on these platforms are included in Datica's third-party audits and HITRUST certification.
 
 Datica signs business associate agreements (BAAs) with its Customers. These BAAs outline Datica obligations and Customer obligations, as well as liability in the case of a breach. In providing infrastructure and managing security configurations that are a part of the technology requirements that exist in HIPAA and HITRUST, as well as future compliance frameworks, Datica manages various aspects of compliance for Customers. The aspects of compliance that Datica manages for Customers are inherited by Customers, and Datica assumes the risk associated with those aspects of compliance. In doing so, Datica helps Customers achieve and maintain compliance, as well as mitigates Customers risk.
 
