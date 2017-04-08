@@ -47,6 +47,7 @@ Datica's incident response classifies security-related events into the following
   * Unauthorized disclosure of ePHI.
   * Unauthorized change or destruction of ePHI.
   * A data breach accomplished by an internal or external entity.
+  * A Denial-of-Service (DoS) attack causing a critical service to become unreachable.
 
 Datica employees must report any unauthorized or suspicious activity seen on production systems or associated with related communication systems (such as email or Slack). In practice this means keeping an eye out for security events, and letting the Security Officer know about any observed precursors or indications as soon as they are discovered.
 
