@@ -67,9 +67,10 @@ In the case of a breach, Datica shall notify all affected Customers. It is the r
 [Date]
 
 
-[Name here]  
-[Address 1 Here]  
-[Address 2 Here]  
+[Name]
+[Name of Customer]
+[Address 1]
+[Address 2]
 [City, State Zip Code]
 
 Dear [Name of Customer]:

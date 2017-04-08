@@ -37,7 +37,7 @@ Datica is committed to ensuring all workforce members actively address security 
    * Any workstations used to access production systems must be configured as prescribed in [§7.8](#7.8-employee-workstation-use).
    * Any workstations used to access production systems must have virus protection software installed, configured, and enabled.
    * Datica may monitor access and activities of all users on workstations and production systems in order to meet auditing policy requirements ([§8](#8.-auditing-policy)).
-10. Access to internal Datica systems can be requested using the procedures outlined in [§7.2](#7.2-access-establishment-and-modification). All requests for access much be granted to the Datica Security Officer.
+10. Access to internal Datica systems can be requested using the procedures outlined in [§7.2](#7.2-access-establishment-and-modification). All requests for access must be granted by the Datica Security Officer.
 11. Request for modifications of access for any Datica employee can be made using the procedures outlined in [§7.2](#7.2-access-establishment-and-modification).
 12. Datica employees are strictly forbidden from downloading any ePHI to their workstations.
     * Restricting transfers of ePHI is enforced through technical controls as described in [§7.13](#7.13-access-to-ephi).
