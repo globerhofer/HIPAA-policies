@@ -77,6 +77,7 @@ Datica standardizes and automates configuration management through the use of Ch
    * Stopping and disabling any unnecessary OS services.
    * Installing and configuring the OSSEC IDS agent.
    * Installing and configuring the Avast virus scanner.
+   * Configuring transport encryption according to the requirements described in [§17.9](#17.9-transmission-security).
    * Configuring the system clock, including ensuring that modifying system time cannot be performed by unprivileged users.
    * Configuring audit logging as described in the [Auditing Policy section](#8.-auditing-policy).
 2. Any additional Salt states applied to the Linux system must be clearly documented by the ops team member in the DT request by specifying the purpose of the new system.
