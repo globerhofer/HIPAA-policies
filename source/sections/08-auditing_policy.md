@@ -130,7 +130,7 @@ This policy applies to all Datica Add-on systems, including BaaS, that store, tr
    * Organizational history and experience.
    * Available storage space.
 2. Reports summarizing audit activities shall be retained for a period of six years.
-3. Log data is currently retained and readily accessible for a 1-month period. Beyond that, log data is available via cold backup.
+3. Audit log data is retained locally on the audit log server for a one-month period. Beyond that, log data is encrypted and moved to warm storage (currently S3) using automated scripts, and is retained for a minimum of one year.
 4. For Paas Customers, they choose the length of backup retention and availability that Datica will implement and enforce.
 
 ## 8.10 Potential Trigger Events
