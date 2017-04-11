@@ -47,17 +47,17 @@ Access to Datica systems and application is limited for all users, including but
      * For non-production systems, access grants are accomplished by leveraging the access control mechanisms built into those systems. Account management for non-production systems may be delegated to a Datica employee at the discretion of the Security Officer.
 2. Access is not granted until receipt, review, and approval by the Datica Security Officer;
 3. The request for access is retained for future reference.
-4. All access to Datica systems and services are reviewed and updated on an bi-annual basis to assure proper authorizations are in place commensurate with job functions. The process for conducting reviews is outlined below:
+4. All access to Datica systems and services are reviewed and updated on a bi-annual basis to ensure proper authorizations are in place commensurate with job functions. The process for conducting reviews is outlined below:
    1. The Security Officer initiates the review of user access by creating an Issue in the JIRA Compliance Review Activity (CRA) Project.
    2. The Security Officer, or a Privacy Officer, is assigned to review levels of access for each Datica workforce member.
-   3. If user access is are found during review that is not in line with the least privilege principle, the process below is used to modify user access and notify the user of access changes. Once those steps are completed, the Issue is then reviewed again.
+   3. If user access is found during review that is not in line with the least privilege principle, the process below is used to modify user access and notify the user of access changes. Once those steps are completed, the Issue is then reviewed again.
    4. Once the review is completed, the Security Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
    5. If the review is approved, the Security Officer then marks the Issue as Done, adding any pertinent notes required.
    6. Review of user access is monitored on a quarterly basis using JIRA reporting to assess compliance with above policy.
 5. Any Datica workforce member can request change of access using the process outlined in [§7.2 paragraph 1](#7.2-access-establishment-and-modification).
 6. Access to production systems is controlled using centralized user management and authentication.
 7. Temporary accounts are not used unless absolutely necessary for business purposes.
-   * Accounts are reviewed every 90 days to assure temporary accounts are not left unnecessarily.
+   * Accounts are reviewed every 90 days to ensure temporary accounts are not left unnecessarily.
    * Accounts that are inactive for over 90 days are removed.
 8. In the case of non-personal information, such as generic educational content, identification and authentication may not be required. This is the responsibility of Datica Customers to define, and not Datica.
 9. Privileged users must first access systems using standard, unique user accounts before switching to privileged users and performing privileged tasks.
@@ -125,8 +125,8 @@ All workstations at Datica are company owned, and all are laptop Apple products 
 
 1. Datica production systems are not accessible directly over wireless channels.
 2. Wireless access is disabled on all production systems.
-3. When access production systems via remote wireless connections, the same system access policies and procedures apply to wireless as all other connections, including wired.
-4. Wireless networks managed within Datica non-production facilities (offices, etc) are secured with the following configurations:
+3. When accessing production systems via remote wireless connections, the same system access policies and procedures apply to wireless as all other connections, including wired.
+4. Wireless networks managed within Datica non-production facilities (offices, etc.) are secured with the following configurations:
    * All data in transit over wireless is encrypted using WPA2 encryption;
    * Passwords are rotated on a regular basis, presently quarterly. This process is managed by the Datica Security Officer.
 

@@ -75,7 +75,7 @@ This policy applies to all Datica Add-on systems, including BaaS, that store, tr
 1. A request may be made for an audit for a specific cause. The request may come from a variety of sources including, but not limited to, Privacy Officer, Security Officer, Customer, Partner, or an Application owner or application user.
 2. A request for an audit for specific cause must include time frame, frequency, and nature of the request. The request must be reviewed and approved by Datica's Privacy or Security Officer.
 3. A request for an audit must be approved by Datica's Privacy Officer and/or Security Officer before proceeding. Under no circumstances shall detailed audit information be shared with parties without proper permissions and access to see such data.
-   * Should the audit disclose that a workforce member has accessed ePHI inappropriately, the minimum necessary/least privileged information shall be shared with Datica's Security Officer to determine appropriate sanction/ corrective disciplinary action.
+   * Should the audit disclose that a workforce member has accessed ePHI inappropriately, the minimum necessary/least privileged information shall be shared with Datica's Security Officer to determine appropriate sanction/corrective disciplinary action.
    * Only de-identified information shall be shared with Customer or Partner regarding the results of the investigative audit process. This information will be communicated to the appropriate personnel by Datica's Privacy Officer or designee. Prior to communicating with customers and partners regarding an audit, it is recommended that Datica consider seeking risk management and/or legal counsel.
 
 ## 8.4 Review and Reporting of Audit Findings
@@ -84,7 +84,7 @@ This policy applies to all Datica Add-on systems, including BaaS, that store, tr
   1. The Security Officer initiates the log review by creating an Issue in the JIRA Compliance Review Activity (CRA) Project.
   2. The Security Officer, or a Datica Security Engineer assigned by the Security Officer, is assigned to review the logs.
   3. Relevant audit log findings are added to the Issue; these findings are investigated in a later step. Once those steps are completed, the Issue is then reviewed again.
-  4. Once the review is completed, the Security Officer approves or rejects the Issue. Relevant findings are reviewed a this stage. If the Issue is rejected, it goes back for further review and documentation. The communications protocol around specific findings are outlined below.
+  4. Once the review is completed, the Security Officer approves or rejects the Issue. Relevant findings are reviewed at this stage. If the Issue is rejected, it goes back for further review and documentation. The communications protocol around specific findings are outlined below.
   5. If the Issue is approved, the Security Officer then marks the Issue as Done, adding any pertinent notes required.
 2. The reporting process shall allow for meaningful communication of the audit findings to those workforce members, Customers, or Partners requesting the audit.
    * Significant findings shall be reported immediately in a written format. Datica's security incident response form may be utilized to report a single event.
