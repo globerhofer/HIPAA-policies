@@ -62,6 +62,7 @@ Datica standardizes and automates configuration management through the use of Ch
    * Ensuring that the machine is up-to-date with security patches and is configured to apply patches in accordance with our policies.
    * Stopping and disabling any unnecessary OS services.
    * Installing and configuring the OSSEC IDS agent.
+   * Configuring 15-minute session inactivity timeouts.
    * Installing and configuring the ClamAV virus scanner.
    * Installing and configuring the NTP daemon, including ensuring that modifying system time cannot be performed by unprivileged users.
    * Configuring LUKS volumes for providers that do not have native support for encrypted data volumes, including ensuring that encryption keys are protected from unauthorized access.
@@ -76,6 +77,7 @@ Datica standardizes and automates configuration management through the use of Ch
    * Ensuring that the machine is up-to-date with security patches and is configured to apply patches in accordance with our policies.
    * Stopping and disabling any unnecessary OS services.
    * Installing and configuring the OSSEC IDS agent.
+   * Configuring 15-minute session inactivity timeouts.
    * Installing and configuring the Avast virus scanner.
    * Configuring transport encryption according to the requirements described in [§17.9](#17.9-transmission-security).
    * Configuring the system clock, including ensuring that modifying system time cannot be performed by unprivileged users.
@@ -92,6 +94,7 @@ Datica standardizes and automates configuration management through the use of Ch
      * Audit logging requirements.
      * Password size, strength, and expiration requirements.
      * Transmission encryption requirements.
+     * Network connectivity timeouts.
 4. Critical infrastruture roles applied to new systems must be clearly documented by the ops team member in the DT request.
 
 ## 9.4 Changing Existing Systems
