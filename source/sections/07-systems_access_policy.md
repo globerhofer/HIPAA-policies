@@ -151,8 +151,9 @@ Datica does not use paper records for any sensitive information. Use of paper fo
 3. On all production systems and applications in the Datica environment, password configurations are set to require:
    * a minimum length of 8 characters;
    * a mix of upper case characters, lower case characters, and numbers or special characters;
-   * a 90-day password expiration;
+   * a 90-day password expiration, or 60-day password expiration for administrative accounts;
    * prevention of password reuse using a history of the last 6 passwords;
+   * where supported, modifying at least 4 characters when changing passwords;
    * account lockout after 5 invalid attempts.
 4. All system and application passwords must be stored and transmitted securely.
    * Where possible, passwords should be stored in a hashed format using a salted cryptographic hash function (SHA-256 or equivalent).

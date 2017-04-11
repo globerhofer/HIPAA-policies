@@ -62,7 +62,7 @@ Production systems that create, receive, store, or transmit Customer data (herea
 
 1. All data transmission is encrypted end to end using encryption keys managed by Datica. Encryption is not terminated at the network end point, and is carried through to the application.
 2. Transmission encryption keys and machines that generate keys are protected from unauthorized access. Transmission encryption key material is protected with access controls such that the key material is only accessible by privileged accounts.
-3. Transmission encryption keys use a minimum of 4096-bit RSA keys, or keys and ciphers of equivalent or higher cryptographic strength.
+3. Transmission encryption keys use a minimum of 4096-bit RSA keys, or keys and ciphers of equivalent or higher cryptographic strength (e.g., 256-bit AES session keys in the case of IPsec encryption).
 4. Transmission encryption keys are limited to use for one year and then must be regenerated.
 5. In the case of Datica provided APIs, provide mechanisms to assure person sending or receiving data is authorized to send and save data.
 6. System logs of all transmissions of Production Data access. These logs must be available for audit.
