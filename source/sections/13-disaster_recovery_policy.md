@@ -47,10 +47,9 @@ Datica defined two categories of systems from a disaster recovery perspective.
 
 ## 13.2 Line of Succession
 
-The following order of succession to ensure that decision-making authority for the Datica Contingency Plan is uninterrupted. The Chief Technology Officer (CTO) and VP Engineering are responsible for ensuring the safety of personnel and the execution of procedures documented within this Datica Contingency Plan. If the CTO and VP Engineering are unable to function as the overall authority or chooses to delegate this responsibility to a successor, the CEO or COO shall function as that authority. To provide contact initiation should the contingency plan need to be initiated, please use the contact list below.
+The following order of succession to ensure that decision-making authority for the Datica Contingency Plan is uninterrupted. The Chief Technology Officer (CTO) is responsible for ensuring the safety of personnel and the execution of procedures documented within this Datica Contingency Plan. If the CTO is unable to function as the overall authority or chooses to delegate this responsibility to a successor, the CEO or COO shall function as that authority. To provide contact initiation should the contingency plan need to be initiated, please use the contact list below.
 
 * Adam Leko, CTO: 608-628-2582, adam@datica.com
-* Vince Kenney, VP Engineering: 608-886-7709, vince@datica.com
 * Travis Good, CEO: 303-351-2640, travis@datica.com
 * Brian Lindstrom, COO: 608-577-7003, blindstrom@datica.com
 
@@ -58,14 +57,14 @@ The following order of succession to ensure that decision-making authority for t
 
 The following teams have been developed and trained to respond to a contingency event affecting the IT system.
 
-1. The **Ops Team** is responsible for recovery of the Datica hosted environment, network devices, and all servers. Members of the team include personnel who are also responsible for the daily operations and maintenance of Datica. The team leader is the VP of Engineering and directs the Dev Ops Team.
+1. The **Ops Team** is responsible for recovery of the Datica hosted environment, network devices, and all servers. Members of the team include personnel who are also responsible for the daily operations and maintenance of Datica. The team leader is the CTO and directs the Dev Ops Team.
 2. The **Web Services Team** is responsible for assuring all application servers, web services, and platform add-ons are working. It is also responsible for testing redeployments and assessing damage to the environment. The team leader is the CTO and directs the Web Services Team.
 
-Members of the Ops and Web Services teams must maintain local copies of the contact information from [§13.2](#13.2-line-of-succession). Additionally, the CTO and VP Engineering must maintain a local copy of this policy in the event Internet access is not available during a disaster scenario.
+Members of the Ops and Web Services teams must maintain local copies of the contact information from [§13.2](#13.2-line-of-succession). Additionally, the CTO must maintain a local copy of this policy in the event Internet access is not available during a disaster scenario.
 
 ## 13.4 Testing and Maintenance
 
-The CTO and VP of Engineering shall establish criteria for validation/testing of a Contingency Plan, an annual test schedule, and ensure implementation of the test. This process will also serve as training for personnel involved in the plan's execution. At a minimum the Contingency Plan shall be tested annually (within 365 days). The types of validation/testing exercises include tabletop and technical testing. Contingency Plans for all application systems must be tested at a minimum using the tabletop testing process. However, if the application system Contingency Plan is included in the technical testing of their respective support systems that technical test will satisfy the annual requirement.
+The CTO shall establish criteria for validation/testing of a Contingency Plan, an annual test schedule, and ensure implementation of the test. This process will also serve as training for personnel involved in the plan's execution. At a minimum the Contingency Plan shall be tested annually (within 365 days). The types of validation/testing exercises include tabletop and technical testing. Contingency Plans for all application systems must be tested at a minimum using the tabletop testing process. However, if the application system Contingency Plan is included in the technical testing of their respective support systems that technical test will satisfy the annual requirement.
 
 ### 13.4.1 Tabletop Testing
 
@@ -85,17 +84,17 @@ The primary objective of the technical test is to ensure the communication proce
 
 ### 13.5.1 Notification and Activation Phase
 
-This phase addresses the initial actions taken to detect and assess damage inflicted by a disruption to Datica. Based on the assessment of the Event, sometimes according to the Datica Incident Response Policy, the Contingency Plan may be activated by either the CTO or VP of Engineering.
+This phase addresses the initial actions taken to detect and assess damage inflicted by a disruption to Datica. Based on the assessment of the Event, sometimes according to the Datica Incident Response Policy, the Contingency Plan may be activated by either the CTO.
 
 The notification sequence is listed below:
 
 * The first responder is to notify the CTO. All known information must be relayed to the CTO.
-* The VP of Engineering is to contact the Web Services Team and inform them of the event. The CTO is to to begin assessment procedures.
+* The CTO is to contact the Web Services Team and inform them of the event. The CTO is to to begin assessment procedures.
 * The CTO is to notify team members and direct them to complete the assessment procedures outlined below to determine the extent of damage and estimated recovery time. If damage assessment cannot be performed locally because of unsafe conditions, the CTO is to following the steps below.
   * Damage Assessment Procedures:
-  * The CTO and VP of Engineering are to logically assess damage, gain insight into whether the infrastructure is salvageable, and begin to formulate a plan for recovery.
+  * The CTO is to logically assess damage, gain insight into whether the infrastructure is salvageable, and begin to formulate a plan for recovery.
   * Alternate Assessment Procedures:
-  * Upon notification from the CTO, the VP of Engineering is to follow the procedures for damage assessment with combined Dev Ops and Web Services Teams.
+  * Upon notification, the CTO is to follow the procedures for damage assessment with combined Dev Ops and Web Services Teams.
 * The Datica Contingency Plan is to be activated if one or more of the following criteria are met:
   * Datica will be unavailable for more than 48 hours.
   * Hosting facility is damaged and will be unavailable for more than 24 hours.
