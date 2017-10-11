@@ -28,7 +28,7 @@ As a company who handles PHI, it's critical you maintain and publish your own po
 
 ## Who is behind this?
 
-[Datica](htts://datica.com), healthcare's trusted HTRUST CSF Certified digital health platform.
+[Datica](htts://datica.com), healthcare's trusted HITRUST CSF Certified digital health platform.
 
 We help companies who handle PHI, both business associates and covered entities, maintain compliance with our ([Compliant Cloud](https://datica.com/compliant-cloud)) and ([Managed Integration](https://datica.com)).
 
