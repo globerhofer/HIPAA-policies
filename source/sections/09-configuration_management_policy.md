@@ -132,9 +132,11 @@ Datica standardizes and automates configuration management through the use of Ch
 4. Code reviews are performed as part of the pull request procedure. Once a change is ready for review, the author(s) will notify other engineers using an appropriate mechanism, typically via an `@channel` message in Slack.
    * Other engineers will review the changes, using the guidelines above.
    * Engineers should note all potential issues with the code; it is the responsibility of the author(s) to address those issues or explain why they are not applicable.
-5. If the feature or defect interacts with ePHI, or controls access to data potentially containing ePHI, the code changes must be reviewed by the Security Officer before the feature is marked as complete.
-   * This review must include a security analysis for potential vulnerabilities such as those listed in the [OWASP Top 10](https://www.owasp.org/index.php/Top10).
+5. If the feature or defect interacts with ePHI, or controls access to data potentially containing ePHI, the code changes must be reviewed by two members of Datica's Blue Team (software security team) before the feature is marked as complete.
+   * The Blue Team members will provide a security analysis of features to ensure they satisfy Datica's compliance and security commitments.
+   * This review must include a security analysis for potential vulnerabilities such as those listed in the [OWASP Top 10](https://www.owasp.org/index.php/Top10) or the [CWE top 25](http://cwe.mitre.org/top25/).
    * This review must also verify that any actions performed by authenticated users will generate appropriate audit log entries.
+   * Blue Team members are required to undergo annual training on identifying the most common software vulnerabilities and will receive ongoing training on Datica's compliance and security requirements.
 6. Once the review process finishes, each reviewer should leave a comment on the pull request saying "looks good to me" (often abbreviated as "LGTM"), at which point the original author(s) may merge their change into the release branch.
 
 ## 9.7 Software Release Procedures
