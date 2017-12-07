@@ -80,7 +80,7 @@ Access to Datica systems and application is limited for all users, including but
 
 ## 7.4 Access Authorization
 
-1. Role based access categories for each Datica system and application are pre-approved by the Security Officer or VP of Engineering.
+1. Role based access categories for each Datica system and application are pre-approved by the Security Officer, or an authorized delegate of the Security Officer.
 2. Datica utilizes hardware and software firewalls to segment data, prevent unauthorized access, and monitor traffic for denial of service attacks.
 
 ## 7.5 Person or Entity Authentication

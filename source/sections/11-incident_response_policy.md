@@ -149,4 +149,3 @@ Current members of the Datica SIRT:
 
 * Security Officer
 * Privacy Officer
-* VP of Engineering
