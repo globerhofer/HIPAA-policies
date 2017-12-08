@@ -40,7 +40,7 @@ Datica standardizes and automates configuration management through the use of Ch
 1. Before provisioning any systems, ops team members must file a request in the JIRA Deployment Ticket (DT) project.
    * JIRA access requires authenticated users.
    * The CTO grants access to the JIRA DT project following the procedures covered in the [Access Establishment and Modification section](#7.2-access-establishment-and-modification).
-2. The VP Engineering or CTO must approve the provisioning request before any new system can be provisioned.
+2. The CTO, or an authorized delegate of the CTO, must approve the provisioning request before any new system can be provisioned.
 3. Once provisioning has been approved, the ops team member must configure the new system according to the standard baseline chosen for the system's role.
    * For Linux systems, this means adding the appropriate grains to the Salt configuration file and running a `highstate` operation.
    * For Windows systems, this means adding the appropriate roles to the system's Chef profile and forcing a Chef run.
@@ -87,10 +87,10 @@ Datica standardizes and automates configuration management through the use of Ch
 ### 9.3.3 Provisioning Management Systems
 
 1. Provisioning management systems such salt servers, LDAP servers, or VPN appliances follows the same procedure as provisioning a production system.
-2. Provisioning the first Salt server for a production pod requires bootstrapping Salt. The VP Engineering will oversee provisioning a new Salt server.
+2. Provisioning the first Salt server for a production pod requires bootstrapping Salt. An authorized member of the Dev Ops team will oversee provisioning a new Salt server.
    * Once the Salt server has been bootstrapped, the ops team member will apply the baseline configuration to the Salt server by performing a `highstate` operation as usual.
 3. Critical infrastructure services such as logging, monitoring, LDAP servers, or Windows Domain Controllers must be configured with appropriate Salt states.
-   * These Salt states have been approved by the VP Engineering and CTO to be in accordance with all Datica policies, including setting appropriate:
+   * These Salt states have been approved by the CTO, or an authorized delegate of the CTO, to be in accordance with all Datica policies, including setting appropriate:
      * Audit logging requirements.
      * Password size, strength, and expiration requirements.
      * Transmission encryption requirements.

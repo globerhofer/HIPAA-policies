@@ -21,7 +21,7 @@ Violation of this policy and its procedures by workforce members may result in c
 ## 6.2 Backup Policy and Procedures
 
 1. Perform daily snapshot backups of all systems that process, store, or transmit ePHI for Datica Customers, including PaaS Customers that utilize the Datica Backup Service.
-2. Datica Ops Team, lead by VP of Engineering, is designated to be in charge of backups.
+2. The Datica Ops Team is designated to be in charge of backups.
 3. Dev Ops Team members are trained and assigned to complete backups and manage the backup media.
 4. Document backups
    * Name of the system

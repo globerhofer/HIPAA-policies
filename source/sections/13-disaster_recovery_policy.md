@@ -51,7 +51,6 @@ The following order of succession to ensure that decision-making authority for t
 
 * Adam Leko, CTO: 608-628-2582, adam@datica.com
 * Travis Good, CEO: 303-351-2640, travis@datica.com
-* Brian Lindstrom, COO: 608-577-7003, blindstrom@datica.com
 
 ## 13.3 Responsibilities
 
