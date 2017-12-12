@@ -8,13 +8,7 @@ Datica provides secure and compliant cloud-based software. This hosted software 
 
 PaaS Customers utilize hosted software and infrastructure from Datica to deploy, host, and scale custom developed applications and configured databases. These customers are deployed into compliant containers run on systems secured and managed by Datica. Datica does not have insight or access into application level data of PaaS Customers and, as such, does not have the ability to secure or manage risk associated with application level vulnerabilities and security weaknesses. Datica makes every effort to reduce the risk of unauthorized disclosure, access, and/or breach of PaaS Customer data through network (firewalls, dedicated IP spaces, etc) and server settings (encryption at rest and in transit, OSSEC throughout the Platform, etc).
 
-## 1.2 Platform Add-ons
-
-Add-ons are compliant API-driven services that are offered as part of the Datica Platform. These services currently include our Backend as a Service and secure Messaging Service. With Add-ons, Datica has access to data models and manages all application level configurations and security.
-
-In the future there may be 3rd party Add-on services available as part of the Datica Platform. These 3rd party, or Partner, Services will be fully reviewed by Datica to assure they do not have a negative impact on Datica's information security and compliance posture.
-
-## 1.3 Compliance Inheritance
+## 1.2 Compliance Inheritance
 
 Datica provides compliant hosted software infrastructure for its Customers. Datica has been through a HIPAA compliance audit by a national third-party compliance firm to validate and map organizational policies and technical controls to HIPAA rules. Datica's company policies, procedures, and technologies are HITRUST Certified. Datica's service offerings are available on AWS, Azure, Rackspace, and SoftLayer; current production systems on these platforms are included in Datica's third-party audits and HITRUST certification.
 
@@ -26,7 +20,7 @@ Certain aspects of compliance cannot be inherited. Because of this, Datica Custo
 
 Mappings of HIPAA Rules to Datica controls and a mapping of what Rules are inherited by Customers, both Platform Customers and Add-on Customers, are covered in [§2](#2.-hipaa-inheritance).
 
-## 1.4 Datica Organizational Concepts
+## 1.3 Datica Organizational Concepts
 
 The physical infrastructure environment is hosted at [Rackspace](https://www.rackspace.com/), [Amazon Web Services](https://aws.amazon.com/) (AWS), [Microsoft Azure](https://azure.microsoft.com/), and [IBM SoftLayer](http://www.softlayer.com/). The network components and supporting network infrastructure are contained within the Rackspace, AWS, Azure, and SoftLayer infrastructures and managed by Rackspace, AWS, Microsoft, and IBM (respectively). Datica does not have physical access into the network components. The Datica environment consists of Cisco firewalls; nginx web servers; Java, Python, and Go application servers; Percona and PostgreSQL database servers; Logstash logging servers; Linux Ubuntu monitoring servers; Windows Server virtual machines; Chef and Salt configuration management servers; OSSEC IDS services; Docker containers; and developer tool servers running on Linux Ubuntu.
 
@@ -51,7 +45,7 @@ The VPN server, nginx web server, and application servers are externally facing 
 
 All Platform Add-ons and operating systems are tested end-to-end for usability, security, and impact prior to deployment to production.
 
-## 1.5 Requesting Audit and Compliance Reports
+## 1.4 Requesting Audit and Compliance Reports
 
 Datica, at its sole discretion, shares audit reports, including its HITRUST reports and Corrective Action Plans (CAPs), with customers on a case by case basis. All audit reports are shared under explicit NDA in Datica format between Datica and party to receive materials. Audit reports can be requested by Datica workforce members for Customers or directly by Datica Customers.
 
@@ -64,6 +58,6 @@ The following process is used to request audit reports:
 5. The Datica Security Officer or Privacy Officer must Approve or Reject the Issue. If the Issue is rejected, Datica will notify the requesting party that we cannot share the requested report.
 4. If the Issue has been Approved, Datica will send the customer the requested audit report and complete the JIRA Issue for the request.
 
-## 1.6 Version Control
+## 1.5 Version Control
 
 Refer to the GitHub repository at [https://github.com/catalyzeio/policies/](https://github.com/catalyzeio/policies/) for the full version history of these policies.
