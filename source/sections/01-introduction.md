@@ -8,8 +8,6 @@ Datica provides secure and compliant cloud-based software. This hosted software 
 
 PaaS Customers utilize hosted software and infrastructure from Datica to deploy, host, and scale custom developed applications and configured databases. These customers are deployed into compliant containers run on systems secured and managed by Datica. Datica does not have insight or access into application level data of PaaS Customers and, as such, does not have the ability to secure or manage risk associated with application level vulnerabilities and security weaknesses. Datica makes every effort to reduce the risk of unauthorized disclosure, access, and/or breach of PaaS Customer data through network (firewalls, dedicated IP spaces, etc) and server settings (encryption at rest and in transit, OSSEC throughout the Platform, etc).
 
-PaaS Customers can opt for a list of Services from Datica, which include Backup Service, Logging Service, IDS Service, and Disaster Recovery Service. These services are not standard and PaaS Customers must sign up for them in order for Datica to manage these areas of security and compliance.
-
 ## 1.2 Platform Add-ons
 
 Add-ons are compliant API-driven services that are offered as part of the Datica Platform. These services currently include our Backend as a Service and secure Messaging Service. With Add-ons, Datica has access to data models and manages all application level configurations and security.
