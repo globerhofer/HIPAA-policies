@@ -34,22 +34,22 @@ Access to Datica systems and application is limited for all users, including but
 ## 7.2 Access Establishment and Modification
 
 1. Requests for access to Datica Platform systems and applications is made formally using the following process:
-  1. The Datica workforce member, or their manager, initiates the access request by creating an Issue in the JIRA Compliance Review Activity (CRA) Project.
+  1. A Datica workforce member initiates the access request by creating an Issue in the JIRA Compliance Review Activity (CRA) Project.
      * User identities must be verified prior to granting access to new accounts.
      * Identity verification must be done in person where possible; for remote employees, identities must be verified over the phone.
      * For new accounts, the method used to verify the user's identity must be recorded on the Issue.
-  2. The Security Officer will grant access to systems as dictated by the employee's job title. If additional access is required outside of the minimum necessary to perform job functions, the requester must include a description of why the additional access is required as part of the access request.
-  3. Once the review is completed, the Security Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
-  4. If the review is approved, the Security Officer then marks the Issue as Done, adding any pertinent notes required. The Security Officer then grants requested access.
+  2. The Security Officer or Privacy Officer will grant access to systems as dictated by the employee's job title. If additional access is required outside of the minimum necessary to perform job functions, the requester must include a description of why the additional access is required as part of the access request.
+  3. Once the review is completed, the Security Officer or Privacy Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
+  4. If the review is approved, the Security Officer or Privacy Officer then marks the Issue as Done, adding any pertinent notes required. The Security Officer or Privacy Officer then grants requested access.
      * New accounts will be created with a temporary secure password that meets all requirements from [§7.12](#7.12-password-management), which must be changed on the initial login.
      * All password exchanges must occur over an authenticated channel.
      * For production systems, access grants are accomplished by adding the appropriate user account to the corresponding LDAP group.
-     * For non-production systems, access grants are accomplished by leveraging the access control mechanisms built into those systems. Account management for non-production systems may be delegated to a Datica employee at the discretion of the Security Officer.
-2. Access is not granted until receipt, review, and approval by the Datica Security Officer;
+     * For non-production systems, access grants are accomplished by leveraging the access control mechanisms built into those systems. Account management for non-production systems may be delegated to a Datica employee at the discretion of the Security Officer or Privacy Officer .
+2. Access is not granted until receipt, review, and approval by the Datica Security Officer or Privacy Officer ;
 3. The request for access is retained for future reference.
 4. All access to Datica systems and services are reviewed and updated on a bi-annual basis to ensure proper authorizations are in place commensurate with job functions. The process for conducting reviews is outlined below:
    1. The Security Officer initiates the review of user access by creating an Issue in the JIRA Compliance Review Activity (CRA) Project.
-   2. The Security Officer, or a Privacy Officer, is assigned to review levels of access for each Datica workforce member.
+   2. The Security Officer is assigned to review levels of access for each Datica workforce member.
    3. If user access is found during review that is not in line with the least privilege principle, the process below is used to modify user access and notify the user of access changes. Once those steps are completed, the Issue is then reviewed again.
    4. Once the review is completed, the Security Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
    5. If the review is approved, the Security Officer then marks the Issue as Done, adding any pertinent notes required.
@@ -62,7 +62,7 @@ Access to Datica systems and application is limited for all users, including but
 8. In the case of non-personal information, such as generic educational content, identification and authentication may not be required. This is the responsibility of Datica Customers to define, and not Datica.
 9. Privileged users must first access systems using standard, unique user accounts before switching to privileged users and performing privileged tasks.
    * For production systems, this is enforced by creating non-privileged user accounts that must invoke `sudo` to perform privileged tasks.
-   * Rights for privileged accounts are granted by the Security Officer using the process outlined in [§7.2 paragraph 1](#7.2-access-establishment-and-modification).
+   * Rights for privileged accounts are granted by the Security Officer or Privacy Officer using the process outlined in [§7.2 paragraph 1](#7.2-access-establishment-and-modification).
 10. All application to application communication using service accounts is restricted and not permitted unless absolutely needed. Automated tools are used to limit account access across applications and systems.
 11. Generic accounts are not allowed on Datica systems.
 12. Access is granted through encrypted, VPN tunnels that utilize two-factor authentication.
