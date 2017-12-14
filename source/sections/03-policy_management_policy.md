@@ -20,8 +20,8 @@ Datica implements policies and procedures to maintain compliance and integrity o
 3. Datica employees may request changes to policies using the following process:
   1. The Datica employee initiates a policy change request by creating an Issue in the JIRA Compliance Review Activity (CRA) project. The change request may optionally include a GitHub pull request from a separate branch or repository containing the desired changes.
   2. The Security Officer or the Privacy Officer is assigned to review the policy change request.
-  3. Once the review is completed, the Security Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
-  4. If the review is approved, the Security Officer then marks the Issue as Done, adding any pertinent notes required.
+  3. Once the review is completed, the Security Officer or Privacy Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
+  4. If the review is approved, the Security Officer or Privacy Officer then marks the Issue as Done, adding any pertinent notes required.
   5. If the policy change requires technical modifications to production systems, those changes are carried out by authorized personnel using Datica's [change management process (§9.4)](#9.4-changing-existing-systems).
 4. All policies are made accessible to all Datica workforce members. The current master policies are published at [https://policy.datica.com](https://policy.datica.com).
    * Changes are automatically communicated to all Datica team members through integrations between GitHub and Slack that log all GitHub policy channels to a dedicated Datica Slack Channel.
@@ -33,8 +33,8 @@ Datica implements policies and procedures to maintain compliance and integrity o
   1. The Security Officer initiates the policy review by creating an Issue in the JIRA Compliance Review Activity (CRA) project.
   2. The Security Officer or the Privacy Officer is assigned to review the current Datica policies ([https://policy.datica.com/](https://policy.datica.com/)).
   3. If changes are made, the above process is used. All changes are documented in the Issue.
-  4. Once the review is completed, the Security Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
-  5. If the review is approved, the Security Officer then marks the Issue as Done, adding any pertinent notes required.
+  4. Once the review is completed, the Security Officer or Privacy Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
+  5. If the review is approved, the Security Officer or Privacy Officer then marks the Issue as Done, adding any pertinent notes required.
   6. Policy review is monitored on a quarterly basis using JIRA reporting to assess compliance with above policy.
 7. Datica utilizes the HITRUST MyCSF framework to track compliance with the HITRUST CSF on an annual basis. Datica also tracks compliance with HIPAA and publishes results at [https://hipaa.datica.com](https://hipaa.datica.com). In order to track and measure adherence on an annual basis, Datica uses the following process to track HITRUST audits, both full and interim:
   1. The Security Officer initiates the HITRUST audit activity by creating an Issue in the JIRA Compliance Review Activity (CRA) project.
