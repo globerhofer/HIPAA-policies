@@ -37,7 +37,7 @@ This policy establishes the scope, objectives, and procedures of Datica's inform
 8. The details of the Risk Management Process, including risk assessment, discovery, and mitigation, are outlined in detail below. The process is tracked, measured, and monitored using the following procedures:
   1. The Security Officer or the Privacy Officer initiates the Risk Management Procedures by creating an Issue in the JIRA Compliance Review Activity (CRA) Project.
   2. The Security Officer or the Privacy Officer is assigned to carry out the Risk Management Procedures.
-  3. All findings are documented in approved spreadsheet that is linked to the Issue.
+  3. All findings are documented in an approved spreadsheet that is linked to the Issue.
   4. Once the Risk Management Procedures are complete, along with corresponding documentation, the Security Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
   5. If the review is approved, the Security Officer then marks the Issue as Done, adding any pertinent notes required.
 9. The Risk Management Procedure is monitored on a quarterly basis using JIRA reporting to assess compliance with above policy.
@@ -53,7 +53,7 @@ The intent of completing a risk assessment is to determine potential threats and
   * Output - Characterization of the Datica Platform system assessed, a good picture of the Platform environment, and delineation of Platform boundaries.
 
 * Step 2. Threat Identification
-  * Potential threats (the potential for threat-sources to successfully exercise a particular vulnerability) are identified and documented. All potential threat-sources through the review of historical incidents and data from intelligence agencies, the government, etc., to help generate a list of potential threats.
+  * Potential threats (the potential for threat-sources to successfully exercise a particular vulnerability) are identified and documented. All potential threat-sources from historical incidents and data from intelligence agencies, the government, etc., are reviewed to help generate a list of potential threats.
   * Output - A threat list containing a list of threat-sources that could exploit Platform vulnerabilities.
 
 * Step 3. Vulnerability Identification

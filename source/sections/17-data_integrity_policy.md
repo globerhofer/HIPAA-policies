@@ -35,7 +35,7 @@ Production systems that create, receive, store, or transmit Customer data (herea
 
 1. Software patches and updates will be applied to all systems in a timely manner. In the case of routine updates, they will be applied after thorough testing. In the case of updates to correct known vulnerabilities, priority will be given to testing to speed the time to production. Critical security patches are applied within 30 days from testing and all security patches are applied within 90 days after testing.
     * In the case of PaaS Customers, updates to Application and Database versions are the responsibility of Customers, though Datica will, at it's own discretion, notify and recommend updates to Customer systems.
-2. Administrators subscribe to mailing lists to assure up to date on current version of all Datica managed software on Production Systems.
+2. Administrators subscribe to mailing lists to ensure that they are using current versions of all Datica-managed software on Production Systems.
 
 ## 17.6 Intrusion Detection and Vulnerability Scanning
 
@@ -53,7 +53,7 @@ Production systems that create, receive, store, or transmit Customer data (herea
 1. Reduce the risk of compromise of Production Data.
 2. Implement and/or review controls designed to protect Production Data from improper alteration or destruction.
 3. Ensure that confidential data is stored in a manner that supports user access logs and automated monitoring for potential security incidents.
-4. Ensure Datica Customer Production Data is segmented and only accessible to Customer authorized to access data.
+4. Ensure Datica Customer Production Data is segmented and only accessible to Customers authorized to access data.
 5. All Production Data at rest is stored on encrypted volumes using encryption keys managed by Datica. Encryption at rest is ensured through the use of automated deployment scripts referenced in the [Configuration Management Policy](#9.-configuration-management-policy).
 6. Volume encryption keys and machines that generate volume encryption keys are protected from unauthorized access. Volume encryption key material is protected with access controls such that the key material is only accessible by privileged accounts.
 7. Encrypted volumes use AES encryption with a minimum of 256-bit keys, or keys and ciphers of equivalent or higher cryptographic strength.

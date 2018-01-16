@@ -1,6 +1,6 @@
 # 18. Data Retention Policy
 
-Despite not being a requirement within HIPAA, Datica understand and appreciates the importance of health data retention. Acting as a subcontractor, and at times a business associate, Datica is not directly responsible for health and medical records retention as set forth by each state. Despite this, Datica has created and implemented the following policy to make it easier for Datica Customers to support data retention laws.
+Despite not being a requirement within HIPAA, Datica understands and appreciates the importance of health data retention. Acting as a subcontractor, and at times a business associate, Datica is not directly responsible for health and medical records retention as set forth by each state. Despite this, Datica has created and implemented the following policy to make it easier for Datica Customers to support data retention laws.
 
 ## 18.1 State Medical Record Laws
 
