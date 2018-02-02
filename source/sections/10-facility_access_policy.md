@@ -25,11 +25,11 @@ Of note, Datica does not have ready access to ePHI, it provides cloud-based, com
 1. Visitor and third party support access is recorded and supervised. All visitors are escorted.
 2. Repairs are documented and the documentation is retained.
 3. Fire extinguishers and detectors are installed according to applicable laws and regulations.
-4. Maintenance is controlled and conducted by authorized personnel in accordance with supplier-recommended intervals, insurance policies and the organizations maintenance program.
+4. Maintenance is controlled and conducted by authorized personnel in accordance with supplier-recommended intervals, insurance policies and the organization's maintenance program.
 5. Electronic and physical media containing covered information is securely destroyed (or the information securely removed) prior to disposal.
 6. The organization securely disposes media with sensitive information.
 7. Physical access is restricted using smart locks that track all access.
-   * Restricted areas and facilities are locked and when unattended (where feasible).
+   * Restricted areas and facilities are locked when unattended (where feasible).
    * Only authorized workforce members receive access to restricted areas (as determined by the Security Officer).
    * Access and keys are revoked upon termination of workforce members.
    * Workforce members must report a lost and/or stolen key(s) to the Security Officer.

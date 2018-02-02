@@ -15,7 +15,7 @@ Datica implements policies and procedures to maintain compliance and integrity o
 
 ## 3.2 Maintenance of Policies
 
-1. All policies are stored and up to date to maintain Datica compliance with HIPAA, HITRUST, NIST, and other relevant standards. Updates and version control are done similar to source code control.
+1. All policies are stored and updated to maintain Datica compliance with HIPAA, HITRUST, NIST, and other relevant standards. Updates and version control are done similarly to source code control.
 2. Policy update requests can be made by any workforce member at any time. Furthermore, all policies are reviewed annually by both the Security and Privacy Officer to assure they are accurate and up-to-date.
 3. Datica employees may request changes to policies using the following process:
   1. The Datica employee initiates a policy change request by creating an Issue in the JIRA Compliance Review Activity (CRA) project. The change request may optionally include a GitHub pull request from a separate branch or repository containing the desired changes.

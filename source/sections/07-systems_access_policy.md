@@ -1,6 +1,6 @@
 # 7. System Access Policy
 
-Access to Datica systems and application is limited for all users, including but not limited to workforce members, volunteers, business associates, contracted providers, consultants, and any other entity, is allowable only on a minimum necessary basis. All users are responsible for reporting an incident of unauthorized user or access of the organization's information systems. These safeguards have been established to address the HIPAA Security regulations including the following:
+Access to Datica systems and application is limited for all users, including but not limited to workforce members, volunteers, business associates, contracted providers, and consultants. Access by any other entity is allowable only on a minimum necessary basis. All users are responsible for reporting an incident of unauthorized user or access of the organization's information systems. These safeguards have been established to address the HIPAA Security regulations including the following:
 
 ## 7.1 Applicable Standards
 
@@ -47,7 +47,7 @@ Access to Datica systems and application is limited for all users, including but
      * For non-production systems, access grants are accomplished by leveraging the access control mechanisms built into those systems. Account management for non-production systems may be delegated to a Datica employee at the discretion of the Security Officer or Privacy Officer .
 2. Access is not granted until receipt, review, and approval by the Datica Security Officer or Privacy Officer ;
 3. The request for access is retained for future reference.
-4. All access to Datica systems and services are reviewed and updated on a bi-annual basis to ensure proper authorizations are in place commensurate with job functions. The process for conducting reviews is outlined below:
+4. All access to Datica systems and services is reviewed and updated on a bi-annual basis to ensure proper authorizations are in place commensurate with job functions. The process for conducting reviews is outlined below:
    1. The Security Officer initiates the review of user access by creating an Issue in the JIRA Compliance Review Activity (CRA) Project.
    2. The Security Officer is assigned to review levels of access for each Datica workforce member.
    3. If user access is found during review that is not in line with the least privilege principle, the process below is used to modify user access and notify the user of access changes. Once those steps are completed, the Issue is then reviewed again.

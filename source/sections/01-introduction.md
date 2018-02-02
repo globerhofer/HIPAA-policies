@@ -35,9 +35,9 @@ The data and network segmentation mechanism differs depending on the primitives 
 * Within Azure, hosted load balancers segment data across dedicated Virtual Networks for PaaS Customers and for Platform Add-ons.
 * Within SoftLayer, hosted load balancers segment data across dedicated Private Networks for PaaS Customers and for Platform Add-ons.
 
-The result of segmentation strategies employed by Datica effectively create RFC 1918, or dedicated, private segmented and separated networks and IP spaces, for each PaaS Customer and for Platform Add-ons.
+The segmentation strategies employed by Datica effectively create RFC 1918, or dedicated, private segmented and separated networks and IP spaces, for each PaaS Customer and for Platform Add-ons.
 
-Additionally, IPtables is used on each each server for logical segmentation. IPtables is configured to restrict access to only justified ports and protocols. Datica has implemented strict logical access controls so that only authorized personnel are given access to the internal management servers. The environment is configured so that data is transmitted from the load balancers to the application servers over an TLS encrypted session.
+Additionally, IPtables is used on each server for logical segmentation. IPtables is configured to restrict access to only justified ports and protocols. Datica has implemented strict logical access controls so that only authorized personnel are given access to the internal management servers. The environment is configured so that data is transmitted from the load balancers to the application servers over an TLS encrypted session.
 
 In the case of Platform Add-ons, once the data is received from the application server, a series of Application Programming Interface (API) calls is made to the database servers where the ePHI resides. The ePHI is separated into PostgreSQL and Percona databases through programming logic built, so that access to one database server will not present you with the full ePHI spectrum.
 
@@ -52,11 +52,11 @@ Datica, at its sole discretion, shares audit reports, including its HITRUST repo
 The following process is used to request audit reports:
 
 1. Email is sent to compliance-reports@datica.com. In the email, please specify the type of report being requested and any required timelines for the report.
-2. Datica staff will log an Issue with the details of the request into the Datica Compliance Review Activities Project on JIRA. JIRA is used to track requests status and outcomes.
+2. Datica staff will log an Issue with the details of the request into the Datica Compliance Review Activities Project on JIRA. JIRA is used to track requests' status and outcomes.
 3. Datica will confirm if a current NDA is in place with the party requesting the audit report. If there is no NDA in place, Datica will send one for execution.
 4. Once it has been confirmed that an NDA is executed, Datica staff will move the JIRA Issue to "Under Review".
 5. The Datica Security Officer or Privacy Officer must Approve or Reject the Issue. If the Issue is rejected, Datica will notify the requesting party that we cannot share the requested report.
-4. If the Issue has been Approved, Datica will send the customer the requested audit report and complete the JIRA Issue for the request.
+6. If the Issue has been Approved, Datica will send the customer the requested audit report and complete the JIRA Issue for the request.
 
 ## 1.5 Version Control
 

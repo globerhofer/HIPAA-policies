@@ -86,7 +86,7 @@ Datica standardizes and automates configuration management through the use of Ch
 
 ### 9.3.3 Provisioning Management Systems
 
-1. Provisioning management systems such salt servers, LDAP servers, or VPN appliances follows the same procedure as provisioning a production system.
+1. Provisioning management systems such as Salt servers, LDAP servers, or VPN appliances follows the same procedure as provisioning a production system.
 2. Provisioning the first Salt server for a production pod requires bootstrapping Salt. An authorized member of the Dev Ops team will oversee provisioning a new Salt server.
    * Once the Salt server has been bootstrapped, the ops team member will apply the baseline configuration to the Salt server by performing a `highstate` operation as usual.
 3. Critical infrastructure services such as logging, monitoring, LDAP servers, or Windows Domain Controllers must be configured with appropriate Salt states.

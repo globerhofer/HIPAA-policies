@@ -10,7 +10,7 @@ It is the policy of Datica to safeguard the confidentiality, integrity, and avai
 * Improper alteration or destruction of ePHI;
 * Out of date software and/or software known to have vulnerabilities.
 
-This policy applies to all Datica Add-on systems, including BaaS, that store, transmit, or process ePHI. This policy, and associated procedures, do not apply to PaaS Customers that do not choose Datica Logging Service.
+This policy applies to all Datica Add-on systems, including BaaS, that store, transmit, or process ePHI.
 
 ## 8.1 Applicable Standards
 
