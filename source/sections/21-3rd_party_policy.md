@@ -33,11 +33,11 @@ Datica makes every effort to assure all 3rd party organizations are compliant an
    * The annual review of Partners and Subcontractors is conducted as a part of the security, compliance, and SLA review referenced below.
 8. Datica assesses security, compliance, and SLA requirements and considerations with all Partners and Subcontractors. This includes annual assessment of SOC2 Reports for all Datica infrastructure partners.
    * Datica leverages recurring calendar invites to assure reviews of all 3rd party services are performed annually. These reviews are performed by the Datica Security Officer and Privacy Officer. The process for reviewing 3rd party services is outlined below:
-     1. The Security Officer initiates the SLA review by creating an Issue in the JIRA Compliance Review Activity (CRA) Project.
+     1. The Security Officer initiates the SLA review by creating an Issue in the Datica Quality Management System.
      2. The Security Officer, or Privacy Officer, is assigned to review the SLA and performance of 3rd parties. The list of current 3rd parties, including contact information, is also reviewed to assure it is up to date and complete.
      3. SLA, security, and compliance performance is documented in the Issue.
      4. Once the review is completed and documented, the Security Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
 9. Regular review is conducted as required by SLAs to assure security and compliance. These reviews include reports, audit trails, security events, operational issues, failures and disruptions, and identified issues are investigated and resolved in a reasonable and timely manner.
 10. Any changes to Partner and Subcontractor services and systems are reviewed before implementation.
 11. For all partners, Datica reviews activity annually to assure partners are in line with SLAs in contracts with Datica.
-12. SLA review is monitored on a quarterly basis using JIRA reporting to assess compliance with above policy.
+12. SLA review is monitored on a quarterly basis using the Quality Management System reporting to assess compliance with above policy.
