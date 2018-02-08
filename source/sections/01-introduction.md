@@ -52,11 +52,11 @@ Datica, at its sole discretion, shares audit reports, including its HITRUST repo
 The following process is used to request audit reports:
 
 1. Email is sent to compliance-reports@datica.com. In the email, please specify the type of report being requested and any required timelines for the report.
-2. Datica staff will log an Issue with the details of the request into the Datica Compliance Review Activities Project on JIRA. JIRA is used to track requests' status and outcomes.
+2. Datica staff will log an issue with the details of the request into the Datica Quality Management System. The Datica Quality Management System is used to track requests' status and outcomes.
 3. Datica will confirm if a current NDA is in place with the party requesting the audit report. If there is no NDA in place, Datica will send one for execution.
-4. Once it has been confirmed that an NDA is executed, Datica staff will move the JIRA Issue to "Under Review".
+4. Once it has been confirmed that an NDA is executed, Datica staff will move the issue to "Under Review".
 5. The Datica Security Officer or Privacy Officer must Approve or Reject the Issue. If the Issue is rejected, Datica will notify the requesting party that we cannot share the requested report.
-6. If the Issue has been Approved, Datica will send the customer the requested audit report and complete the JIRA Issue for the request.
+6. If the issue has been Approved, Datica will send the customer the requested audit report and complete the Quality Management System issue for the request.
 
 ## 1.5 Version Control
 
