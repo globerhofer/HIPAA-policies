@@ -31,7 +31,7 @@ Datica makes every effort to assure all 3rd party organizations are compliant an
 7. Datica maintains and annually reviews a list all current Partners and Subcontractors.
    * The list of current Partners and Subcontractors is maintained by the Datica Privacy Officer, includes details on all provided services (along with contact information), and is recorded in [§1.4](#1.4-datica-organizational-concepts).
    * The annual review of Partners and Subcontractors is conducted as a part of the security, compliance, and SLA review referenced below.
-8. Datica assesses security, compliance, and SLA requirements and considerations with all Partners and Subcontractors. This includes annual assessment of SOC2 Reports for all Datica infrastructure partners.
+8. Datica assesses security, compliance, and SLA requirements and considerations with all Partners and Subcontractors. This includes annual assessment of SOC2 reports for all Datica infrastructure partners.
    * Datica leverages recurring calendar invites to assure reviews of all 3rd party services are performed annually. These reviews are performed by the Datica Security Officer and Privacy Officer. The process for reviewing 3rd party services is outlined below:
      1. The Security Officer initiates the SLA review by creating an Issue in the Datica Quality Management System.
      2. The Security Officer, or Privacy Officer, is assigned to review the SLA and performance of 3rd parties. The list of current 3rd parties, including contact information, is also reviewed to assure it is up to date and complete.
@@ -41,3 +41,5 @@ Datica makes every effort to assure all 3rd party organizations are compliant an
 10. Any changes to Partner and Subcontractor services and systems are reviewed before implementation.
 11. For all partners, Datica reviews activity annually to assure partners are in line with SLAs in contracts with Datica.
 12. SLA review is monitored on a quarterly basis using the Quality Management System reporting to assess compliance with above policy.
+13. The 3rd Party Assurance process is reviewed annually and updated to include any necessary changes.
+14. Changes to the 3rd Party Assurance process will also be made on an ad-hoc basis in cases where operational changes require it or if the process is found lacking. 
