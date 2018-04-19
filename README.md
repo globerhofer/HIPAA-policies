@@ -66,3 +66,40 @@ Each policy is included as its own markdown file in case you want to cherry-pick
 * [Key Definitions](source/sections/22-key_definitions.md)
 * [Datica HIPAA Business Associate Agreement (“BAA”)](source/sections/23-datica_hipaa_business_associate_agreement.md)
 * [HIPAA Mappings to Datica Controls](source/sections/24-hipaa_mapping_to_datica_controls.md)
+
+
+## Install instructions
+
+This repo can build the policies into static webpages using `Rake`. If you are using macOS, you should have Ruby pre-installed. Otherwise, make sure to [install Ruby](https://www.ruby-lang.org/en/documentation/installation/) and [RubyGems](https://rubygems.org/pages/download/). Check to make sure you have rake and bundler installed by running:
+```bash
+$ rake --version
+# => rake, version 12.0.0
+$ bundle version
+# => Bundler version 1.13.7
+```
+
+If you don't have rake or bundler, run:
+```bash
+$ gem install rake
+$ gem install bundler
+```
+
+Now we can get the repo bootstrapped. Run:
+```bash
+$ bundle install # installs the dependencies
+```
+
+**NOTE**: in case `bundle install` fails due to nokogiri, run the following:
+```bash
+$ gem uninstall nokogiri
+$ xcode-select --install
+$ gem install nokogiri
+```
+
+Once the dependencies have been installed, we can build the markdown files into a compliance site. Here are some of the commands you can run:
+```bash
+# Build files into static site with HTML, CSS, JS.
+$ rake build
+# Preview the compliance site on localhost:8888
+$ rake serve_static
+```
