@@ -7,6 +7,7 @@ set :js_dir, 'assets/js'
 set :images_dir, 'assets/img'
 
 activate :directory_indexes
+activate :livereload, host: '127.0.0.1'
 
 configure :build do
   activate :minify_css
@@ -20,7 +21,7 @@ set :markdown, :fenced_code_blocks => true, :smartypants => true, :tables => tru
 
 activate :syntax, :wrap => true
 
-set :url_root, 'https://policy.datica.com'
+set :url_root, 'https://policy.waytohealth.org'
 
 activate :search_engine_sitemap
 
