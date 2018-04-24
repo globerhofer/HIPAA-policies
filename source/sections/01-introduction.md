@@ -6,50 +6,43 @@ WayToHealth provides secure and compliant software for research on behavioral ch
 
 WayToHealth signs business associate agreements (BAAs) with its Customers. These BAAs outline WayToHealth obligations and Customer obligations, as well as liability in the case of a breach. In providing infrastructure and managing security configurations that are a part of the technology requirements that exist in HIPAA and HITRUST, as well as future compliance frameworks, WayToHealth manages various aspects of compliance for Customers. The aspects of compliance that WayToHealth manages for Customers are inherited by Customers, and WayToHealth assumes the risk associated with those aspects of compliance as defined in the BAA. In doing so, WayToHealth achieves and maintains compliance, while mitigating Customer risk.
 
-WayToHealth does not act as a covered entity. When WayToHealth does operate as a business associate (not a subcontractor), WayToHealth does not interface with users to obtain or provide access to ePHI. Access to ePHI is through our customers' applications.
+WayToHealth does not act as a covered entity but rather as a provider of services to covered entities and other organizations. Certain aspects of our compliance are inherited from our hosting provider, Azure. More details about Azure's HITRUST and HIPAA compliance posture is available for review [here](https://www.microsoft.com/en-us/trustcenter/Compliance/HITRUST).
 
-Certain aspects of compliance cannot be inherited. Because of this, WayToHealth Customers, in order to achieve full compliance or HITRUST Certification, must implement certain organizational policies. These policies and aspects of compliance fall outside of the services and obligations of WayToHealth.
+Certain aspects of compliance cannot be inherited. Because of this, WayToHealth, in order to achieve full compliance or HITRUST Certification, has implemented certain organizational policies. 
 
-Mappings of HIPAA Rules to WayToHealth controls and a mapping of what Rules are inherited by Customers, both Platform Customers and Add-on Customers, are covered in [§2](#2.-hipaa-inheritance).
+Mappings of HIPAA Rules to WayToHealth controls are covered in [§2](#2.-hipaa-inheritance).
 
-## 1.3 WayToHealth Organizational Concepts
+## 1.1 WayToHealth Organizational Concepts
 
-The physical infrastructure environment is hosted at [Rackspace](https://www.rackspace.com/), [Amazon Web Services](https://aws.amazon.com/) (AWS), [Microsoft Azure](https://azure.microsoft.com/), and [IBM SoftLayer](http://www.softlayer.com/). The network components and supporting network infrastructure are contained within the Rackspace, AWS, Azure, and SoftLayer infrastructures and managed by Rackspace, AWS, Microsoft, and IBM (respectively). WayToHealth does not have physical access into the network components. The WayToHealth environment consists of Cisco firewalls; nginx web servers; Java, Python, and Go application servers; Percona and PostgreSQL database servers; Logstash logging servers; Linux Ubuntu monitoring servers; Windows Server virtual machines; Chef and Salt configuration management servers; OSSEC IDS services; Docker containers; and developer tool servers running on Linux Ubuntu.
+The physical infrastructure environment is hosted at [[Microsoft Azure](https://azure.microsoft.com/). The network components and supporting network infrastructure are contained within the Azure infrastructure and is managed by RMicrosoft. WayToHealth does not have physical access into the network components. The WayToHealth environment consists of Cisco (???) firewalls; CentOS based servers; apache and nginx web servers; PHP and Node.js application servers; MariaDB and PostgreSQL database servers; Logstash logging servers; CentOS monitoring servers; Ansible configuration management servers; OSSEC IDS services; Docker containers; and developer tool servers running on CentOS.
 
-Within the WayToHealth Platform on Rackspace, AWS, Azure, and SoftLayer, all data transmission is encrypted and all hard drives are encrypted so data at rest is also encrypted; this applies to all servers - those hosting Docker containers, databases, APIs, log servers, etc. WayToHealth assumes all data *may* contain ePHI, even though our Risk Assessment does not indicate this is the case, and provides appropriate protections based on that assumption.
+Within the WayToHealth Platform on Azure, all data transmission is encrypted and all hard drives are encrypted so data at rest is also encrypted; this applies to all servers - those hosting Docker containers, databases, APIs, log servers, etc. WayToHealth assumes all data *may* contain ePHI, even though our Risk Assessment does not indicate this is the case, and provides appropriate protections based on that assumption.
 
-In the case of PaaS Customers, it is the responsibility of the Customer to restrict, secure, and assure the privacy of all ePHI data at the Application Level, as this is not under the control or purview of WayToHealth.
-
-The data and network segmentation mechanism differs depending on the primitives offered by the underlying cloud provider infrastructure:
-
-* Within Rackspace, hosted load balancers segment data and traffic while Cisco firewalls route traffic to private subnets for PaaS Customers and for Platform Add-ons.
-* Within AWS, hosted load balancers segment data across dedicated Virtual Private Clouds for PaaS Customers and for Platform Add-ons.
-* Within Azure, hosted load balancers segment data across dedicated Virtual Networks for PaaS Customers and for Platform Add-ons.
-* Within SoftLayer, hosted load balancers segment data across dedicated Private Networks for PaaS Customers and for Platform Add-ons.
-
-The segmentation strategies employed by WayToHealth effectively create RFC 1918, or dedicated, private segmented and separated networks and IP spaces, for each PaaS Customer and for Platform Add-ons.
+WayToHealth additionally restricts, secures, and assures the privacy of all ePHI data at the Application Level.
 
 Additionally, IPtables is used on each server for logical segmentation. IPtables is configured to restrict access to only justified ports and protocols. WayToHealth has implemented strict logical access controls so that only authorized personnel are given access to the internal management servers. The environment is configured so that data is transmitted from the load balancers to the application servers over an TLS encrypted session.
 
-In the case of Platform Add-ons, once the data is received from the application server, a series of Application Programming Interface (API) calls is made to the database servers where the ePHI resides. The ePHI is separated into PostgreSQL and Percona databases through programming logic built, so that access to one database server will not present you with the full ePHI spectrum.
+Once the data is received from the application server, a series of Application Programming Interface (API) calls or SQL queries is made to the database servers where the ePHI resides.
 
-The VPN server, nginx web server, and application servers are externally facing and accessible via the Internet. The database servers, where the ePHI resides, are located on the internal WayToHealth network and can only be accessed through a bastion host over a VPN connection. Access to the internal database is restricted to a limited number of personnel and strictly controlled to only those personnel with a business-justified reason. Remote access to internal servers is not accessible except through load balancers.
+The VPN server and Apache web server are externally facing and accessible via the Internet. The application and database servers, where the ePHI resides, are located on the internal WayToHealth network and can only be accessed through a bastion host over a VPN connection. Access to the internal database is restricted to a limited number of personnel and strictly controlled to only those personnel with a business-justified reason. Remote access to internal servers is not accessible except through load balancers.
 
-All Platform Add-ons and operating systems are tested end-to-end for usability, security, and impact prior to deployment to production.
+Application, database and operating systems are tested end-to-end for usability, security, and impact prior to deployment to production.
 
-## 1.4 Requesting Audit and Compliance Reports
+## 1.2 Requesting Audit and Compliance Reports
 
-WayToHealth, at its sole discretion, shares audit reports, including its HITRUST reports and Corrective Action Plans (CAPs), with customers on a case by case basis. All audit reports are shared under explicit NDA in WayToHealth format between WayToHealth and party to receive materials. Audit reports can be requested by WayToHealth workforce members for Customers or directly by WayToHealth Customers.
+WayToHealth, at its sole discretion, can share audit reports, including its planned HITRUST reports and Corrective Action Plans (CAPs), with customers on a case by case basis. All audit reports are shared under explicit NDA in WayToHealth format between WayToHealth and party to receive materials. Audit reports can be requested by WayToHealth workforce members for Customers or directly by WayToHealth Customers.
 
 The following process is used to request audit reports:
 
-1. Email is sent to compliance-reports@WayToHealth.com. In the email, please specify the type of report being requested and any required timelines for the report.
-2. WayToHealth staff will log an issue with the details of the request into the WayToHealth Quality Management System. The WayToHealth Quality Management System is used to track requests' status and outcomes.
+1. Email is sent to compliance@WayToHealth.org. In the email, please specify the type of report being requested and any required timelines for the report.
+2. WayToHealth staff will log an issue with the details of the request into the WayToHealth Ticketing and Quality Management System (TQMS). The WayToHealth TQMS is used to track requests' status and outcomes.
 3. WayToHealth will confirm if a current NDA is in place with the party requesting the audit report. If there is no NDA in place, WayToHealth will send one for execution.
 4. Once it has been confirmed that an NDA is executed, WayToHealth staff will move the issue to "Under Review".
-5. The WayToHealth Security Officer or Privacy Officer must Approve or Reject the Issue. If the Issue is rejected, WayToHealth will notify the requesting party that we cannot share the requested report.
-6. If the issue has been Approved, WayToHealth will send the customer the requested audit report and complete the Quality Management System issue for the request.
+5. The WayToHealth / PennMedicine Security Officer or Privacy Officer must Approve or Reject the Issue. If the Issue is rejected, WayToHealth will notify the requesting party that we cannot share the requested report.
+6. If the issue has been Approved, WayToHealth will send the customer the requested audit report and close the TQMS issue for the request.
 
-## 1.5 Version Control
+## 1.3 Version Control
 
-Refer to the GitHub repository at [https://github.com/catalyzeio/policies/](https://github.com/catalyzeio/policies/) for the full version history of these policies.
+These policies are managed in a private Gitlab repository managed within the University of Pennsylvania network for source control.
+
+These policies were last updated on April 28th, 2018.
