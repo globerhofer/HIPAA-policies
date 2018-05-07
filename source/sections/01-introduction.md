@@ -10,11 +10,11 @@ WayToHealth does not act as a covered entity but rather as a provider of service
 
 Certain aspects of compliance cannot be inherited. Because of this, WayToHealth, in order to achieve full compliance or HITRUST Certification, has implemented certain organizational policies. 
 
-Mappings of HIPAA Rules to WayToHealth controls are covered in [§2](#2.-hipaa-inheritance).
+Mappings of HIPAA Rules to WayToHealth controls are covered in [§2](#2-hipaa-inheritance).
 
 ## 1.1 WayToHealth Organizational Concepts
 
-The physical infrastructure environment is hosted at [[Microsoft Azure](https://azure.microsoft.com/). The network components and supporting network infrastructure are contained within the Azure infrastructure and is managed by RMicrosoft. WayToHealth does not have physical access into the network components. The WayToHealth environment consists of Cisco (???) firewalls; CentOS based servers; apache and nginx web servers; PHP and Node.js application servers; MariaDB and PostgreSQL database servers; Logstash logging servers; CentOS monitoring servers; Ansible configuration management servers; OSSEC IDS services; Docker containers; and developer tool servers running on CentOS.
+The physical infrastructure environment is hosted at [Microsoft Azure](https://azure.microsoft.com/). The network components and supporting network infrastructure are contained within the Azure infrastructure and is managed by RMicrosoft. WayToHealth does not have physical access into the network components. The WayToHealth environment consists of Cisco (???) firewalls; CentOS based servers; apache and nginx web servers; PHP and Node.js application servers; MariaDB and PostgreSQL database servers; Logstash logging servers; CentOS monitoring servers; Ansible configuration management servers; OSSEC IDS services; Docker containers; and developer tool servers running on CentOS.
 
 Within the WayToHealth Platform on Azure, all data transmission is encrypted and all hard drives are encrypted so data at rest is also encrypted; this applies to all servers - those hosting Docker containers, databases, APIs, log servers, etc. WayToHealth assumes all data *may* contain ePHI, even though our Risk Assessment does not indicate this is the case, and provides appropriate protections based on that assumption.
 
@@ -34,7 +34,7 @@ WayToHealth, at its sole discretion, can share audit reports, including its plan
 
 The following process is used to request audit reports:
 
-1. Email is sent to compliance@WayToHealth.org. In the email, please specify the type of report being requested and any required timelines for the report.
+1. Email is sent to compliance@waytohealth.org. In the email, please specify the type of report being requested and any required timelines for the report.
 2. WayToHealth staff will log an issue with the details of the request into the WayToHealth Ticketing and Quality Management System (TQMS). The WayToHealth TQMS is used to track requests' status and outcomes.
 3. WayToHealth will confirm if a current NDA is in place with the party requesting the audit report. If there is no NDA in place, WayToHealth will send one for execution.
 4. Once it has been confirmed that an NDA is executed, WayToHealth staff will move the issue to "Under Review".

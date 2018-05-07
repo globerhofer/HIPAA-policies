@@ -1,10 +1,10 @@
 # 6. Data Management Policy
 
-Datica has procedures to create and maintain retrievable exact copies of electronic protected health information (ePHI) stored in conjunction with Datica Add-ons and for PaaS Customers utilizing our Backup Service. This policy, and associated procedures for testing and restoring from backup data, do not apply to PaaS Customers that do not choose Datica Backup Service. The policy and procedures will assure that complete, accurate, retrievable, and tested backups are available for all systems used by Datica.
+WayToHealth has procedures to create and maintain retrievable exact copies of electronic protected health information (ePHI) utilizing our Backup Service. This policy, and associated procedures for testing and restoring from backup data apply generally to all WayToHealth Customers excepting those Customers that do not choose or opt-out of the WayToHealth Backup Service. The policy and procedures will assure that complete, accurate, retrievable, and tested backups are available for all Customers using WayToHealth.
 
-Data backup is an important part of the day-to-day operations of Datica. To protect the confidentiality, integrity, and availability of ePHI, both for Datica and Datica Customers, complete backups are done daily to assure that data remains available when it needed and in case of a disaster.
+Data backup is an important part of the day-to-day operations of WayToHealth. To protect the confidentiality, integrity, and availability of ePHI, both for WayToHealth and WayToHealth Customers, complete backups are done daily to assure that data remains available when it is needed and in case of a disaster.
 
-Violation of this policy and its procedures by workforce members may result in corrective disciplinary action, up to and including termination of employment.
+Violation of this policy and its procedures by workforce members may result in corrective disciplinary action, up to and including termination of employment per UPHS policies.
 
 ## 6.1 Applicable Standards
 
@@ -20,10 +20,10 @@ Violation of this policy and its procedures by workforce members may result in c
 
 ## 6.2 Backup Policy and Procedures
 
-1. Perform daily snapshot backups of all systems that process, store, or transmit ePHI for Datica Customers, including PaaS Customers that utilize the Datica Backup Service.
-2. The Datica Ops Team is designated to be in charge of backups.
-3. Dev Ops Team members are trained and assigned to complete backups and manage the backup media.
-4. Document backups
+1. Perform daily (snapshot / logical or binary dump) backups of all systems that process, store, or transmit ePHI for WayToHealth Customers.
+2. The WayToHealth DevOps Team is designated to be in charge of backups.
+3. DevOps Team members are trained and assigned to complete backups and manage the backup media.
+4. Document backups (automated as supported by the underlying hosting provider)
    * Name of the system
    * Date & time of backup
    * Where backup stored (or to whom it was provided)
