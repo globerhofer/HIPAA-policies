@@ -13,3 +13,5 @@ gem "middleman-syntax"
 gem "middleman-search_engine_sitemap"
 
 gem "nokogiri", "~> 1.8.2"
+
+gem "middleman-livereload"
