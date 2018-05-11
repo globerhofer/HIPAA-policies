@@ -42,12 +42,10 @@ Access to WayToHealth systems and application is limited for all users, includin
      * For new accounts, the method used to verify the user's identity must be recorded on the Ticket.
   2. The Security Officer or designated personnel will grant access to systems as dictated by the employee's job title. If additional access is required outside of the minimum necessary to perform job functions, the requester must include a description of why the additional access is required as part of the access request.
   3. Once the review is completed, the Security Officer or designated personnel or Privacy Officer approves or rejects the Ticket. If the Ticket is rejected, it goes back for further review and documentation.
-  4. If the review is approved, the Security Officer or designated personnel or Privacy Officer then marks the Ticket as Done, adding any pertinent notes required. The Security Officer or designated personnel or Privacy Officer then grants requested access.
-     * New accounts will be created with a temporary secure password that meets all requirements from [§7.12](#7-12-password-management), which must be changed on the initial login.
-     * All password exchanges must occur over an authenticated channel.
-     * For production systems, access grants are accomplished by adding the appropriate user account to the corresponding LDAP group.
-     * For non-production systems, access grants are accomplished by leveraging the access control mechanisms built into those systems. Account management for non-production systems may be delegated to a WayToHealth employee at the discretion of the Security Officer or designated personnel or Privacy Officer .
-2. Access is not granted until receipt, review, and approval by the WayToHealth Security Officer or designated personnel or Privacy Officer ;
+  4. If the review is approved, the Security Officer or designated personnel or Privacy Officer then marks the Ticket as Approved, adding any pertinent notes required. The Security Officer, Privacy Officer, or designated team member then grants requested access and marks the Ticket as Done.
+     * For newly created accounts on core WayToHealth applications, an email will be sent to the user with a link to set an initial secure password that meets all requirements from [§7.12](#7-12-password-management).
+     * On some ancillary systems, an initial temporary password will be generated, which must also meet all requirements from [§7.12](#7-12-password-management) and must also be changed on the first login. All such password exchanges must occur over an authenticated channel.
+2. Access is not granted until review and approval by the WayToHealth Security Officer or Privacy Officer.
 3. The request for access is retained for future reference.
 4. All access to WayToHealth systems and services is reviewed and updated on a bi-annual basis to ensure proper authorizations are in place commensurate with job functions. The process for conducting reviews is outlined below:
    1. The Security Officer or designated personnel initiates the review of user access by creating an Ticket in the WayToHealth TQMS.
@@ -67,7 +65,7 @@ Access to WayToHealth systems and application is limited for all users, includin
    * Rights for privileged accounts are granted by the Security Officer or designated personnel or Privacy Officer using the process outlined in [§7.2 paragraph 1](#7-2-access-establishment-and-modification).
 10. All application to application communication using service accounts is restricted and not permitted unless absolutely needed. Automated tools are used to limit account access across applications and systems.
 11. Generic accounts are not allowed on WayToHealth systems.
-12. Access is granted through encrypted, VPN tunnels that utilize two-factor authentication.
+12. Server access is granted through encrypted, VPN tunnels that utilize two-factor authentication.
     * Two-factor authentication is accomplished using a Time-based One-Time Password (TOTP) as the second factor.
     * VPN connections use 256-bit AES 256 encryption, or equivalent.
     * VPN sessions are automatically disconnected after 30 minutes of inactivity.
@@ -77,18 +75,19 @@ Access to WayToHealth systems and application is limited for all users, includin
 ### 7.2.2 Customer Personnel
 
 1. Requests for access to WayToHealth study specific applications is made formally using the following process:
-  1. A WayToHealth workforce member initiates the access request by creating a Ticket in the WayToHealth TQMS for the Project Manager (PM).
+  1. A WayToHealth workforce member initiates the access request by creating an Issue in the WayToHealth TQMS for the Project Manager (PM).
      * User identities must be verified prior to granting access to new accounts.
      * Identity verification must be done in person where possible; for remote employees, identities must be verified over the phone.
-     * For new accounts, the method used to verify the user's identity must be recorded on the Ticket.
+     * For new accounts, the method used to verify the user's identity must be recorded on the Issue.
      * No access outside of the minimum necessary to perform job functions will be provided.
-2. Once access has been granted to the project PM, s/he will invite other members necessary to accomplish their project objectives as needed via the user interface provided. Invites require names, email addresses and roles at the very minimum. The verification of names and email addresses are the PMs responsibility and is not verified by WayToHealth. 
+2. Once access has been granted to the project PM, s/he will invite other members necessary to accomplish their project objectives as needed via the user interface provided. Invites require names, email addresses and roles at the very minimum. The verification of names and email addresses are the PM's responsibility and is not verified by WayToHealth.
 3. Customer personnel, once invited, will be required to set their username and password that meets all requirements from [§7.12](#7-12-password-management).
 4. Customer personnel are required to follow their organization's HIPAA and other privacy policies. 
 5. Customer personnel are required to sign a [Data Security Agreement](https://atlas.waytohealth.upenn.edu/confluence/download/attachments/13664604/Data%20Security%20Agreement%20Way%20to%20Health.pdf) before getting access to the application.
 6. Generic and temporary accounts are not allowed on WayToHealth systems.
-7. Personnel who have not accessed the system in more than three (3) months will have their accounts terminated
-8. Direct system to system, system to application, and application to application authentication and authorization are limited and controlled to restrict access. This will primarily apply in the case where sysem to system integration is required. 
+7. Personnel who have not accessed the system in more than three (3) months will have their accounts terminated.
+8. PMs will be required to actively review the personnel with access to their programs on a quarterly basis.
+9. Direct system to system, system to application, and application to application authentication and authorization are limited and controlled to restrict access. This will primarily apply in the case where sysem to system integration is required.
 
 
 ## 7.3 Workforce Clearance
@@ -118,7 +117,7 @@ Access to WayToHealth systems and application is limited for all users, includin
 3. Passwords are not displayed at any time and are not transmitted or stored in plain text.
 4. Default accounts on all production systems, including root, are disabled.
 5. Shared accounts are not allowed within WayToHealth systems or networks.
-6. Automated log-on configurations that store user passwords or bypass password entry are not permitted for use with WayToHealth workstations or production systems. The use of enterprise LastPass based account sign-ins are required.
+6. Automated log-on configurations that store user passwords or bypass password entry are not permitted for use with WayToHealth workstations or production systems. The use of an enterprise-grade password manager (such as LastPass) is required for all workforce members.
 
 ## 7.7 Automatic Logoff
 
@@ -128,7 +127,7 @@ Access to WayToHealth systems and application is limited for all users, includin
 
 ## 7.8 Employee Workstation Use
 
-All workstations at WayToHealth are owned and managed by UPHS and / or PMACS (Penn Medicine Academic Compute Services), and all are laptop Apple products running Mac OSX or Linux.
+All workstations at WayToHealth are owned and managed by UPHS and/or PMACS (Penn Medicine Academic Computing Services).
 
 1. Workstations may not be used to engage in any activity that is illegal or is in violation of organization's policies.
 2. Access may not be used for transmitting, retrieving, or storage of any communications of a discriminatory or harassing nature or materials that are obscene or "X-rated". Harassment of any kind is prohibited. No messages with derogatory or inflammatory remarks about an individual's race, age, disability, religion, national origin, physical attributes, sexual preference, or health condition shall be transmitted or maintained. No abusive, hostile, profane, or offensive language is to be transmitted through organization's system.
@@ -139,6 +138,7 @@ All workstations at WayToHealth are owned and managed by UPHS and / or PMACS (Pe
 7. Workstation hard drives will be encrypted using FileVault 2.0 or equivalent.
 8. All workstations have firewalls enabled to prevent unauthorized access unless explicitly granted.
 9. All workstations are to have the following messages added to the lock screen and login screen: *This computer is owned by the University Of Pennsylvania Health System (UPHS). By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://policy.waytohealth.org) and have completed HIPAA training. Please contact us if you have problems with this - privacy@waytohealth.org.*
+  [PMACS machines have different language. It's probably easier if we just use the default PMACS image.]
 
 ## 7.9 Wireless Access Use
 
@@ -147,7 +147,7 @@ All workstations at WayToHealth are owned and managed by UPHS and / or PMACS (Pe
 3. When accessing production systems via remote wireless connections, the same system access policies and procedures apply to wireless as all other connections, including wired.
 4. Wireless networks managed within WayToHealth non-production facilities (offices, etc.) are secured with the following configurations:
    * Access to the network is only allowed for authorized personnel over the AirPennNet network with an active PennKey
-   * All data in transit over wireless is encrypted using WPA2 encryption;
+   * All data in transit over wireless is encrypted using WPA2 encryption or similar;
    * Passwords are rotated on a regular basis, presently annually. This process is managed by the WayToHealth Security Officer or designated personnel.
    * System access id further restricted to be over VPN only.
 
@@ -169,7 +169,7 @@ WayToHealth does not use paper records for any sensitive information. Use of pap
 
 1. User IDs and passwords are used to control access to WayToHealth systems and may not be disclosed to anyone for any reason.
 2. Users may not allow anyone, for any reason, to have access to any information system using another user's unique user ID and password.
-3. Password strength is enforced using the [zxcvbn](https://github.com/dropbox/zxcvbn) password strenght estimation algorithm. We use this as an alternative to password composition policy. In practice, it can translate to:
+3. Password strength is enforced using the [zxcvbn](https://github.com/dropbox/zxcvbn) password strength estimation algorithm. We use this as an alternative to password composition policy. In practice, it can translate to:
    * 8 or more characters;
    * a mix of upper case characters, lower case characters, and numbers or special characters;
 4. Other policies enforced include:

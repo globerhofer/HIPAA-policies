@@ -18,7 +18,7 @@ This policy establishes the scope, objectives, and procedures of WayToHealth's i
 
 ## 4.2 Risk Management Policies
 
-1. It is the policy of WayToHealth to conduct thorough and timely risk assessments of the potential threats and vulnerabilities to the confidentiality, integrity, and availability of electronic protected health information (ePHI) (and other confidential and proprietary electronic information) it stores, transmits, and/or processes for its Customers and to develop strategies to efficiently and effectively mitigate the risks identified in the assessment process as an integral part of the WayToHealth's information security program.
+1. It is the policy of WayToHealth to conduct thorough and timely risk assessments of the potential threats and vulnerabilities to the confidentiality, integrity, and availability of electronic protected health information (ePHI) (and other confidential and proprietary electronic information) it stores, transmits, and/or processes for its Customers and to develop strategies to efficiently and effectively mitigate the risks identified in the assessment process as an integral part of WayToHealth's information security program.
 2. Risk analysis and risk management are recognized as important components of WayToHealth and its parent corporate compliance program and information security program in accordance with the Risk Analysis and Risk Management implementation specifications within the Security Management standard and the evaluation standards set forth in the HIPAA Security Rule, 45 CFR 164.308(a)(1)(ii)(A), 164.308(a)(1)(ii)(B), 164.308(a)(1)(i), and 164.308(a)(8).
    1. Risk assessments are done throughout product life cycles:
    2. Before the integration of new system technologies and before changes are made to WayToHealth physical safeguards; and
@@ -31,13 +31,13 @@ This policy establishes the scope, objectives, and procedures of WayToHealth's i
    3. Protect against any reasonably anticipated uses or disclosures of Customer ePHI that are not permitted or required; and
    4. Ensure compliance by all workforce members.
 4. Any risk remaining (residual) after other risk controls have been applied, requires sign off by the senior management and WayToHealth's Security Officer.
-5. All WayToHealth workforce members are expected to fully cooperate with all persons charged with doing risk management work, including contractors and audit personnel. Any workforce member that violates this policy will be subject to disciplinary action based on the severity of the violation, as outlined in the WayToHealth Roles Policy.
+5. All WayToHealth workforce members are expected to fully cooperate with all persons charged with doing risk management work, including contractors and audit personnel. Any workforce member that violates this policy will be subject to disciplinary action based on the severity of the violation, as outlined in the WayToHealth [Roles Policy (§5)](#5-roles-policy).
 6. The implementation, execution, and maintenance of the information security risk analysis and risk management process is the responsibility of WayToHealth's Security Officer (or other designated employee), and the identified Risk Management Team.
 7. All risk management efforts, including decisions made on what controls to put in place as well as those to not put into place, are documented and the documentation is maintained for six years.
 8. The details of the Risk Management Process, including risk assessment, discovery, and mitigation, are outlined in detail below. The process is tracked, measured, and monitored using the following procedures:
   1. The Security Officer or the Privacy Officer initiates the Risk Management Procedures by creating an Issue in the WayToHealth TQMS.
-  2. The Security Officer or the Privacy Officer is assigned to carry out the Risk Management Procedures.
-  3. All findings are documented in the Issue comments section and / or an approved spreadsheet with associated calculations.
+  2. The Security Officer, the Privacy Officer, or a designated team member is assigned to carry out the Risk Management Procedures.
+  3. All findings are documented in the Issue comments section and/or an approved spreadsheet with associated calculations. If a spreadsheet is used, it should be attached to the Issue upon completion.
   4. Once the Risk Management Procedures are complete, along with corresponding documentation, the Security Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
   5. If the review is approved, the Security Officer then marks the Issue as Done, adding any pertinent notes required.
 9. The Risk Management Procedure is monitored on a quarterly basis using the TQMS reporting to assess compliance with above policy.
@@ -49,7 +49,7 @@ This policy establishes the scope, objectives, and procedures of WayToHealth's i
 The intent of completing a risk assessment is to determine potential threats and vulnerabilities and the likelihood and impact, should they occur. The output of this process helps to identify appropriate controls for reducing or eliminating risk.
 
 * Step 1. System Characterization
-  * The first step in assessing risk is to define the scope of the effort. To do this, identify where ePHI is received, maintained, processed, or transmitted. Using information-gathering techniques, the WayToHealth WayToHealth system boundaries are identified.
+  * The first step in assessing risk is to define the scope of the effort. To do this, identify where ePHI is received, maintained, processed, or transmitted. Using information-gathering techniques, WayToHealth system boundaries are identified.
   * Output - Characterization of the WayToHealth system assessed, a good picture of the environment, and delineation of system boundaries.
 
 * Step 2. Threat Identification
@@ -86,7 +86,7 @@ The intent of completing a risk assessment is to determine potential threats and
 
 ### 4.3.2 Risk Mitigation
 
-Risk mitigation involves prioritizing, evaluating, and implementing the appropriate risk-reducing controls recommended from the Risk Assessment process to ensure the confidentiality, integrity and availability of WayToHealth WayToHealth system ePHI. Determination of appropriate controls to reduce risk is dependent upon the risk tolerance of the organization consistent with its goals and mission.
+Risk mitigation involves prioritizing, evaluating, and implementing the appropriate risk-reducing controls recommended from the Risk Assessment process to ensure the confidentiality, integrity and availability of WayToHealth system ePHI. Determination of appropriate controls to reduce risk is dependent upon the risk tolerance of the organization consistent with its goals and mission.
 
 * Step 1. Prioritize Actions
   * Using results from Step 7 of the Risk Assessment, sort the threat and vulnerability pairs according to their risk-levels in descending order. This establishes a prioritized list of actions needing to be taken, with the pairs at the top of the list getting/requiring the most immediate attention and top priority in allocating resources
