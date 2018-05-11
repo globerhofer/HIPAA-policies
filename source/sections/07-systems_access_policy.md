@@ -184,16 +184,11 @@ WayToHealth does not use paper records for any sensitive information. Use of pap
 6. Each information system automatically requires users to change passwords at a pre-determined interval as determined by the organization, based on the criticality and sensitivity of the ePHI contained within the network, system, application, and/or database.
 7. Passwords are deactivated immediately upon an employee's termination (refer to the [Employee Termination Procedures in §7.10](#7-10-employee-termination-procedures)).
 8. There are no default system or application passwords.
-9. Passwords are not auto-generated for users and users must set their passwords when invited following the complexity rules defined above.
+9. Passwords are not auto-generated for users. Users must set their passwords when invited following the complexity rules defined above.
 10. Password change methods must use a confirmation method to correct for user input errors such as matching entries.
 11. All passwords used in configuration scripts are secured and encrypted.
-12. If a user believes their user ID has been compromised, they are required to immediately report the incident to the Security Officer or designated personnel.
-13. For WayToHealth personnel, in cases where a user has forgotten their password, the following procedure is used to reset the password. 
-    * The user submits a password reset request via the user interface. The request should include the system to which the user has lost access and needs the password reset, where appropriate.
-    * An administrator with password reset privileges is notified and connects directly with the user requesting the password reset.
-    * The administrator verifies the identity of the user either in-person or through a separate communication channel such as phone or Slack.
-    * Once verified, the administrator resets the password.
-14. For end users, in cases where the user has forgotten their passwords, the following procedure is used to reset the password:
+12. If a user believes their user ID has been compromised, they are required to immediately report the incident to the Security Officer or designated personnel. A specific form on the user support portal is used for this purpose.
+13. In cases where the user has forgotten their passwords, the following procedure is used to reset the password:
     * The user submits a password reset request via the user interface.
     * The system automatically genetrates a password reset link and send it to the email address on record for the user.
     * The user can click on the link provided and if the new password passes the complexity check, the password is reset.
