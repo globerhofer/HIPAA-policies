@@ -85,20 +85,20 @@ These organizational responsibilities include, but are not limited to the follow
     * Promptly, properly, and consistently investigates and addresses reported violations and takes steps to prevent recurrence.
     * Applies consistent and appropriate sanctions against workforce members who fail to comply with the security policies and procedures of WayToHealth.
     * Mitigates, to the extent practicable, any harmful effect known to WayToHealth of a use or disclosure of ePHI in violation of WayToHealth's policies and procedures, even if effect is the result of actions of WayToHealth business associates, customers, and/or partners.
-11. Reports security efforts and incidents to administration immediately upon discovery. Responsibilities in the case of a known ePHI breach are documented in the [WayToHealth Breach Policy](#12.-breach-policy).
+11. Reports security efforts and incidents to administration immediately upon discovery. Responsibilities in the case of a known ePHI breach are documented in the [WayToHealth Breach Policy (§12)](#12.-breach-policy).
 12. The Security Officer facilitates the communication of security updates and reminders to all workforce members to which it pertains. Examples of security updates and reminders include, but are not limited to:
     * Latest malicious software or virus alerts;
     * WayToHealth's requirement to report unauthorized attempts to access ePHI;
     * Changes in creating or changing passwords;
     * Additional security-focused training is provided to all workforce members by the Security Officer. This training includes, but is not limited to:
-    * Data backup plans;
-    * System auditing procedures;
-    * Redundancy procedures;
-    * Contingency plans;
-    * Virus protection;
-    * Patch management;
-    * Media Disposal and/or Re-use;
-    * Documentation requirements.
+      * Data backup plans;
+      * System auditing procedures;
+      * Redundancy procedures;
+      * Contingency plans;
+      * Virus protection;
+      * Patch management;
+      * Media Disposal and/or Re-use;
+      * Documentation requirements.
 13. The Security Officer works with the COO to ensure that any security objectives have appropriate consideration during the budgeting process.
     * In general, security and compliance are core to WayToHealth's technology and service offerings; in most cases this means security-related objectives cannot be split out to separate budget line items.
     * For cases that *can* be split out into discrete items, such as licenses for commercial tooling, the Security Officer follows WayToHealth's standard corporate budgeting process.
@@ -118,7 +118,7 @@ Although the Security Officer is responsible for implementing and overseeing all
 
 All workforce members report non-compliance of WayToHealth's policies and procedures to the Security Officer or other individual as assigned by the Security Officer. Individuals that report violations in good faith may not be subjected to intimidation, threats, coercion, discrimination against, or any other retaliatory action as a consequence.
 
-1. The Security Officer promptly facilitates a thorough investigation of all reported violations of WayToHealth's security policies and procedures. The Security Officer may request the assistance from others.
+1. The Security Officer promptly facilitates a thorough investigation of all reported violations of WayToHealth's security policies and procedures. The Security Officer may request assistance from others.
    * Complete an audit trail/log to identify and verify the violation and sequence of events.
    * Interview any individual that may be aware of or involved in the incident.
    * All individuals are required to cooperate with the investigation process and provide factual information to those conducting the investigation.

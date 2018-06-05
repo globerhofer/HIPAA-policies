@@ -2,7 +2,7 @@
 
 PennMedicine Way To Health, Inc ("WayToHealth") is committed to ensuring the confidentiality, privacy, integrity, and availability of all electronic protected health information (ePHI) it receives, maintains, processes and/or transmits on behalf of its Customers. As a patient engagement and health research technology organization, WayToHealth strives to maintain compliance, proactively address information security, mitigate risk for its Customers, and assure known breaches are completely and effectively communicated in a timely manner. The following documents address core policies used by WayToHealth to maintain compliance and assure the proper protections of infrastructure used to store, process, and transmit ePHI for WayToHealth Customers.
 
-WayToHealth provides secure and compliant software for research on behavioral change and patient engagement. Customers utilize this hosted software and infrastructure from WayToHealth to conduct research on and deploy evidence based approches to engage patients in their health. WayToHealth makes every effort to reduce the risk of unauthorized disclosure, access, and/or breach of  Customer data through network (firewalls, dedicated IP spaces, etc) and server settings (encryption at rest and in transit etc).
+WayToHealth provides secure and compliant software to administer behavioral change and patient engagement programs. Customers utilize the hosted software and infrastructure from WayToHealth to research and deploy evidence-based approches to engage patients in their health. WayToHealth makes every effort to reduce the risk of unauthorized disclosure, access, and/or breach of Customer data through network (firewalls, dedicated IP spaces, etc), server settings (encryption at rest and in transit etc), and application security requirements (password strength rules, account roles/privileges, etc).
 
 WayToHealth signs business associate agreements (BAAs) with its Customers. These BAAs outline WayToHealth obligations and Customer obligations, as well as liability in the case of a breach. In providing infrastructure and managing security configurations that are a part of the technology requirements that exist in HIPAA and HITRUST, as well as future compliance frameworks, WayToHealth manages various aspects of compliance for Customers. The aspects of compliance that WayToHealth manages for Customers are inherited by Customers, and WayToHealth assumes the risk associated with those aspects of compliance as defined in the BAA. In doing so, WayToHealth achieves and maintains compliance, while mitigating Customer risk.
 
@@ -14,7 +14,7 @@ Mappings of HIPAA Rules to WayToHealth controls are covered in [§2](#2-hipaa-in
 
 ## 1.1 WayToHealth Organizational Concepts
 
-The physical infrastructure environment is hosted at [Microsoft Azure](https://azure.microsoft.com/). The network components and supporting network infrastructure are contained within the Azure infrastructure and is managed by RMicrosoft. WayToHealth does not have physical access into the network components. The WayToHealth environment consists of Cisco (???) firewalls; CentOS based servers; apache and nginx web servers; PHP and Node.js application servers; MariaDB and PostgreSQL database servers; Logstash logging servers; CentOS monitoring servers; Ansible configuration management servers; OSSEC IDS services; Docker containers; and developer tool servers running on CentOS.
+The physical infrastructure environment is hosted at [Microsoft Azure](https://azure.microsoft.com/). The network components and supporting network infrastructure are contained within the Azure infrastructure and is managed by Microsoft. WayToHealth does not have physical access into the network components. The WayToHealth environment consists of Cisco (???) firewalls and CentOS-based Virtual servers running Apache and/or nginx web servers; PHP and Node.js application servers; MariaDB and PostgreSQL database servers; Logstash logging servers; Ansible configuration management servers; OSSEC IDS services; Docker containers; and developer tool servers.
 
 Within the WayToHealth Platform on Azure, all data transmission is encrypted and all hard drives are encrypted so data at rest is also encrypted; this applies to all servers - those hosting Docker containers, databases, APIs, log servers, etc. WayToHealth assumes all data *may* contain ePHI, even though our Risk Assessment does not indicate this is the case, and provides appropriate protections based on that assumption.
 
@@ -43,6 +43,6 @@ The following process is used to request audit reports:
 
 ## 1.3 Version Control
 
-These policies are managed in a private Gitlab repository managed within the University of Pennsylvania network for source control.
+These policies are managed in a private Gitlab repository managed within the University of Pennsylvania network for source control. The most recent version of the policies is available at <https://policy.waytohealth.org>.
 
 These policies were last updated on April 28th, 2018.
