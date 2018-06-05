@@ -1,14 +1,4 @@
 // Global
-.fixed-bar{
-    position: fixed;
-    background: $c_brand;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    height: 5px;
-    z-index: 3;
-}
-body{margin: 5px 0px 0px 0px;}
 .product-navigation{
     position: fixed;
     bottom: 0px;
@@ -94,7 +84,7 @@ body{margin: 5px 0px 0px 0px;}
         a{
             display: inline-block;
             margin: 0px 0px 0px 20px;
-            color: $c_brand;
+            color: #fff;
             text-decoration: none;
             @include easing(350ms);
             &:hover{
@@ -125,8 +115,6 @@ body{margin: 5px 0px 0px 0px;}
     h1.site-title{
         margin: 5px 0px 0px 0px;
         font-size: 14px;
-        background-color: $c_brand;
-        color: #fff;
         padding: 5px 10px;
         text-align: center;
         float: left;
@@ -216,22 +204,19 @@ body{margin: 5px 0px 0px 0px;}
 .search-results.visible{display: block;}
 // Menu
 .menu{
-    padding: 10px 20px 10px 0px;
-    border-right: 1px solid $c_border;
     position: fixed;
     z-index: 1;
     top: 0px;
-    bottom: 0px;
+    bottom: -45px;
     width: 20.80%;
     max-width: 300px;
-    box-shadow: 8px 0px 10px -7px $c_border;
     ul{
         &:first-of-type{@include easing(250ms);margin: 155px 0px 0px 0px;}
         li{margin: 5px 0px;}
         ul{
             &:first-of-type{@include easing(0ms);margin-top: 0px;margin-left: 10%;}
             margin-left: 10%;
-            background-color: $c_bg;
+            background-color: $c_bg_gray;
             padding: 10px;
             border-left: 2px solid $c_brand;
             li{
@@ -266,7 +251,7 @@ body{margin: 5px 0px 0px 0px;}
     li.tocify-focus{a{color: $c_brand;}}
     #toc{
         max-height: 92%;
-        overflow: scroll;
+        overflow-y: scroll;
         position: relative;
         z-index: 0;
     }
@@ -401,7 +386,7 @@ body{margin: 5px 0px 0px 0px;}
                 text-align: left;
                 color: $c_header;
                 border: 1px solid $c_border;
-                background-color: $c_bg;
+                background-color: $c_bg_gray;
                 strong{
                     font-family: $f_sans;
                     font-size: 14px;
