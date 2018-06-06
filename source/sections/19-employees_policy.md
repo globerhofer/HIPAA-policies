@@ -16,7 +16,17 @@ WayToHealth is committed to ensuring all workforce members actively address secu
 
 * 164.308(a)(5)(i) - Security Awareness and Training
 
-## 19.2 Employment Policies
+## 19.2 Pre-Employment Policies
+
+1. The Penn Medicine Human Resources department will subject all workforce members of the health system to pre-employment screening, which may include background investigations. Background investigations may include, but are not limited to:
+    * Character references
+    * Confirmation of claimed academic and professional qualifications
+    * Professional license validation
+    * Credit check
+    * Criminal background check
+    * Office of the Inspector General (OIG) database check
+
+## 19.3 Employment Policies
 
 1. All new workforce members, including contractors, are given training on security policies and procedures, including operations security, within 30 days of employment.
    * Records of training are kept for all workforce members.
@@ -24,8 +34,8 @@ WayToHealth is committed to ensuring all workforce members actively address secu
    * Employees must complete this training before accessing production systems containing ePHI.
 2. All workforce members are granted access to formal organizational policies, which include the sanction policy for security violations.
 3. The UPHS or the University Of Pennsylvania Employee policies clearly states the responsibilities and acceptable behavior regarding information system usage, including rules for email, Internet, mobile devices, and social media usage.
-   * Workforce members are required to sign an agreement stating that they have read and will abide by all terms outlined in the UPHS or the University Of Pennsylvania policies, along with all policies and processes described in this document.
-   * A UPHS or the University Of Pennsylvania Human Resources representative will provide the agreement to new employees during their onboarding process.
+   * The Human Resources department will emphasize secure and confidential information handling policies when introducing new individuals to Penn Medicine / School of Medicine. A copy of the Information Security policies will be made available to all new workforce members. 
+   * Workforce members will acknowledge in writing that they understand their responsibilities as stated in the policies.  
 4. WayToHealth does not allow mobile devices to connect to any of its production networks.
 5. All workforce members are educated about the approved set of tools to be installed on workstations.
 6. All new workforce members are given HIPAA training within 30 days of beginning employment. Training includes HIPAA reporting requirements, including the ability to anonymously report security incidents, and the levels of compliance and obligations for WayToHealth and its Customers and Partners.
@@ -35,7 +45,7 @@ WayToHealth is committed to ensuring all workforce members actively address secu
    * Any workstations used to access production systems must be configured as prescribed in [§7.8](#7-8-employee-workstation-use).
    * Any workstations used to access production systems must have virus protection software installed, configured, and enabled.
    * WayToHealth may monitor access and activities of all users on workstations and production systems in order to meet auditing policy requirements ([§8](#8-auditing-policy)).
-10. Access to internal WayToHealth systems can be requested using the procedures outlined in [§7.2](#7=2-access-establishment-and-modification). All requests for access must be granted by the WayToHealth Security Officer or designated personnel.
+10. Access to internal WayToHealth systems can be requested using the procedures outlined in [§7.2](#7-2-access-establishment-and-modification). All requests for access must be granted by the WayToHealth Security Officer or designated personnel.
 11. Request for modifications of access for any WayToHealth employee can be made using the procedures outlined in [§7.2](#7-2-access-establishment-and-modification).
 12. WayToHealth employees are **strictly forbidden** from downloading any ePHI to their workstations.
     * Employees found to be in violation of this policy will be subject to sanctions as described in [§5.3.3](#5-3-security-officer).
@@ -43,7 +53,7 @@ WayToHealth is committed to ensuring all workforce members actively address secu
     * Employees must not interfere with investigations through willful misrepresentation, omission of facts, or by the use of threats against any person.
     * Employees found to be in violation of this policy will be subject to sanctions as described in [§5.3.3](#5-3-security-officer).
 
-## 19.3 Issue Escalation
+## 19.4 Issue Escalation
 
 WayToHealth workforce members are to escalate issues as described in HIPAA training. 
 

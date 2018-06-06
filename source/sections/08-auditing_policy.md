@@ -67,7 +67,7 @@ This policy applies to all WayToHealth systems that store, transmit, or process 
 12. Vulnerability testing software may be used to probe the network to identify what is running (e.g., operating system or product versions in place), whether publicly-known vulnerabilities have been corrected, and evaluate whether the system can withstand attacks aimed at circumventing security controls.
     * Testing may be carried out internally or provided through an external third-party vendor. Whenever possible, a third party auditing vendor should not be providing the organization IT oversight services (e.g., vendors providing IT services should not be auditing their own services - separation of duties).
     * Testing shall be done on a routine basis, currently quarterly.
-13. Software patches and updates will be applied to all systems in a timely manner.
+13. Software patches and updates will be applied to all systems in a timely manner, minimally on a monthly basis.
 
 ## 8.3 Audit Requests
 

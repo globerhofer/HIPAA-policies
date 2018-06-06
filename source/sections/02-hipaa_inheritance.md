@@ -2,27 +2,26 @@
 
 ## 2.1 HIPAA Inheritance
 
- -- Needs Review: Don't think we can inherit anything in this section
 
 | **Administrative Controls** HIPAA Rule | WayToHealth Control | Inherited
 --- | --- | ---
 Security Management Process - 164.308(a)(1)(i) | Risk Management Policy | Yes
 Assigned Security Responsibility - 164.308(a)(2) | Roles Policy | Partially
-Workforce Security - 164.308(a)(3)(i) | Employee Policies | Partially
+Workforce Security - 164.308(a)(3)(i) | Employee Policies | Yes
 Information Access Management - 164.308(a)(4)(i) | System Access Policy | Yes
 Security Awareness and Training - 164.308(a)(5)(i) | Employee Policy | No
 Security Incident Procedures - 164.308(a)(6)(i) | IDS Policy | Yes
 Contingency Plan - 164.308(a)(7)(i) | Disaster Recovery Policy | Yes
-Evaluation - 164.308(a)(8) | Auditing Policy | Yes
+Evaluation - 164.308(a)(8) | Auditing Policy | Partially
 
 
 
 | **Physical Safeguards** HIPAA Rule | WayToHealth Control | Inherited
 --- | --- | ---
-Facility Access Controls - 164.310(a)(1) | Facility and Disaster Recovery Policies | Yes
-Workstation Use - 164.310(b) | System Access, Approved Tools, and Employee Policies | Partially
-Workstation Security - 164.310('c') | System Access, Approved Tools, and Employee Policies | Partially
-Device and Media Controls - 164.310(d)(1) | Disposable Media and Data Management Policies | Yes
+Facility Access Controls - 164.310(a)(1) | Facility and Disaster Recovery Policies | Yes 
+Workstation Use - 164.310(b) | System Access, Approved Tools, and Employee Policies | Yes 
+Workstation Security - 164.310('c') | System Access, Approved Tools, and Employee Policies | Yes 
+Device and Media Controls - 164.310(d)(1) | Disposable Media and Data Management Policies | Yes 
 
 | **Technical Safeguards** HIPAA Rule | WayToHealth Control | Inherited
 --- | --- | ---
@@ -34,7 +33,7 @@ Transmission Security - 164.312(e)(1) | System Access and Data Management Policy
 
 | **Organizational Requirements** HIPAA Rule | WayToHealth Control | Inherited
 --- | --- | ---
-Business Associate Contracts or Other Arrangements - 164.314(a)(1)(i) | Business Associate Agreements and 3rd Parties Policies | Partially
+Business Associate Contracts or Other Arrangements - 164.314(a)(1)(i) | Business Associate Agreements and 3rd Parties Policies | Yes
 
 | **Policies and Procedures and Documentation Requirements** HIPAA Rule | WayToHealth Control | Inherited
 --- | --- | ---
@@ -51,20 +50,20 @@ Content of Notification - 13402(f)(1) | Breach Policy | Partially
 
 | **Administrative Controls** HIPAA Rule | WayToHealth Control | Inherited
 --- | --- | ---
-Security Management Process - 164.308(a)(1)(i) | Risk Management Policy | No
+Security Management Process - 164.308(a)(1)(i) | Risk Management Policy | Partially
 Assigned Security Responsibility - 164.308(a)(2) | Roles Policy | Partially
-Workforce Security - 164.308(a)(3)(i) | Employee Policies | Partially
+Workforce Security - 164.308(a)(3)(i) | Employee Policies | Yes
 Information Access Management - 164.308(a)(4)(i) | System Access Policy | Partially
-Security Awareness and Training - 164.308(a)(5)(i) | Employee Policy | Partially
+Security Awareness and Training - 164.308(a)(5)(i) | Employee Policy | Yes
 Security Incident Procedures - 164.308(a)(6)(i) | IDS Policy | No
-Contingency Plan - 164.308(a)(7)(i) | Disaster Recovery Policy | No
+Contingency Plan - 164.308(a)(7)(i) | Disaster Recovery Policy | Partially
 Evaluation - 164.308(a)(8) | Auditing Policy | Yes
 
 | **Physical Safeguards** HIPAA Rule | WayToHealth Control | Inherited
 --- | --- | ---
 Facility Access Controls - 164.310(a)(1) | Facility and Disaster Recovery Policies | Yes
-Workstation Use - 164.310(b) | System Access, Approved Tools, and Employee Policies | Partially
-Workstation Security - 164.310('c') | System Access, Approved Tools, and Employee Policies | Partially
+Workstation Use - 164.310(b) | System Access, Approved Tools, and Employee Policies | Yes
+Workstation Security - 164.310('c') | System Access, Approved Tools, and Employee Policies | Yes
 Device and Media Controls - 164.310(d)(1) | Disposable Media and Data Management Policies | Yes
 
 | **Technical Safeguards** HIPAA Rule | WayToHealth Control | Inherited
@@ -77,7 +76,7 @@ Transmission Security - 164.312(e)(1) | System Access and Data Management Policy
 
 | **Organizational Requirements** HIPAA Rule | WayToHealth Control | Inherited
 --- | --- | ---
-Business Associate Contracts or Other Arrangements - 164.314(a)(1)(i) | Business Associate Agreements and 3rd Parties Policies | Partially
+Business Associate Contracts or Other Arrangements - 164.314(a)(1)(i) | Business Associate Agreements and 3rd Parties Policies | Yes
 
 | **Policies and Procedures and Documentation Requirements** HIPAA Rule | WayToHealth Control | Inherited
 --- | --- | ---

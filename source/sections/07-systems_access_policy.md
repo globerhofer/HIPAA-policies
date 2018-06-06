@@ -56,17 +56,21 @@ Access to WayToHealth systems and application is limited for all users, includin
    6. Review of user access is monitored on a quarterly basis using the TQMS reporting to assess compliance with above policy.
 5. Any WayToHealth workforce member can request change of access using the process outlined in [§7.2 paragraph 1](#7-2-access-establishment-and-modification).
 6. Access to production systems is controlled using centralized user management and authentication.
-7. Temporary accounts are not used unless absolutely necessary for business purposes.
+7. Account management and access:
+   * Temporary accounts are not used unless absolutely necessary for business purposes.
    * Accounts are reviewed every 90 days to ensure temporary accounts are not left unnecessarily active.
    * Accounts that are inactive for over 90 days are removed.
+   * User accounts on systems containing highly sensitive or confidential data that have not been accessed for ninety (90) days will be disabled.
+   * Privileged users (e.g., system administrators) must have their access rights reviewed at least two (2) times per year by the Information Owner to ensure access to UPHS/SOM information is appropriate.
+   * Users with access to privileged accounts must use their non-privileged user account to log into the system. These users must take care to only log into their privileged accounts when necessary, and only for the duration required to complete the task requiring privileged access.
 8. In the case of non-personal information, such as generic educational content, identification and authentication may not be required. This is the responsibility of WayToHealth Customers to define, and not WayToHealth.
 9. Privileged users must first access systems using standard, unique user accounts before switching to privileged users and performing privileged tasks.
    * For production systems, this is enforced by creating non-privileged user accounts that must invoke `sudo` to perform privileged tasks.
    * Rights for privileged accounts are granted by the Security Officer or designated personnel or Privacy Officer using the process outlined in [§7.2 paragraph 1](#7-2-access-establishment-and-modification).
-10. All application to application communication using service accounts is restricted and not permitted unless absolutely needed. Automated tools are used to limit account access across applications and systems.
+10. All application to application communication using service accounts is restricted and not permitted unless absolutely needed. 
 11. Generic accounts are not allowed on WayToHealth systems.
 12. Server access is granted through encrypted, VPN tunnels that utilize two-factor authentication.
-    * Two-factor authentication is accomplished using a Time-based One-Time Password (TOTP) as the second factor.
+    * Two-factor authentication is accomplished using Duo Security.
     * VPN connections use 256-bit AES 256 encryption, or equivalent.
     * VPN sessions are automatically disconnected after 30 minutes of inactivity.
 13. In cases of increased risk or known attempted unauthorized access, immediate steps are taken by the Security and Privacy Officer to limit access and reduce risk of unauthorized access.
@@ -104,7 +108,7 @@ Access to WayToHealth systems and application is limited for all users, includin
 ## 7.5 Person or Entity Authentication
 
 1. Each workforce member has and uses a unique user ID and password that identifies him/her as the user of the information system.
-2. Each Customer personnel has and uses a unique user ID and password that identifies him/her as the user of the information system.
+2. Each user has and uses a unique user ID and password that identifies him/her as the user of the information system.
 3. All Customer support desk interactions must be verified before WayToHealth support personnel will satisfy any request having information security implications.
    * WayToHealth's current support desk software, Service Desk, requires users to authenticate before submitting support tickets.
    * Support issues submitted via WayToHealth's dashboard require that users authenticate with their WayToHealth account before submitting support tickets.
@@ -118,6 +122,8 @@ Access to WayToHealth systems and application is limited for all users, includin
 4. Default accounts on all production systems, including root, are disabled.
 5. Shared accounts are not allowed within WayToHealth systems or networks.
 6. Automated log-on configurations that store user passwords or bypass password entry are not permitted for use with WayToHealth workstations or production systems. The use of an enterprise-grade password manager (such as LastPass) is required for all workforce members.
+7. For server access, users are assigned IDs that are consistent with theur current PennKey IDs. The privilege level of the account should not be identifiable within the userID (e.g., a userID named “sysadmin1” is not permissible).
+8. Workforce members are not permitted to have multiple userIDs on the same system without a business need, and the approval of the system administrator
 
 ## 7.7 Automatic Logoff
 

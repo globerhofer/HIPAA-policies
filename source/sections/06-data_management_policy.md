@@ -21,8 +21,8 @@ Violation of this policy and its procedures by workforce members may result in c
 ## 6.2 Backup Policy and Procedures
 
 1. Perform daily (snapshot / logical or binary dump) backups of all systems that process, store, or transmit ePHI for WayToHealth Customers.
-2. The WayToHealth DevOps Team is designated to be in charge of backups.
-3. DevOps Team members are trained and assigned to complete backups and manage the backup media.
+2. The WayToHealth Dev and PMACS Support Team is designated to be in charge of backups.
+3. Dev and Support Team members are trained and assigned to complete backups and manage the backup media.
 4. Document backups (automated as supported by the underlying hosting provider)
    * Name of the system
    * Date & time of backup
