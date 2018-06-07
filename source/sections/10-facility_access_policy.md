@@ -27,10 +27,10 @@ Of note, WayToHealth does not physically house any systems used by its Platform 
 3. The organization securely disposes media with sensitive information.
 7. Physical access is restricted using badges and keys where necessary.
    * Restricted areas and facilities are locked when unattended (where feasible).
-   * Only authorized workforce members receive access to restricted areas (as determined by the Security Officer).
+   * Only authorized workforce members receive access to restricted areas.
    * Access and keys are revoked upon termination of workforce members.
    * Workforce members must report a lost and/or stolen key(s) immediately to the floor manager (Dana Opeila).
-   * The floor manager will facilitate the changing of the lock(s) per UPHS policies.
+   * The floor manager will facilitate the changing of the lock(s) per UPHS/PSOM policies.
 8. Enforcement of Facility Access Policies
    * Report violations of this policy to the restricted area's department team leader, supervisor, manager, or director, or the Privacy Officer.
    * Workforce members in violation of this policy are subject to disciplinary action, up to and including termination.

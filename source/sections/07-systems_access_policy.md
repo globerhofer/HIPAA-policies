@@ -196,9 +196,9 @@ WayToHealth does not use paper records for any sensitive information. Use of pap
 12. If a user believes their user ID has been compromised, they are required to immediately report the incident to the Security Officer or designated personnel. A specific form on the user support portal is used for this purpose.
 13. In cases where the user has forgotten their passwords, the following procedure is used to reset the password:
     * The user submits a password reset request via the user interface.
-    * The system automatically genetrates a password reset link and send it to the email address on record for the user.
+    * The system automatically generates a password reset link and sends it to the email address on record for the user.
     * The user can click on the link provided and if the new password passes the complexity check, the password is reset.
 
 ## 7.13 Access to ePHI
 
-1. Employees may not download ePHI to any workstations used to connect to production systems.
+1. Employees **may not download ePHI to any workstations used to connect to production systems**.
