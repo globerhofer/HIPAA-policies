@@ -44,21 +44,19 @@ This policy applies to all WayToHealth systems that store, transmit, or process 
 2. WayToHealth's auditing processes shall address access and activity at the following levels listed below. WayToHealth uses software to aggregate and view User and Application logs. Auditing processes may address date and time of each log-on attempt, date and time of each log-off attempt, devices used, functions performed, etc.
    * User: User level audit trails generally monitor and log all commands directly initiated by the user, all identification and authentication attempts, and data and services accessed.
    * Application: Application level audit trails generally monitor and log all user activities, including data accessed and modified and specific actions.
-   * System: System level audit trails generally monitor and log user activities, applications accessed, and other system defined specific actions. WayToHealth utilizes file system monitoring from OSSEC to assure the integrity of file system data.
-   * Network: Network level audit trails generally monitor information on what is operating, penetrations, and vulnerabilities.
+   * System: System level audit trails generally monitor and log user activities, applications accessed, and other system defined specific actions. 
+   * Network: Network level audit trails generally monitor information on what is operating, penetrations, and vulnerabilities. WayToHealth uses Nessus by Tenable for vulnerability scanning. These scans are run four (4) times a day and logs reviewed at least quarterly. IPS (Intrusion Prevention System) is managed via Fortigate on the Fortinet Firewalls. 
 3. WayToHealth shall log all incoming and outgoing traffic to into and out of its environment. This includes all successful and failed attempts at data access and editing. Data associated with this data will include origin, destination, time, and other relevant details that are available to WayToHealth.
-4. WayToHealth utilizes OSSEC to scan all systems for malicious and unauthorized software every 2 hours and at reboot of systems.
-5. WayToHealth leverages process monitoring tools throughout its environment.
-6. WayToHealth uses OSSEC to monitor the integrity of log files by utilizing OSSEC System Integrity Checking capabilities.
-7. WayToHealth shall identify "trigger events" or criteria that raise awareness of questionable conditions of viewing of confidential information. The "events" may be applied to the entire WayToHealth Platform or may be specific to a Customer, partner, business associate or external application (See Listing of Potential Trigger Events below).
-8. In addition to trigger events, WayToHealth utilizes OSSEC log correlation functionality to proactively identify and enable alerts based on log data.
-9. Logs are reviewed monthly by the Security Officer or designated personnel.
-10. WayToHealth's Security Officer or designated personnel are authorized to select and use auditing tools that are designed to detect network vulnerabilities and intrusions. The use of such tools by others, including Customers and Partners, is explicitly prohibited, without the explicit authorization of the Security Officer. These tools may include, but are not limited to:
+4. WayToHealth leverages process monitoring tools throughout its environment.
+5. WayToHealth shall identify "trigger events" or criteria that raise awareness of questionable conditions of viewing of confidential information. The "events" may be applied to the entire WayToHealth Platform or may be specific to a Customer, partner, business associate or external application (See Listing of Potential Trigger Events below).
+6. Vulnerability scan results are reviewed four (4) times a day by Penn Medicine IS for guest operating systems.
+7. Application, database and similar logs are reviewed monthly by the Security Officer or designated personnel. 
+8. WayToHealth's Security Officer or designated personnel are authorized to select and use auditing tools that are designed to detect network vulnerabilities and intrusions. The use of such tools by others, including Customers and Partners, is explicitly prohibited, without the explicit authorization of the Security Officer. These tools may include, but are not limited to:
     * Scanning tools and devices;
     * Password cracking utilities;
     * Network "sniffers."
     * Passive and active intrusion detection systems.
-11. The process for review of audit logs, trails, and reports shall include:
+9. The process for review of audit logs, trails, and reports shall include:
     * Description of the activity as well as rationale for performing the audit.
     * Identification of which WayToHealth workforce members will be responsible for review (workforce members shall not review audit logs that pertain to their own system activity).
     * Frequency of the auditing process.

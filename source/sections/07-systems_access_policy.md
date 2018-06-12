@@ -143,8 +143,9 @@ All workstations at WayToHealth are owned and managed by UPHS and/or PMACS (Penn
 6. Users may not misrepresent, obscure, suppress, or replace another user's identity in transmitted or stored messages.
 7. Workstation hard drives will be encrypted using FileVault 2.0 or equivalent.
 8. All workstations have firewalls enabled to prevent unauthorized access unless explicitly granted.
-9. All workstations are to have the following messages added to the lock screen and login screen: *This computer is owned by the University Of Pennsylvania Health System (UPHS). By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://policy.waytohealth.org) and have completed HIPAA training. Please contact us if you have problems with this - privacy@waytohealth.org.*
-  [PMACS machines have different language. It's probably easier if we just use the default PMACS image.]
+9. All workstations are to 
+   * Have a sticker with the legend "University of Pennsylvania Health System (with the Penn logo), the asset ID and an URL (https://pennmedaccess.uphs.upenn.edu) for polciies and support.
+   * Have, on login, the following text should always be displayed: Computer Name, Logon ID, Domain (UPHS), Active IP address, Active MAC Address, Physical Location (e.g. HUP - Blockley Hall), Floor (e.g. 11th Floor) and Department (e.g. General Internal Medicine). 
 
 ## 7.9 Wireless Access Use
 
