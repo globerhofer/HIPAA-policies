@@ -40,6 +40,6 @@ WayToHealth makes every effort to assure all 3rd party organizations are complia
 9. Regular review is conducted as required by SLAs to assure security and compliance. These reviews include reports, audit trails, security events, operational issues, failures and disruptions, and identified issues are investigated and resolved in a reasonable and timely manner.
 10. Any changes to Partner and Subcontractor services and systems are reviewed before implementation.
 11. For all partners, WayToHealth reviews activity annually to assure partners are in line with SLAs in contracts with WayToHealth.
-12. SLA review is monitored on a quarterly basis using the TQMS reporting to assess compliance with above policy.
+12. SLA review is monitored on a annual basis using the TQMS reporting to assess compliance with above policy.
 13. The 3rd Party Assurance process is reviewed annually and updated to include any necessary changes.
 14. Changes to the 3rd Party Assurance process will also be made on an ad-hoc basis in cases where operational changes require it or if the process is found lacking. 

@@ -33,7 +33,7 @@ Production systems that create, receive, store, or transmit Customer data (herea
 ## 17.6 Intrusion Prevention and Vulnerability Scanning
 
 1. Production systems are monitored using IPS systems. Suspicious activity is logged and alerts are generated.
-2. Vulnerability scanning of Production Systems occurs continually. Reviews are currently done four (4) times a day. Scans are reviewed by Security Officer or designated personnel, with defined steps for risk mitigation, and retained for future reference.
+2. Vulnerability scanning of Production Systems occurs continually. Currently, four (4) times a day. Scans are reviewed by Security Officer or designated personnel, with defined steps for risk mitigation at least quarterly, and retained for future reference.
 
 ## 17.7 Production System Security
 

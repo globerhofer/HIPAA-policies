@@ -40,9 +40,13 @@ WayToHealth is committed to ensuring all workforce members actively address secu
 5. All workforce members are educated about the approved set of tools to be installed on workstations.
 6. All new workforce members are given HIPAA training within 30 days of beginning employment. Training includes HIPAA reporting requirements, including the ability to anonymously report security incidents, and the levels of compliance and obligations for WayToHealth and its Customers and Partners.
 7. All remote (teleworking) workforce members are trained on the risks, the controls implemented, their responsibilities, and sanctions associated with violation of policies. Additionally, remote security is maintained through the use of VPN tunnels for all access to production systems with access to ePHI data.
-8. All workstations are to 
-   * Have a sticker with the legend "University of Pennsylvania Health System (with the Penn logo), the asset ID and an URL (https://pennmedaccess.uphs.upenn.edu) for polciies and support.
-   * Have, on login, the following text should always be displayed: Computer Name, Logon ID, Domain (UPHS), Active IP address, Active MAC Address, Physical Location (e.g. HUP - Blockley Hall), Floor (e.g. 11th Floor) and Department (e.g. General Internal Medicine). 
+8. All workstations:
+   * Must be Apple Macintosh machines only. Windows machines will only be used for end user testing
+   * Must have their hard drives encrypted with FileVault 2.0 or equivalent 
+   * Must have firewalls enabled to prevent unauthorized access unless explicitly granted
+   * Must have the following language added to the lock and login screens: *This computer is owned by Penn Medicine (https://pennmedicine.org). By logging in, unlocking, and/or using this computer you acknowledge you are authorized to use this computer and have seen, and follow, these policies (https://policy.waytohealth.org)* 
+   * ~~ Have a sticker with the legend "University of Pennsylvania Health System (with the Penn logo), the asset ID and an URL (https://pennmedaccess.uphs.upenn.edu) for polciies and support. ~~
+   * ~~ Have, on login, the following text should always be displayed: Computer Name, Logon ID, Domain (UPHS), Active IP address, Active MAC Address, Physical Location (e.g. HUP - Blockley Hall), Floor (e.g. 11th Floor) and Department (e.g. General Internal Medicine). ~~
 9. Employees may only use UPHS or the University Of Pennsylvania-purchased and -owned workstations for accessing production systems with access to ePHI data.
    * Any workstations used to access production systems must be configured as prescribed in [§7.8](#7-8-employee-workstation-use).
    * Any workstations used to access production systems must have virus protection software installed, configured, and enabled.
