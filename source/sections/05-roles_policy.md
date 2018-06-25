@@ -25,11 +25,13 @@ The Privacy Officer is responsible for assisting with compliance and security tr
 3. Manage relationships with customers and partners as those relationships affect security and compliance of ePHI.
 4. Assist Security Officer as needed.
 
-The current WayToHealth Privacy Officer is Mohan Balachandran ([mohan.balachandran@uphs.upenn.edu](mailto:mohan.balachandran@uphs.upenn.edu)).
+The current WayToHealth Privacy Officer is Mohan Balachandran. 
+
+Penn Medicine's Chief Privacy Office is Lauren Steinfeld.
 
 ### 5.2.1 Workforce Training Responsibilities
 
-1. The Privacy Officer facilitates the training of all workforce members as follows:
+1. The Privacy Officer(s) facilitates the training of all workforce members as follows:
    1. New workforce members within their first month of employment;
    2. Existing workforce members annually;
    3. Existing workforce members whose functions are affected by a material change in the policies and procedures, within a month after the material change becomes effective;
@@ -64,11 +66,13 @@ The current WayToHealth Privacy Officer is Mohan Balachandran ([mohan.balachandr
 
 The Security Officer is responsible for facilitating the training and supervision of all workforce members [164.308(a)(3)(ii)(A) and 164.308(a)(5)(ii)(A)], investigation and sanctioning of any workforce member that is in violation of WayToHealth security policies and non-compliance with the security regulations [164.308(a)(1)(ii)&lpar;c&rpar;], and writing, implementing, and maintaining all polices, procedures, and documentation related to efforts toward security and compliance [164.316(a-b)].
 
-The current WayToHealth Security Officer is Michael Kopinsky ([michael.kopinsky@uphs.upenn.edu](mailto:michael.kopinsky@uphs.upenn.edu)).
+The current WayToHealth Security Officer is Michael Kopinsky.
+
+Penn Medicine's Chief Information Security Officer (CISO) is Dan C. Constantino.
 
 ### 5.3.1 Organizational Responsibilities
 
-The Security Officer, in collaboration with the Privacy Officer, is responsible for facilitating the development, testing, implementation, training, and oversight of all activities pertaining to WayToHealth's efforts to be compliant with the HIPAA Security Regulations, HITRUST CSF, and any other security and compliance frameworks. The intent of the Security Officer Responsibilities is to maintain the confidentiality, integrity, and availability of ePHI. The Security Officer is appointed by and reports to the COO (Chief Operating Officer / Corporate Director of Way To Health) and the Way To Health Steering Committee.
+The Security Officer(s), in collaboration with the Privacy Officer(s), is responsible for facilitating the development, testing, implementation, training, and oversight of all activities pertaining to WayToHealth's efforts to be compliant with the HIPAA Security Regulations, HITRUST CSF, and any other security and compliance frameworks. The intent of the Security Officer Responsibilities is to maintain the confidentiality, integrity, and availability of ePHI. The WayToHealth Security Officer reports to the COO (Chief Operating Officer / Corporate Director of Way To Health) and the Way To Health Steering Committee.
 
 These organizational responsibilities include, but are not limited to the following:
 

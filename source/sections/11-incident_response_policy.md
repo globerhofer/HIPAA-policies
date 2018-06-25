@@ -11,7 +11,7 @@ The incident response process addresses:
 * Workforce training, education, and awareness on information security incidents and required responses; and
 * Facilitation of clear communication of information security incidents with internal, as well as external, stakeholders
 
-*Note:* These policies were adapted from work by the [HIPAA Collaborative of Wisconsin Security Networking Group](http://hipaacow.org/wp-content/uploads/2015/02/HCR-Security-Incident-Response-FINAL-12.18.14.doc). Refer to the linked document for additional copyright information.
+*Note:* These policies are inherited from Penn Medicine's Incident Response policy.
 
 ## 11.1 Applicable Standards
 
@@ -27,126 +27,66 @@ The incident response process addresses:
 
 ## 11.2 Incident Management Policies
 
-The WayToHealth incident response process follows the process recommended by [SANS](https://www.sans.org), an industry leader in security. Process flows are a direct representation of the SANS process which can be found in [this document](sections/incident-flowchart.pdf).
+The WayToHealth incident response process follows the processes defined by Penn Medicine. This is based on the policy updated as of 5/31/2016 (ISD-SEC-10). These are defined as follows. 
 
-WayToHealth's incident response classifies security-related events into the following categories:
+### 11.2.1 Summary
 
-* **Events** - Any observable computer security-related occurrence in a system or network with a negative consequence. Examples:
-  * Hardware component failing causing service outages.
-  * Software error causing service outages.
-  * General network or system instability.
-* **Precursors** - A sign that an incident may occur in the future. Examples:
-  * Monitoring system showing unusual behavior.
-  * Audit log alerts indicated several failed login attempts.
-  * Suspicious emails targeting specific WayToHealth staff members with administrative access to production systems.
-* **Indications** - A sign that an incident may have occurred or may be occurring at the present time. Examples:
-  * IDS alerts for modified system files or unusual system accesses.
-  * Antivirus alerts for infected files.
-  * Excessive network traffic directed at unexpected geographic locations.
-* **Incidents** - A violation of computer security policies or acceptable use policies, often resulting in data breaches. Examples:
-  * Unauthorized disclosure of ePHI.
-  * Unauthorized change or destruction of ePHI.
-  * A data breach accomplished by an internal or external entity.
-  * A Denial-of-Service (DoS) attack causing a critical service to become unreachable.
+Penn Medicine must ensure the effective response to and management of security events that may compromise the confidentiality, integrity or availability of confidential data or other Penn Medicine assets. This document, the Security Incident Response Policy (or “Policy”) outlines the governance and procedures to define, address, and report on incident response activities.
 
-WayToHealth employees must report any unauthorized or suspicious activity seen on production systems or associated with related communication systems (such as email or Slack). In practice this means keeping an eye out for security events, and letting the Security Officer know about any observed precursors or indications as soon as they are discovered.
+### 11.2.1.1 Purpose
+The purpose of this Policy is to direct individuals and offices in responding to security incidents in a structured, efficient, and compliant manner.
 
-### 11.2.1 Identification Phase
+### 11.2.1.2 Scope
+This Policy applies to all members of the workforce of Penn Medicine and all Security Incidents, as defined below. This Policy is owned by and resides with the Penn Medicine Corporate Information Services (IS). This Policy also involves significant participation by the Offices of Information Security, Privacy, General Counsel, and other areas of Penn Medicine as needed. This Policy should be reviewed and updated periodically, informed by experience addressing data security incidents and tabletop exercises.
 
-1. Immediately upon observation WayToHealth members report suspected and known Events, Precursors, Indications, and Incidents in one of the following ways:
-   1. Direct report to management, the Security Officer, Privacy Officer, or other;
-   2. Email;
-   3. Phone call;
-   4. Online incident response form located [here](https://docs.google.com/a/catalyze.io/forms/d/1Hn4di9Jdw5JT8vISMh6tVUnh94VpeHucell7Ca4fKTo/viewform);
-   5. Secure Chat.
-   6. Anonymously through workforce members desired channels.
-2. The individual receiving the report facilitates completion of an [Incident Identification form](sections/IH-Identification.pdf) and notifies the Security Officer (if not already done).
-3. The Security Officer determines if the issue is an Event, Precursor, Indication, or Incident.
-   1. If the issue is an event, indication, or precursor the Security Officer forwards it to the appropriate resource for resolution.
-      1. Non-Technical Event (minor infringement): the Security Officer completes a [SIR Form](sections/sir-form.doc) and investigates the incident.
-      2. Technical Event: Assign the issue to an IT resource for resolution. This resource may also be a contractor or outsourced technical resource, in the event of a small office or lack of expertise in the area.
-   2. If the issue is a security incident the Security Officer activates the Security Incident Response Team (SIRT) and notifies senior management.
-       1. If a non-technical security incident is discovered the SIRT completes the investigation, implements preventative measures, and resolves the security incident.
-       2. Once the investigation is completed, progress to Phase V, Follow-up.
-       3. If the issue is a technical security incident, commence to Phase II: Containment.
-       4. The Containment, Eradication, and Recovery Phases are highly technical. It is important to have them completed by a highly qualified technical security resource with oversight by the SIRT team.
-       5. Each individual on the SIRT and the technical security resource document all measures taken during each phase, including the start and end times of all efforts.
-       6. The lead member of the SIRT team facilitates initiation of a [SIR Form](sections/sir-form.doc) or an [Incident Survey Form](sections/IH-Survey.pdf). The intent of the SIR form is to provide a summary of all events, efforts, and conclusions of each Phase of this policy and procedures.
-3. The Security Officer, Privacy Officer, or UPHS representative appointed notifies any affected Customers and Partners. If no Customers and Partners are affected, notification is at the discretion of the Security and Privacy Officer.
-4. In the case of a threat identified, the Security Officer is to form a team to investigate and involve necessary resources, both internal to WayToHealth and potentially external.
+### 11.2.1.3 Implementation
+All Penn Medicine workforce members, as defined above, are responsible for implementation of this policy.
 
-### 11.2.2 Containment Phase (Technical)
+### 11.2.1.4 Authority and Responsibility
+IS is responsible for the operation of Penn Medicine's data networks as well as the establishment of information security policies, guidelines, and standards. The Office of Audit, Compliance and Privacy, including the PMPO, has authority to develop and oversee policies and procedures regarding the privacy of personal information. These offices therefore have the authority and responsibility to specify security incident response requirements to protect those networks as well as Penn Medicine data contained on those networks.
 
-In this Phase, WayToHealth's engineering department attempts to contain the security incident. It is extremely important to take detailed notes during the security incident response process. This provides that the evidence gathered during the security incident can be used successfully during prosecution, if appropriate.
+## 11.2.2 Procedure
 
-1. The SIRT reviews any information that has been collected by the Security Officer or any other individual investigating the security incident.
-2. The SIRT secures the network perimeter.
-3. The IT department performs the following:
-   1. Securely connect to the affected system over a trusted connection.
-   2. Retrieve any volatile data from the affected system.
-   3. Determine the relative integrity and the appropriateness of backing the system up.
-   4. If appropriate, back up the system.
-   5. Change the password(s) to the affected system(s).
-   6. Determine whether it is safe to continue operations with the affect system(s).
-   7. If it is safe, allow the system to continue to function;
-      1. Complete any documentation relative to the security incident on the [SIR Form](sections/sir-form.doc).
-      2. Move to Phase V, Follow-up.
-   8. If it is NOT safe to allow the system to continue operations, discontinue the system(s) operation and move to Phase III, Eradication.
-   9. The individual completing this phase provides written communication to the SIRT.
-4. Continuously apprise Senior Management of progress.
-5. Continue to notify affected Customers and Partners with relevant updates as needed
+  * 1. Reporting Security Incidents
+    * 1.1. Workforce members who suspect a security incident has taken place are required by policy to notify the Office of Information Security (“OIS”). See UPHS Information Security Incident Reporting Policy.
+    * 1.2. Upon such notification, OIS is responsible for:
+      * 1.2.1. Establishing an Incident Response Team when, based on the level of risk, that a Team-based approach would be warranted to address such risk. See Section 2.
+      * 1.2.2. Following Incident Handling Procedures as appropriate. See Section 3.
+    * 1.3. OIS must determine whether Protected Health Information (PHI) or other Confidential Data is or was vulnerable or exposed.
+    * 1.4. If OIS has been determined that PHI or other Confidential Data was vulnerable or exposed in connection with the Security Incident, OIS must notify the Penn Medicine Privacy Office (PMPO). The PMPO is responsible for ensuring that Breach Analysis and Response Procedures are followed. See Section 4 below.
+    * 1.5. All Data Security Incidents must:
+      * a. Generate the creation of an Immediate Response Team on a per incident basis when, based on the level of risk, a Team-based approach would be warranted to address such risk. See Section 2 below.
+      * b. Follow appropriate Breach Analysis and Response procedures. See Section 4 below. OIS is responsible for logging, investigating, and reporting on data security incidents.
+  * 2. Immediate Response Team
+    * 2.1. Purpose. The purpose of each Immediate Response Team is to supplement Penn Medicine's information security infrastructure and minimize the threat of damage resulting from Security Incidents.
+    * 2.2. Per Incident Basis. An Immediate Response Team shall be created for Security Incidents, when OIS or OACP determines such a Team is appropriate to address the incident.
+    * 2.3. Membership. Membership on the Immediate Response Team shall be as designated by OIS. In most cases, members shall include a representative from OIS Information Security and from the affected area’s technical and management staff. In the case of a Data Security Incident, such Team shall also include a member of the PMPO.
+    * 2.4. Responsibilities. Responsibilities of the Immediate Response Team are to assess the incident and follow incident handling procedures, appropriate to the incident as determined by OIS. In the case of Data Security Incidents, responsibilities also include assisting in the PMPO’s Breach Analysis and Response.
+    * 2.5. Confidentiality. Immediate Response Team members will share information about security incidents beyond the Immediate Response Team only on a need-to-know basis, and only after consultation with all other team members.
+  * 3. Incident Handling: The following is a list of response priorities that should be reviewed and followed as recommended by OIS. The most important items are listed first.
+    * 3.1. Safety and Human Issues. If an information system involved in a security incident affects human life and safety, responding to any incident involving any life-critical or safety-related system is the most important priority.
+    * 3.2. Address Urgent Concerns. There may be urgent concerns about the availability or integrity of critical systems or data that must be addressed promptly.
+    * 3.3. Establish Scope of Incident. The Immediate Response Team shall promptly work to establish the scope of the incident and to identify the extent of systems and data affected. This includes determining whose hands the data may have fallen into, and the length and extent of the exposure.
+    * 3.4. Determine the scope of the data. This includes an analysis of the amount and type of data that was exposed.
+    * 3.5. Containment. Once life-critical and safety issues have been resolved, the Immediate Response Team shall identify and implement actions to be taken to reduce the potential for the spread of an incident or its consequences across additional systems and networks. Such steps may include requiring that the system be disconnected from the network.
+    * 3.6. Develop Plan for Preservation of Evidence. The Immediate Response Team shall develop a plan promptly upon learning about an incident for identifying and implementing appropriate steps to preserve evidence, consistent with the needs to restore availability. Preservation plans may include preserving relevant logs and screen captures. The affected system may not be rebuilt until the Immediate Response Team determines that appropriate evidence has been preserved. Preservation will be addressed as quickly as possible to restore availability that is critical to maintain operations.
+    * 3.7. Investigate the Incident. The Immediate Response Team shall investigate the causes of the incident and future preventative actions. During the investigation phase, members of the incident response team will attempt to determine exactly what happened during the incident, especially the vulnerability that made the incident possible. In short, investigators will attempt to answer the following questions: Who? What? Where? When? How?
+    * 3.8. Incident-Specific Risk Mitigation. The Immediate Response Team shall identify and recommend strategies to mitigate risk of harm arising from the incident, including but not limited to reducing, segregating, or better protecting personal, proprietary, or mission critical data.
+    * 3.9. Restore Availability. Once the above steps have been taken, and upon authorization by the Immediate Response Team, the availability of affected devices or networks may be restored.
+    * 3.10. Penn Medicine-Wide Learning. The Immediate Response Team shall develop and arrange for implementation of a communications plan to spread learning from the security incident throughout Penn Medicine to individuals best able to reduce risk of recurrence of such incident. This Penn Medicine-wide learning must utilize solely de-identified PHI in order to avoid a possible breach.
 
-### 11.2.3 Eradication Phase (Technical)
+4. Breach Analysis and Response
+4.1 When PHI has been vulnerable or exposed, the PMPO shall, based on information gathered by the Incident Response Team, conduct an analysis of whether a “breach” as defined by HIPAA has occurred.
+4.2 If a breach has occurred, the PMPO – in consultation with Entity Privacy Officers, the Office of General Counsel, and Human Resources as appropriate – will develop and implement a plan to notify the patient(s) affected within 60 days, consistent with requirements under HIPAA.
+4.3 If a breach has occurred and the number of individuals affected is greater than 500, the PMPO is responsible for ensuring appropriate notification to HHS, the media, and the data subjects within 60 days, consistent with requirements under HIPAA.
+4.4 At the latest, by the close of February of any calendar year, PMPO is responsible for reporting to HHS any breaches that have occurred in the prior calendar year.
+4.5 All security incidents involving PHI or other Confidential Data, regardless of whether they qualify as a “breach” under HIPAA, must be logged in the Navex system maintained by OACP, or any successor system.
+5. Senior Response Team
+The Senior Response Team (SRT) consists of The Associate Vice President for Audit, Compliance and Privacy, the Penn Medicine General Counsel, the Penn Medicine Chief Information Officer and Vice President, and the Senior Vice President for Communications.
+The SRT can be convened by any member of the Senior Response Team when requested. Ordinarily, this will be in cases of incidents or breaches with significant impact to the individuals or the organization.
+The SRT will be charged with the responsibility to (1) determine whether additional briefing of leadership is warranted (2) guide and oversee investigations, required notifications, and other material responses to the security incident.
 
-The Eradication Phase represents the SIRT's effort to remove the cause, and the resulting security exposures, that are now on the affected system(s).
-
-1. Determine symptoms and cause related to the affected system(s).
-2. Strengthen the defenses surrounding the affected system(s), where possible (a risk assessment may be needed and can be determined by the Security Officer). This may include the following:
-   1. An increase in network perimeter defenses.
-   2. An increase in system monitoring defenses.
-   3. Remediation ("fixing") any security issues within the affected system, such as removing unused services/general host hardening techniques.
-3. Conduct a detailed vulnerability assessment to verify all the holes/gaps that can be exploited have been addressed.
-   1. If additional issues or symptoms are identified, take appropriate preventative measures to eliminate or minimize potential future compromises.
-4. Complete the [Eradication Form](sections/IH-Eradication.pdf).
-5. Update the documentation with the information learned from the vulnerability assessment, including the cause, symptoms, and the method used to fix the problem with the affected system(s).
-6. Apprise Senior Management of the progress.
-7. Continue to notify affected Customers and Partners with relevant updates as needed.
-8. Move to Phase IV, Recovery.
-
-### 11.2.4 Recovery Phase (Technical)
-
-The Recovery Phase represents the SIRT's effort to restore the affected system(s) back to operation after the resulting security exposures, if any, have been corrected.
-
-1. The technical team determines if the affected system(s) have been changed in any way.
-   1. If they have, the technical team restores the system to its proper, intended functioning ("last known good").
-   2. Once restored, the team validates that the system functions the way it was intended/had functioned in the past. This may require the involvement of the business unit that owns the affected system(s).
-   3. If operation of the system(s) had been interrupted (i.e., the system(s) had been taken offline or dropped from the network while triaged), restart the restored and validated system(s) and monitor for behavior.
-   4. If the system had not been changed in any way, but was taken offline (i.e., operations had been interrupted), restart the system and monitor for proper behavior.
-   5. Update the documentation with the detail that was determined during this phase.
-   6. Apprise Senior Management of progress.
-   7. Continue to notify affected Customers and Partners with relevant updates as needed.
-   8. Move to Phase V, Follow-up.
-
-### 11.2.5 Follow-up Phase (Technical and Non-Technical)
-
-The Follow-up Phase represents the review of the security incident to look for "lessons learned" and to determine whether the process that was taken could have been improved in any way. It is recommended all security incidents be reviewed shortly after resolution to determine where response could be improved. Timeframes may extend to one to two weeks post-incident.
-
-1. Responders to the security incident (SIRT Team and technical security resource) meet to review the documentation collected during the security incident.
-2. Create a "lessons learned" document and attach it to the completed [SIR Form](sections/sir-form.doc).
-   1. Evaluate the cost and impact of the security incident to WayToHealth using the documents provided by the SIRT and the technical security resource.
-   2. Determine what could be improved.
-   3. Communicate these findings to Senior Management for approval and for implementation of any recommendations made post-review of the security incident.
-   4. Carry out recommendations approved by Senior Management; sufficient budget, time and resources should be committed to this activity.
-   5. Close the security incident.
-
-### 11.2.6 Periodic Evaluation
-
-It is important to note that the processes surrounding security incident response should be periodically reviewed and evaluated for effectiveness. This also involves appropriate training of resources expected to respond to security incidents, as well as the training of the general population regarding WayToHealth's expectation for them, relative to security responsibilities. The incident response plan is tested annually.
-
-## 11.3 Security Incident Response Team (SIRT)
-
-Current members of the WayToHealth SIRT:
-
-* Security Officer
-* Engineering Lead
-* Privacy Officer
+DEFINITIONS:
+Security Incident: A real or suspected adverse event in relation to the security of information systems, networks, data, or other assets such as a Denial of Service/Distributed Denial of Service attack, website defacement, ransom ware (Malware) or a breach, among many other things.
+Breach: A type of security incident that encompasses the unauthorized access, use, or disclosure of unsecured PHI, as further defined by HIPAA, and other Confidential Data.
+Workforce Member: All faculty members, physicians, employees, volunteers, trainees, and other persons whose conduct, in the performance of work for a covered entity, is under the direct control of such entity, whether or not they are paid by the covered entity.

@@ -56,17 +56,21 @@ Access to WayToHealth systems and application is limited for all users, includin
    6. Review of user access is monitored on a quarterly basis using the TQMS reporting to assess compliance with above policy.
 5. Any WayToHealth workforce member can request change of access using the process outlined in [§7.2 paragraph 1](#7-2-access-establishment-and-modification).
 6. Access to production systems is controlled using centralized user management and authentication.
-7. Temporary accounts are not used unless absolutely necessary for business purposes.
+7. Account management and access:
+   * Temporary accounts are not used unless absolutely necessary for business purposes.
    * Accounts are reviewed every 90 days to ensure temporary accounts are not left unnecessarily active.
    * Accounts that are inactive for over 90 days are removed.
+   * User accounts on systems containing highly sensitive or confidential data that have not been accessed for ninety (90) days will be disabled.
+   * Privileged users (e.g., system administrators) must have their access rights reviewed at least two (2) times per year by the Information Owner to ensure access to UPHS/SOM information is appropriate.
+   * Users with access to privileged accounts must use their non-privileged user account to log into the system. These users must take care to only log into their privileged accounts when necessary, and only for the duration required to complete the task requiring privileged access.
 8. In the case of non-personal information, such as generic educational content, identification and authentication may not be required. This is the responsibility of WayToHealth Customers to define, and not WayToHealth.
 9. Privileged users must first access systems using standard, unique user accounts before switching to privileged users and performing privileged tasks.
    * For production systems, this is enforced by creating non-privileged user accounts that must invoke `sudo` to perform privileged tasks.
    * Rights for privileged accounts are granted by the Security Officer or designated personnel or Privacy Officer using the process outlined in [§7.2 paragraph 1](#7-2-access-establishment-and-modification).
-10. All application to application communication using service accounts is restricted and not permitted unless absolutely needed. Automated tools are used to limit account access across applications and systems.
+10. All application to application communication using service accounts is restricted and not permitted unless absolutely needed. 
 11. Generic accounts are not allowed on WayToHealth systems.
 12. Server access is granted through encrypted, VPN tunnels that utilize two-factor authentication.
-    * Two-factor authentication is accomplished using a Time-based One-Time Password (TOTP) as the second factor.
+    * Two-factor authentication is accomplished using Duo Security.
     * VPN connections use 256-bit AES 256 encryption, or equivalent.
     * VPN sessions are automatically disconnected after 30 minutes of inactivity.
 13. In cases of increased risk or known attempted unauthorized access, immediate steps are taken by the Security and Privacy Officer to limit access and reduce risk of unauthorized access.
@@ -104,7 +108,7 @@ Access to WayToHealth systems and application is limited for all users, includin
 ## 7.5 Person or Entity Authentication
 
 1. Each workforce member has and uses a unique user ID and password that identifies him/her as the user of the information system.
-2. Each Customer personnel has and uses a unique user ID and password that identifies him/her as the user of the information system.
+2. Each user has and uses a unique user ID and password that identifies him/her as the user of the information system.
 3. All Customer support desk interactions must be verified before WayToHealth support personnel will satisfy any request having information security implications.
    * WayToHealth's current support desk software, Service Desk, requires users to authenticate before submitting support tickets.
    * Support issues submitted via WayToHealth's dashboard require that users authenticate with their WayToHealth account before submitting support tickets.
@@ -118,6 +122,8 @@ Access to WayToHealth systems and application is limited for all users, includin
 4. Default accounts on all production systems, including root, are disabled.
 5. Shared accounts are not allowed within WayToHealth systems or networks.
 6. Automated log-on configurations that store user passwords or bypass password entry are not permitted for use with WayToHealth workstations or production systems. The use of an enterprise-grade password manager (such as LastPass) is required for all workforce members.
+7. For server access, users are assigned IDs that are consistent with theur current PennKey IDs. The privilege level of the account should not be identifiable within the userID (e.g., a userID named “sysadmin1” is not permissible).
+8. Workforce members are not permitted to have multiple userIDs on the same system without a business need, and the approval of the system administrator
 
 ## 7.7 Automatic Logoff
 
@@ -135,10 +141,10 @@ All workstations at WayToHealth are owned and managed by UPHS and/or PMACS (Penn
 4. Solicitation of non-company business, or any use of organization's information systems/applications for personal gain is prohibited.
 5. Transmitted messages may not contain material that criticizes the organization, its providers, its employees, or others.
 6. Users may not misrepresent, obscure, suppress, or replace another user's identity in transmitted or stored messages.
-7. Workstation hard drives will be encrypted using FileVault 2.0 or equivalent.
-8. All workstations have firewalls enabled to prevent unauthorized access unless explicitly granted.
-9. All workstations are to have the following messages added to the lock screen and login screen: *This computer is owned by the University Of Pennsylvania Health System (UPHS). By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://policy.waytohealth.org) and have completed HIPAA training. Please contact us if you have problems with this - privacy@waytohealth.org.*
-  [PMACS machines have different language. It's probably easier if we just use the default PMACS image.]
+7. All workstations:
+   * Must have their hard drives encrypted with FileVault 2.0 or equivalent 
+   * Must have firewalls enabled to prevent unauthorized access unless explicitly granted
+   * Must have the following language added to the lock and login screens: *This computer is owned by Way to Health/Penn Medicine. By logging in, unlocking, and/or using this computer you acknowledge you are authorized to use this computer and agree to follow the policies at https://policy.waytohealth.org*. UPHS-managed devices will have lock screen info as dictated by UPHS policy/practice.
 
 ## 7.9 Wireless Access Use
 
@@ -149,7 +155,7 @@ All workstations at WayToHealth are owned and managed by UPHS and/or PMACS (Penn
    * Access to the network is only allowed for authorized personnel over the AirPennNet network with an active PennKey
    * All data in transit over wireless is encrypted using WPA2 encryption or similar;
    * Passwords are rotated on a regular basis, presently annually. This process is managed by the WayToHealth Security Officer or designated personnel.
-   * System access id further restricted to be over VPN only.
+   * System access is further restricted to be over VPN only.
 
 ## 7.10 Employee Termination Procedures
 
@@ -190,9 +196,9 @@ WayToHealth does not use paper records for any sensitive information. Use of pap
 12. If a user believes their user ID has been compromised, they are required to immediately report the incident to the Security Officer or designated personnel. A specific form on the user support portal is used for this purpose.
 13. In cases where the user has forgotten their passwords, the following procedure is used to reset the password:
     * The user submits a password reset request via the user interface.
-    * The system automatically genetrates a password reset link and send it to the email address on record for the user.
+    * The system automatically generates a password reset link and sends it to the email address on record for the user.
     * The user can click on the link provided and if the new password passes the complexity check, the password is reset.
 
 ## 7.13 Access to ePHI
 
-1. Employees may not download ePHI to any workstations used to connect to production systems.
+1. Employees **may not download ePHI to any workstations used to connect to production systems**.
