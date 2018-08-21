@@ -46,6 +46,7 @@ WayToHealth standardizes and automates configuration management through the use 
    * Removal of default users used during provisioning.
    * Network configuration for system.
    * Data volume encryption settings.
+   * Antivirus/antimalware protection.
    * Server is added to vulnerability scanning service (Nessus Security Center)
    * Server is added to IPS service (Fortigate on Fortinet firewalls) 
    * All items listed below in the operating system-specific subsections below.
@@ -60,6 +61,7 @@ WayToHealth standardizes and automates configuration management through the use 
    * Configuring 15-minute session inactivity timeouts.
    * Installing and configuring the NTP daemon, including ensuring that modifying system time cannot be performed by unprivileged users.
    * Configuring LUKS volumes (where necessary) for providers that do not have native support for encrypted data volumes, including ensuring that encryption keys are protected from unauthorized access.
+   * Configuring IDS and antivirus/antimalware agents.
    * Configuring authentication to the centralized LDAP servers.
    * Configuring audit logging as described in the [Auditing Policy section](#8-auditing-policy).
 2. Any additional Ansible states applied to the Linux system must be clearly documented by the engineering team member in the request by specifying the purpose of the new system.
