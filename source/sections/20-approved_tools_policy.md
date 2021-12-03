@@ -6,5 +6,9 @@ WayToHealth utilizes a suite of approved software tools for internal use by work
 
 * **GitLab**. GitLab is an open source tool built on top of Git, the version control platform. GitLab is hosted and secured by the University Of Pennsylvania. It is utilized for storage of configuration scripts and other infrastructure automation tools, as well as for source and version control of application code used by WayToHealth.
 * **Box**. Box is used for storage of files and sharing of files with Partners and Customers.
-* **Google Apps**. Google Apps is occasionally used for document collaboration.
 * **JIRA**. JIRA is used for configuration management and to generate artifacts for compliance procedures and is the basis for the Ticketing and Quality Management System (TQMS).
+* **Atlassian Cloud**. Service Desk is used to manage customer support ticketing and management. Confluence cloud is used to create and manage documentation.
+* **Netlify**. Netlify is used to manage and deploy public facing websites.
+* **Github**. Github is used to manage the source code for public facing websites. 
+* **Metabase**. Metabase (self-hosted and branded as Lens) is used as the business intelligence tool for reporting and similar services. 
+* **Trello**. Trello is used to manage and track projects over their lifecycle. 
