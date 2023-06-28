@@ -17,6 +17,3 @@ plugins:
       lang:
         - en
 
-# Repository
-repo_name: "GitHub"
-repo_url: "https://github.com/waytohealth/policies"
