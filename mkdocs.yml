@@ -1,0 +1,12 @@
+site_name: Way To Health Compliance Policy Documentation
+site_url: https://policy.waytohealth.org
+theme: 
+  name: material
+  logo: img/logo.png
+  favicon: img/favicon-96x96.png
+  features: 
+    - search.suggest
+    - search.highlight
+    - navigation.top
+plugins:
+  - search
